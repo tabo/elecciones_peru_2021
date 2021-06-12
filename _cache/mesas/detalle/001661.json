@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45008/SEP/ACPREC4500800166192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112505Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=09cb9221373e74103a17714ad137571383358ed72ad7ec48a6dba9351fe3b4fe",
+            "presidencial": {
+                "CCENT_COMPU": "C45008",
+                "CCODI_UBIGEO": "020503",
+                "CCOPIA_ACTA": "92B",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "COMANDANTE NOEL",
+                "NNUME_HABILM": 284,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CASMA",
+                "TDIRE_LOCAL": "AV LOS PESCADORES SN",
+                "TNOMB_LOCAL": "IE 88105 JUAN NOEL LASTRA",
+                "TOT_CIUDADANOS_VOTARON": 231
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45008",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "001661",
+                    "CNUME_RESOL": "C45008000017",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001344                                  00861-2021-JEE-SNTA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45008/SEP/RESEPC45008000017.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112504Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7b1da8a9d89073141bb523c038ccc0080c80ce7ca1b8878784d16d07129a0ef1"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "44.589",
+                    "CON_VALIDOS": "46.818",
+                    "NLISTA": "1",
+                    "congresal": "103"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "50.649",
+                    "CON_VALIDOS": "53.182",
+                    "NLISTA": "2",
+                    "congresal": "117"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.238",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "220"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.433",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.329",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.238",
+                    "congresal": "231"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

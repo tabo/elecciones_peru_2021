@@ -1,0 +1,97 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505236495.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120540Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26cbcd68db3032e47e58ad77683a65f930955fcdfb1782727c25133f733803f4",
+            "presidencial": {
+                "CCENT_COMPU": "C45075",
+                "CCODI_UBIGEO": "140137",
+                "CCOPIA_ACTA": "95S",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SAN JUAN DE LURIGANCHO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "MZ K LOTE 7 COOP VIV LA UNION",
+                "TNOMB_LOCAL": "0141 VIRGEN DE COCHARCAS",
+                "TOT_CIUDADANOS_VOTARON": 240
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "052364",
+                    "CNUME_RESOL": "C45075000001",
+                    "CNUME_RESOL_JNE": "000001-2021-ODPELIMAESTE2-SEP2021/ONPE",
+                    "CPROCED_RESOL": "OM",
+                    "IMAGEN": "0"
+                },
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "052364",
+                    "CNUME_RESOL": "C45075000036",
+                    "CNUME_RESOL_JNE": "SEPEG.202102425                                   01785-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "41.667",
+                    "CON_VALIDOS": "45.662",
+                    "NLISTA": "1",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "49.583",
+                    "CON_VALIDOS": "54.338",
+                    "NLISTA": "2",
+                    "congresal": "119"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.250",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "219"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.250",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.500",
+                    "CON_VALIDOS": null,
+                    "congresal": "18"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.250",
+                    "congresal": "240"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45095/SEP/ACPREC4509507005597.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112301Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a5c9d2b37a81384a4ca44aba47fa94294ee0193bfef3db7196be06bcf418ec8",
+            "presidencial": {
+                "CCENT_COMPU": "C45095",
+                "CCODI_UBIGEO": "200206",
+                "CCOPIA_ACTA": "97L",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "CHUPA",
+                "NNUME_HABILM": 265,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "AZANGARO",
+                "TDIRE_LOCAL": "JR SAN ROMAN S/N",
+                "TNOMB_LOCAL": "IEP 72128",
+                "TOT_CIUDADANOS_VOTARON": 232
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45095",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "070055",
+                    "CNUME_RESOL": "C45095000006",
+                    "CNUME_RESOL_JNE": "2021001102                                        00958-2021-JEE-SROMIJNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45095/SEP/RESEPC45095000006.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112301Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2f21ff81c993847954e478c3ea203094d73ef032761a22163ca947b3ac86ee88"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "95.690",
+                    "CON_VALIDOS": "97.368",
+                    "NLISTA": "1",
+                    "congresal": "222"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "2.586",
+                    "CON_VALIDOS": "2.632",
+                    "NLISTA": "2",
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "98.276",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "228"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.724",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "98.276",
+                    "congresal": "232"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45101/SEP/ACPREC4510107472792.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115443Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ebd07d3ea8913f30f095244e08c66d20e917557c3c53ee5c19c2ca050645b7a8",
+            "presidencial": {
+                "CCENT_COMPU": "C45101",
+                "CCODI_UBIGEO": "220109",
+                "CCOPIA_ACTA": "92G",
+                "DEPARTAMENTO": "TACNA",
+                "DISTRITO": "POCOLLAY",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "TACNA",
+                "TDIRE_LOCAL": "AV JORGE BASADRE SN",
+                "TNOMB_LOCAL": "UNIVERSIDAD PRIVADA DE TACNA FACULTAD DE CIENCIAS EMPRESARIALES",
+                "TOT_CIUDADANOS_VOTARON": 247
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "65.182",
+                    "CON_VALIDOS": "71.239",
+                    "NLISTA": "1",
+                    "congresal": "161"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "26.316",
+                    "CON_VALIDOS": "28.761",
+                    "NLISTA": "2",
+                    "congresal": "65"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.498",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "226"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "8.502",
+                    "CON_VALIDOS": null,
+                    "congresal": "21"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.498",
+                    "congresal": "247"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

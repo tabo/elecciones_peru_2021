@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45067/SEP/ACPREC4506703936094.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112434Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aff43c7980a318cd5ea003e3310e0ab9b2b7514f5759a34401c09d02237015a4",
+            "presidencial": {
+                "CCENT_COMPU": "C45067",
+                "CCODI_UBIGEO": "140108",
+                "CCOPIA_ACTA": "94V",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "CHORRILLOS",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "CALLE NICANOR CIPRIANO RIVAS SN",
+                "TNOMB_LOCAL": "ESTADIO MUNICIPAL DE CHORRILLOS",
+                "TOT_CIUDADANOS_VOTARON": 257
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45067",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039360",
+                    "CNUME_RESOL": "C45067000029",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001737                                  02203-2021-JEE-LIO3/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45067/SEP/RESEPC45067000029.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112434Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4edff7ae7d646fa9045e17b27e640953cae5a32c16e3b42da0ba54573d6df749"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "34.241",
+                    "CON_VALIDOS": "36.214",
+                    "NLISTA": "1",
+                    "congresal": "88"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "60.311",
+                    "CON_VALIDOS": "63.786",
+                    "NLISTA": "2",
+                    "congresal": "155"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.553",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "243"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.778",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.669",
+                    "CON_VALIDOS": null,
+                    "congresal": "12"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.553",
+                    "congresal": "257"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

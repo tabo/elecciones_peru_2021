@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45061/SEP/ACPREC4506104570795.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121919Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=281feb68902d71008af2fc73709487c2492e3dc3eb6efd5163e569219ab57e8b",
+            "presidencial": {
+                "CCENT_COMPU": "C45061",
+                "CCODI_UBIGEO": "140126",
+                "CCOPIA_ACTA": "95K",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SAN MARTIN DE PORRES",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "JR DIEGO FERRER SN URB ANTARES",
+                "TNOMB_LOCAL": "LOSA DEPORTIVA ANTARES",
+                "TOT_CIUDADANOS_VOTARON": 246
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "40.650",
+                    "CON_VALIDOS": "59.172",
+                    "NLISTA": "1",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "28.049",
+                    "CON_VALIDOS": "40.828",
+                    "NLISTA": "2",
+                    "congresal": "69"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "68.699",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "169"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "31.301",
+                    "CON_VALIDOS": null,
+                    "congresal": "77"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "68.699",
+                    "congresal": "246"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808139796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T122943Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e7ccb4a794ff6ce563dd3fbbdc7d4b6444ffcd6bf093472a3157ed66dab87699",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "921319",
+                "CCOPIA_ACTA": "96A",
+                "DEPARTAMENTO": "AMERICA",
+                "DISTRITO": "NUEVA YORK",
+                "NNUME_HABILM": 299,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
+                "TDIRE_LOCAL": "345 BUTLER STREET, BROOKLYN, NY 11217",
+                "TNOMB_LOCAL": "VENUE NYC",
+                "TOT_CIUDADANOS_VOTARON": 64
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "081397",
+                    "CNUME_RESOL": "C45058000024",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002411                                  06514-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "28.125",
+                    "CON_VALIDOS": "31.579",
+                    "NLISTA": "1",
+                    "congresal": "18"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "60.938",
+                    "CON_VALIDOS": "68.421",
+                    "NLISTA": "2",
+                    "congresal": "39"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "89.062",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "57"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "10.938",
+                    "CON_VALIDOS": null,
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "89.062",
+                    "congresal": "64"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

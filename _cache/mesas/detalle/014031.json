@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45031/SEP/ACPREC4503101403197.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161144Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=92ebbb5346b293bd29686327f8a84ace61ead1504a9c5527fb72c9a60cbacdbe",
+            "presidencial": {
+                "CCENT_COMPU": "C45031",
+                "CCODI_UBIGEO": "070101",
+                "CCOPIA_ACTA": "97A",
+                "DEPARTAMENTO": "CUSCO",
+                "DISTRITO": "CUSCO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CUSCO",
+                "TDIRE_LOCAL": "PLAZA TRICENTENARIO SN",
+                "TNOMB_LOCAL": "IE SAN FRANCISCO DE BORJA",
+                "TOT_CIUDADANOS_VOTARON": 208
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45031",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "014031",
+                    "CNUME_RESOL": "C45031000008",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001583                                  01998-2021-JEE-CSCO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45031/SEP/RESEPC45031000008.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161144Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d36b39e0ea3642f0f899de7b686054992aa4e823866ec71259a0b5c18c566256"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "56.250",
+                    "CON_VALIDOS": "60.938",
+                    "NLISTA": "1",
+                    "congresal": "117"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "36.058",
+                    "CON_VALIDOS": "39.062",
+                    "NLISTA": "2",
+                    "congresal": "75"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.308",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "192"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.692",
+                    "CON_VALIDOS": null,
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.308",
+                    "congresal": "208"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

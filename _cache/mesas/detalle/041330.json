@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45074/SEP/ACPREC4507404133091.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114604Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26362ebde9c87331145d9a6d95847a52264b01e22cd019240053eb03ae9928ff",
+            "presidencial": {
+                "CCENT_COMPU": "C45074",
+                "CCODI_UBIGEO": "140112",
+                "CCOPIA_ACTA": "91A",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "LURIGANCHO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "ASENTAMIENTO HUMANO LAS PRADERAS MZ G LT 3 Y 4",
+                "TNOMB_LOCAL": "IEP JESUS DE NAZARETH",
+                "TOT_CIUDADANOS_VOTARON": 272
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45074",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "041330",
+                    "CNUME_RESOL": "C45074000012",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002260                                  03267-2021-JEE-LIE1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45074/SEP/RESEPC45074000012.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114604Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=75d4e958a814506d40782cfc119a9040856b057ba1a887ddb8081bcda8586ba7"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "49.265",
+                    "CON_VALIDOS": "51.538",
+                    "NLISTA": "1",
+                    "congresal": "134"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "46.324",
+                    "CON_VALIDOS": "48.462",
+                    "NLISTA": "2",
+                    "congresal": "126"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.588",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "260"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.471",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.941",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.588",
+                    "congresal": "272"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45028/SEP/ACPREC4502807742792.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113812Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0155b65260d3f1a481f468e30e2780dd97498b4d86a117f73dfeb54d9fe7a56a",
+            "presidencial": {
+                "CCENT_COMPU": "C45028",
+                "CCODI_UBIGEO": "240103",
+                "CCOPIA_ACTA": "92L",
+                "DEPARTAMENTO": "CALLAO",
+                "DISTRITO": "LA PUNTA",
+                "NNUME_HABILM": 283,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CALLAO",
+                "TDIRE_LOCAL": "AV TOVAR 377",
+                "TNOMB_LOCAL": "COMPLEJO DEPORTIVO FORTUNATO MAROTTA",
+                "TOT_CIUDADANOS_VOTARON": 207
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45028",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "077427",
+                    "CNUME_RESOL": "C45028000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001787                                  02403-2021-JEE-CALL/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45028/SEP/RESEPC45028000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113812Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7901dd036765a66ece59317a53f16dabc613c6d2b05cc2f297d2dfef9cf7490a"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "14.493",
+                    "CON_VALIDOS": "15.385",
+                    "NLISTA": "1",
+                    "congresal": "30"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "79.710",
+                    "CON_VALIDOS": "84.615",
+                    "NLISTA": "2",
+                    "congresal": "165"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.203",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "195"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.483",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.314",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.203",
+                    "congresal": "207"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

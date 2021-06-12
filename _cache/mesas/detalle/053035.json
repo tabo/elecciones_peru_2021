@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45075/SEP/ACPREC4507505303592.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122432Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=634fec62c965030a617e294f8cc5c2fe9660107dd141bd33ec07ebeb1a1250de",
+            "presidencial": {
+                "CCENT_COMPU": "C45075",
+                "CCODI_UBIGEO": "140137",
+                "CCOPIA_ACTA": "92G",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SAN JUAN DE LURIGANCHO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "CALLE HEROES DEL CENEPA SN",
+                "TNOMB_LOCAL": "IPD BAYOVAR",
+                "TOT_CIUDADANOS_VOTARON": 246
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "45.122",
+                    "CON_VALIDOS": "46.639",
+                    "NLISTA": "1",
+                    "congresal": "111"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "51.626",
+                    "CON_VALIDOS": "53.361",
+                    "NLISTA": "2",
+                    "congresal": "127"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.748",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "238"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.813",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.439",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.748",
+                    "congresal": "246"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45083/SEP/ACPREC4508390244196.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115103Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ac8803f105fda2f347f222b16d633c2b69ed1157e6d390ba8ce3c995413a30e5",
+            "presidencial": {
+                "CCENT_COMPU": "C45083",
+                "CCODI_UBIGEO": "150503",
+                "CCOPIA_ACTA": "96S",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "PADRE MARQUEZ",
+                "NNUME_HABILM": 267,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "UCAYALI",
+                "TDIRE_LOCAL": "AV ALFONSO UGARTE SN",
+                "TNOMB_LOCAL": "IEP 64588",
+                "TOT_CIUDADANOS_VOTARON": 151
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45083",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "902441",
+                    "CNUME_RESOL": "C45083000003",
+                    "CNUME_RESOL_JNE": "EG. 2021002438                                    01467-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45083/SEP/RESEPC45083000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115103Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0caf4af5a90296b2961b55a4aa84be125898e1f5f8531146eae04917f313990d"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "84.768",
+                    "CON_VALIDOS": "85.333",
+                    "NLISTA": "1",
+                    "congresal": "128"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.570",
+                    "CON_VALIDOS": "14.667",
+                    "NLISTA": "2",
+                    "congresal": "22"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "99.338",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "150"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.662",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "99.338",
+                    "congresal": "151"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

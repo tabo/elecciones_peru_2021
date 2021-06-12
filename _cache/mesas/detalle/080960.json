@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808096097.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123211Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7c0c83e5f47c39e4f556a2f9933edcce19443899cc48165390ad349b1c5acc41",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "921006",
+                "CCOPIA_ACTA": "97P",
+                "DEPARTAMENTO": "AMERICA",
+                "DISTRITO": "SANTIAGO",
+                "NNUME_HABILM": 299,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHILE",
+                "TDIRE_LOCAL": "SANTO DOMINGO 1811, SANTIAGO",
+                "TNOMB_LOCAL": "LICEO INDUSTRIAL ELIODORO GARC\u00cdA ZEGERS",
+                "TOT_CIUDADANOS_VOTARON": 136
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080960",
+                    "CNUME_RESOL": "C45058000110",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002452                                  06544-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "37.500",
+                    "CON_VALIDOS": "40.476",
+                    "NLISTA": "1",
+                    "congresal": "51"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "55.147",
+                    "CON_VALIDOS": "59.524",
+                    "NLISTA": "2",
+                    "congresal": "75"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.647",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "126"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.353",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.647",
+                    "congresal": "136"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

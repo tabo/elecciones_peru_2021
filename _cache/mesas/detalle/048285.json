@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604828593.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121631Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eb989aa657b3a5b708a72bab82c8bb26f55c51d6cbf8cf253d3b7f8a8db7d458",
+            "presidencial": {
+                "CCENT_COMPU": "C45066",
+                "CCODI_UBIGEO": "140131",
+                "CCOPIA_ACTA": "93B",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SURQUILLO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "CALLE CALERA DE LA MERCED SN",
+                "TNOMB_LOCAL": "ESTADIO MUNICIPAL CARLOS A MOSCOSO 2",
+                "TOT_CIUDADANOS_VOTARON": 207
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "048285",
+                    "CNUME_RESOL": "C45066000009",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001581                                  01991-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000009.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121631Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=342ca8ec69086897e842643c3c4948f577d2944be3a00f6d6b35645b3b52f98a"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "16.908",
+                    "CON_VALIDOS": "17.766",
+                    "NLISTA": "1",
+                    "congresal": "35"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "78.261",
+                    "CON_VALIDOS": "82.234",
+                    "NLISTA": "2",
+                    "congresal": "162"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.169",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "197"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.483",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.348",
+                    "CON_VALIDOS": null,
+                    "congresal": "9"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.169",
+                    "congresal": "207"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

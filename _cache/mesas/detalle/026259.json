@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45050/SEP/ACPREC4505002625991.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122346Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fc41e29e7ca25391de6a8dbaf297a59d76e160a6e2670c9c982d5767a1f468a6",
+            "presidencial": {
+                "CCENT_COMPU": "C45050",
+                "CCODI_UBIGEO": "120101",
+                "CCOPIA_ACTA": "91P",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "TRUJILLO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TRUJILLO",
+                "TDIRE_LOCAL": "PJE DESCARTES 220",
+                "TNOMB_LOCAL": "IE 80008 REPUBLICA DE ARGENTINA",
+                "TOT_CIUDADANOS_VOTARON": 215
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45050",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "026259",
+                    "CNUME_RESOL": "C45050000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001290                                  01206-2021-JEE-TRUJ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45050/SEP/RESEPC45050000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122346Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=05149d9f740cdb56b526ea7fca9553ab2a8da34a79ef9b947e17a10fe224a7d1"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "29.767",
+                    "CON_VALIDOS": "31.683",
+                    "NLISTA": "1",
+                    "congresal": "64"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "64.186",
+                    "CON_VALIDOS": "68.317",
+                    "NLISTA": "2",
+                    "congresal": "138"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.953",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "202"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.930",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.116",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.953",
+                    "congresal": "215"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

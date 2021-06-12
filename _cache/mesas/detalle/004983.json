@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45014/SEP/ACPREC4501400498397.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110538Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd323fd7a39d872afc4fc1317797c070f7f22c1d36f83f5143113089e7320cca",
+            "presidencial": {
+                "CCENT_COMPU": "C45014",
+                "CCODI_UBIGEO": "040101",
+                "CCOPIA_ACTA": "97K",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "AREQUIPA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "AREQUIPA",
+                "TDIRE_LOCAL": "AV TACNA Y ARICA 114",
+                "TNOMB_LOCAL": "I.E.P. CEDEU ALFRED BINET",
+                "TOT_CIUDADANOS_VOTARON": 118
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45014",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "004983",
+                    "CNUME_RESOL": "C45014000001",
+                    "CNUME_RESOL_JNE": "2021001146                                        01398-2021-JEE-AQP1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45014/SEP/RESEPC45014000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110538Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d1485510bf8406bf0a35a003bd27458d116ec35079437ecb0632737bbd0a3e59"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "46.610",
+                    "CON_VALIDOS": "47.826",
+                    "NLISTA": "1",
+                    "congresal": "55"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "50.847",
+                    "CON_VALIDOS": "52.174",
+                    "NLISTA": "2",
+                    "congresal": "60"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.458",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "115"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.847",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.695",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.458",
+                    "congresal": "118"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

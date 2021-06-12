@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45102/SEP/ACPREC4510207538493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122144Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3924f8a7889bf11d41ea51fe450cfe0bd7ad9e564a863efd8d41d0b7987a0eeb",
+            "presidencial": {
+                "CCENT_COMPU": "C45102",
+                "CCODI_UBIGEO": "230101",
+                "CCOPIA_ACTA": "93V",
+                "DEPARTAMENTO": "TUMBES",
+                "DISTRITO": "TUMBES",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "TUMBES",
+                "TDIRE_LOCAL": "AV MAXIMILIANO MORAN MZ 20 LT 25",
+                "TNOMB_LOCAL": "IE 007 ANDRES ARAUJO MORAN",
+                "TOT_CIUDADANOS_VOTARON": 235
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "27.660",
+                    "CON_VALIDOS": "30.093",
+                    "NLISTA": "1",
+                    "congresal": "65"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "64.255",
+                    "CON_VALIDOS": "69.907",
+                    "NLISTA": "2",
+                    "congresal": "151"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.915",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "216"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.426",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.660",
+                    "CON_VALIDOS": null,
+                    "congresal": "18"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.915",
+                    "congresal": "235"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

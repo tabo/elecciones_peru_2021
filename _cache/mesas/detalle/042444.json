@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45069/SEP/ACPREC4506904244493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115203Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=86204a3c82dbb3e564d5430a79b4d838896bde94ff38ef7728c313e7126f532f",
+            "presidencial": {
+                "CCENT_COMPU": "C45069",
+                "CCODI_UBIGEO": "140116",
+                "CCOPIA_ACTA": "93V",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "PACHACAMAC",
+                "NNUME_HABILM": 275,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "AV EL DESCANSO SN",
+                "TNOMB_LOCAL": "IE ISAIAS ARDILES",
+                "TOT_CIUDADANOS_VOTARON": 210
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45069",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042444",
+                    "CNUME_RESOL": "C45069000004",
+                    "CNUME_RESOL_JNE": "EG.2021001997                                     01581-2021-JEE-LIS1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45069/SEP/RESEPC45069000004.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115203Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=890567e61132b8fdac1af9003d9d3cfb2b50d116fea4805f4394d13e07b45497"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "26.190",
+                    "CON_VALIDOS": "27.094",
+                    "NLISTA": "1",
+                    "congresal": "55"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "70.476",
+                    "CON_VALIDOS": "72.906",
+                    "NLISTA": "2",
+                    "congresal": "148"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.667",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "203"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.333",
+                    "CON_VALIDOS": null,
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.667",
+                    "congresal": "210"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

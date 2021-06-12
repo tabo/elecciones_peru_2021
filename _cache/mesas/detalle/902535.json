@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45085/SEP/ACPREC4508590253591.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115238Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=edf63175004179beaceee8aed87819e2e5f0f7c5b1037b24511ed6bb7f98f8de",
+            "presidencial": {
+                "CCENT_COMPU": "C45085",
+                "CCODI_UBIGEO": "150706",
+                "CCOPIA_ACTA": "91K",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "PASTAZA",
+                "NNUME_HABILM": 123,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "DATEM DEL MARA\u00d1ON",
+                "TDIRE_LOCAL": "COMUNIDAD NATIVA NUEVA YARINA",
+                "TNOMB_LOCAL": "IEPTI N\u00b062323",
+                "TOT_CIUDADANOS_VOTARON": 36
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45085",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "902535",
+                    "CNUME_RESOL": "C45085000012",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002591                                  00283-2021-JEE-AAMZ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45085/SEP/RESEPC45085000012.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115238Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d7f1363e1cd82da908cd6892127b82780829ac8d2ff144cfccf480ea27dd1f8"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "91.667",
+                    "CON_VALIDOS": "94.286",
+                    "NLISTA": "1",
+                    "congresal": "33"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "5.556",
+                    "CON_VALIDOS": "5.714",
+                    "NLISTA": "2",
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.222",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "35"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.778",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.222",
+                    "congresal": "36"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

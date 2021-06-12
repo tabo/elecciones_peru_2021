@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45061/SEP/ACPREC4506104423792.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120135Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7abbc047a5112c685d4274796effb5ad9e888071af82b617cb06767b81148455",
+            "presidencial": {
+                "CCENT_COMPU": "C45061",
+                "CCODI_UBIGEO": "140122",
+                "CCOPIA_ACTA": "92U",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "RIMAC",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "JR CHICLAYO 436",
+                "TNOMB_LOCAL": "IE 389 INICIAL VIRGEN DE LOURDES",
+                "TOT_CIUDADANOS_VOTARON": 215
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45061",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "044237",
+                    "CNUME_RESOL": "C45061000027",
+                    "CNUME_RESOL_JNE": "2021002088                                        02888-2021-JEE-LIN1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45061/SEP/RESEPC45061000027.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120135Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0beb18dd37963d5c039f895db601375ea72eea724b1b35964deeb7da988d01d2"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "20.465",
+                    "CON_VALIDOS": "21.463",
+                    "NLISTA": "1",
+                    "congresal": "44"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "74.884",
+                    "CON_VALIDOS": "78.537",
+                    "NLISTA": "2",
+                    "congresal": "161"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.349",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "205"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.465",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.186",
+                    "CON_VALIDOS": null,
+                    "congresal": "9"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.349",
+                    "congresal": "215"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45052/SEP/ACPREC4505202719796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161327Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8640e31c827d13f612565b7779f635ab511f530e1f4155630e6d3ea1113cfa3b",
+            "presidencial": {
+                "CCENT_COMPU": "C45052",
+                "CCODI_UBIGEO": "120110",
+                "CCOPIA_ACTA": "96G",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "EL PORVENIR",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "TRUJILLO",
+                "TDIRE_LOCAL": "AV PUMACAHUA 669",
+                "TNOMB_LOCAL": "IE 80030 VICTOR RAUL HAYA DE LA TORRE",
+                "TOT_CIUDADANOS_VOTARON": 240
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "33.750",
+                    "CON_VALIDOS": "38.389",
+                    "NLISTA": "1",
+                    "congresal": "81"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "54.167",
+                    "CON_VALIDOS": "61.611",
+                    "NLISTA": "2",
+                    "congresal": "130"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "87.917",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "211"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "12.083",
+                    "CON_VALIDOS": null,
+                    "congresal": "29"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "87.917",
+                    "congresal": "240"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

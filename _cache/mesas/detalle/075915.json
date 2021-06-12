@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45029/SEP/ACPREC4502907591596.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111123Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cbff431adbf00685c3b6400cbc6561e91a7c13bed1904e7407b782c7ff2d6c89",
+            "presidencial": {
+                "CCENT_COMPU": "C45029",
+                "CCODI_UBIGEO": "240101",
+                "CCOPIA_ACTA": "96O",
+                "DEPARTAMENTO": "CALLAO",
+                "DISTRITO": "CALLAO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CALLAO",
+                "TDIRE_LOCAL": "JR PICHINCHA SN",
+                "TNOMB_LOCAL": "COMPLEJO DEPORTIVO MUNICIPAL DANIEL CARPIO",
+                "TOT_CIUDADANOS_VOTARON": 242
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45029",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "075915",
+                    "CNUME_RESOL": "C45029000016",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001824                                  02417-2021-JEE-CALL/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45029/SEP/RESEPC45029000016.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111123Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9e6b7579368f97c846829a2caa83f633ecf1450aae968c491ba2b8baacece61a"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "13.223",
+                    "CON_VALIDOS": "13.793",
+                    "NLISTA": "1",
+                    "congresal": "32"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "82.645",
+                    "CON_VALIDOS": "86.207",
+                    "NLISTA": "2",
+                    "congresal": "200"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.868",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "232"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.132",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.868",
+                    "congresal": "242"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

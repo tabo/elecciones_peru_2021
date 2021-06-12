@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45100/SEP/ACPREC4510007386691.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110806Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b5401e7a8709e97e4d6be25a903e886c83a0a39c1a6dc5127139dfd27d4b6d1e",
+            "presidencial": {
+                "CCENT_COMPU": "C45100",
+                "CCODI_UBIGEO": "210701",
+                "CCOPIA_ACTA": "91V",
+                "DEPARTAMENTO": "SAN MARTIN",
+                "DISTRITO": "BELLAVISTA",
+                "NNUME_HABILM": 264,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "BELLAVISTA",
+                "TDIRE_LOCAL": "JR RICARDO PALMA SN",
+                "TNOMB_LOCAL": "I.E.0198 MARIA EDITH VILLACORTA PINEDO",
+                "TOT_CIUDADANOS_VOTARON": 183
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45100",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "073866",
+                    "CNUME_RESOL": "C45100000008",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002135                                  01295-2021-JEE-MOYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45100/SEP/RESEPC45100000008.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110806Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26f5a49d5184f477f10ff20de48557ffd78d64376f449bc3003be3349940c22c"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "55.191",
+                    "CON_VALIDOS": "62.346",
+                    "NLISTA": "1",
+                    "congresal": "101"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "33.333",
+                    "CON_VALIDOS": "37.654",
+                    "NLISTA": "2",
+                    "congresal": "61"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "88.525",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "162"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.186",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "9.290",
+                    "CON_VALIDOS": null,
+                    "congresal": "17"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "88.525",
+                    "congresal": "183"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

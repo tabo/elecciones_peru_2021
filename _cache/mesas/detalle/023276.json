@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45046/SEP/ACPREC4504602327696.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113119Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4c37e80f1f28bf82c07f2f79654004c36cd3464ae5fbba10c8d7e5f37c0fbf8f",
+            "presidencial": {
+                "CCENT_COMPU": "C45046",
+                "CCODI_UBIGEO": "110120",
+                "CCOPIA_ACTA": "96V",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "HUAYUCACHI",
+                "NNUME_HABILM": 299,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANCAYO",
+                "TDIRE_LOCAL": "JR SIMON BOLIVAR",
+                "TNOMB_LOCAL": "IE 30173",
+                "TOT_CIUDADANOS_VOTARON": 217
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45046",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "023276",
+                    "CNUME_RESOL": "C45046000016",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001320                                  00905-2021-JEE-HCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45046/SEP/RESEPC45046000016.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113119Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ca612040fbb35643faccfcad2a49d382ce2d1aa53422a8698b9e56d7e71ab56b"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "68.664",
+                    "CON_VALIDOS": "71.635",
+                    "NLISTA": "1",
+                    "congresal": "149"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "27.189",
+                    "CON_VALIDOS": "28.365",
+                    "NLISTA": "2",
+                    "congresal": "59"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.853",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "208"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.922",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.226",
+                    "CON_VALIDOS": null,
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.853",
+                    "congresal": "217"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

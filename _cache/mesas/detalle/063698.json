@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45087/SEP/ACPREC4508706369891.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d8f3d95ef9cf567a991edf68163ae36ae701d2f6f1d9a1177b71b5ed00c76dc",
+            "presidencial": {
+                "CCENT_COMPU": "C45087",
+                "CCODI_UBIGEO": "170105",
+                "CCOPIA_ACTA": "91V",
+                "DEPARTAMENTO": "MOQUEGUA",
+                "DISTRITO": "TORATA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "MARISCAL NIETO",
+                "TDIRE_LOCAL": "CALLE CORONEL LA TORRE SN",
+                "TNOMB_LOCAL": "IE JOSE CARLOS MARIATEGUI -PRIMARIA",
+                "TOT_CIUDADANOS_VOTARON": 217
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45087",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "063698",
+                    "CNUME_RESOL": "C45087000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002129                                  00511-2021-JEE-MNIE/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45087/SEP/RESEPC45087000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c50873ef24dc19eef41bf40bc3f46a19d1e6dd6cc16fe9aad7c0d8037221dde1"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "80.645",
+                    "CON_VALIDOS": "82.547",
+                    "NLISTA": "1",
+                    "congresal": "175"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "17.051",
+                    "CON_VALIDOS": "17.453",
+                    "NLISTA": "2",
+                    "congresal": "37"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.696",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "212"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.304",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.696",
+                    "congresal": "217"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45093/SEP/ACPREC4509307193794.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T160311Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=861bf2167e13b3c12a034d4659f5d231ce112d78746b9b13ce7ce7aca036caba",
+            "presidencial": {
+                "CCENT_COMPU": "C45093",
+                "CCODI_UBIGEO": "201001",
+                "CCOPIA_ACTA": "94O",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "YUNGUYO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "YUNGUYO",
+                "TDIRE_LOCAL": "JR VICTOR ARCE FRANCO 256",
+                "TNOMB_LOCAL": "IES JOSE GALVEZ",
+                "TOT_CIUDADANOS_VOTARON": 93
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45093",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "071937",
+                    "CNUME_RESOL": "C45093000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002145                                  00944-2021-JEE-PUNO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45093/SEP/RESEPC45093000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T160311Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=121d124cb33ff5c9e1b5457766a29c64bb07242ace5c30e199f44ad20919b57e"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0.000",
+                    "NLISTA": "1",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "16.129",
+                    "CON_VALIDOS": "100.000",
+                    "NLISTA": "2",
+                    "congresal": "15"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "16.129",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "15"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.075",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "82.796",
+                    "CON_VALIDOS": null,
+                    "congresal": "77"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "16.129",
+                    "congresal": "93"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

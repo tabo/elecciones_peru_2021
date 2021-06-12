@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45093/SEP/ACPREC4509306951192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T115953Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9f70eea0202d7a6bf53f517839af76741a168e055ed5de756a3fc27c9a1739a",
+            "presidencial": {
+                "CCENT_COMPU": "C45093",
+                "CCODI_UBIGEO": "200101",
+                "CCOPIA_ACTA": "92G",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "PUNO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "PUNO",
+                "TDIRE_LOCAL": "JR DEZA 135",
+                "TNOMB_LOCAL": "UNIVERSIDAD ANDINA NESTOR CACERES VELASQUEZ FP",
+                "TOT_CIUDADANOS_VOTARON": 274
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "81.022",
+                    "CON_VALIDOS": "84.733",
+                    "NLISTA": "1",
+                    "congresal": "222"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.599",
+                    "CON_VALIDOS": "15.267",
+                    "NLISTA": "2",
+                    "congresal": "40"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.620",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "262"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.365",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.015",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.620",
+                    "congresal": "274"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

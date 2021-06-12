@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45051/SEP/ACPREC4505102637495.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T112921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=289fa6da1b4f7cd37260d4ea8d8aa1817b26fa843b7348b9f51ced125a16c5d8",
+            "presidencial": {
+                "CCENT_COMPU": "C45051",
+                "CCODI_UBIGEO": "120102",
+                "CCOPIA_ACTA": "95D",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "HUANCHACO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TRUJILLO",
+                "TDIRE_LOCAL": "JR NICOLAS DE PIEROLA MZ 20 LOTE 1 SECTOR I",
+                "TNOMB_LOCAL": "81714 SE\u00d1OR DE LOS MILAGROS",
+                "TOT_CIUDADANOS_VOTARON": 254
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45051",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "026374",
+                    "CNUME_RESOL": "C45051000010",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001937                                  01203-2021-JEE-TRUJ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45051/SEP/RESEPC45051000010.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T112921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=147b0519a2e00afa8d5eac7a6d7800be391961ba2c726174252c161bf5fd6870"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "36.220",
+                    "CON_VALIDOS": "38.655",
+                    "NLISTA": "1",
+                    "congresal": "92"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "57.480",
+                    "CON_VALIDOS": "61.345",
+                    "NLISTA": "2",
+                    "congresal": "146"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.701",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "238"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.394",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.906",
+                    "CON_VALIDOS": null,
+                    "congresal": "15"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.701",
+                    "congresal": "254"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

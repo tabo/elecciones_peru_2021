@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45099/SEP/ACPREC4509907253391.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113400Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b37c5fff8a380d79b64f56c433f89642dbb6cd4fdc2b51977d482a0f5ac011ef",
+            "presidencial": {
+                "CCENT_COMPU": "C45099",
+                "CCODI_UBIGEO": "210104",
+                "CCOPIA_ACTA": "91L",
+                "DEPARTAMENTO": "SAN MARTIN",
+                "DISTRITO": "JEPELACIO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "MOYOBAMBA",
+                "TDIRE_LOCAL": "JR BOLOGNESI SN",
+                "TNOMB_LOCAL": "IE 00508 ROGELIA IZQUIERDO OLORTEGUI",
+                "TOT_CIUDADANOS_VOTARON": 200
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "53.500",
+                    "CON_VALIDOS": "57.219",
+                    "NLISTA": "1",
+                    "congresal": "107"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "40.000",
+                    "CON_VALIDOS": "42.781",
+                    "NLISTA": "2",
+                    "congresal": "80"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.500",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "187"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.500",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "12"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.500",
+                    "congresal": "200"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

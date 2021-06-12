@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45081/SEP/ACPREC4508106149392.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122041Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8d96a87cb9ae6a74ad99e743b4c7ca1f25abce46726d3285dcdcf346e80bbcd5",
+            "presidencial": {
+                "CCENT_COMPU": "C45081",
+                "CCODI_UBIGEO": "150108",
+                "CCOPIA_ACTA": "92A",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "TORRES CAUSANA",
+                "NNUME_HABILM": 288,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "MAYNAS",
+                "TDIRE_LOCAL": "CALLE CABO PANTOJA SN",
+                "TNOMB_LOCAL": "IEP 60326 CABO PANTOJA",
+                "TOT_CIUDADANOS_VOTARON": 99
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45081",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "061493",
+                    "CNUME_RESOL": "C45081000030",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002523                                  01468-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45081/SEP/RESEPC45081000030.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122041Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d11129ccf62f9f3cdc3a899d607197622a647ac4a0e22fc81b8f9c8e071af141"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "72.727",
+                    "CON_VALIDOS": "81.818",
+                    "NLISTA": "1",
+                    "congresal": "72"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "16.162",
+                    "CON_VALIDOS": "18.182",
+                    "NLISTA": "2",
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "88.889",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "88"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.030",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "8.081",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "88.889",
+                    "congresal": "99"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

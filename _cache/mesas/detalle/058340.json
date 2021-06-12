@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45074/SEP/ACPREC4507405834095.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121117Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c9a8f7725b811074a4d2775c88808ab13671276f72f610bf0a45473317831a14",
+            "presidencial": {
+                "CCENT_COMPU": "C45074",
+                "CCODI_UBIGEO": "140143",
+                "CCOPIA_ACTA": "95S",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SANTA ANITA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "ASOCIACION DE VIVIENDA VILLA LA OROYA MZ C LOTE 1",
+                "TNOMB_LOCAL": "IEP PATRON SAN ISIDRO DE SANTA ANITA",
+                "TOT_CIUDADANOS_VOTARON": 250
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "44.400",
+                    "CON_VALIDOS": "46.835",
+                    "NLISTA": "1",
+                    "congresal": "111"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "50.400",
+                    "CON_VALIDOS": "53.165",
+                    "NLISTA": "2",
+                    "congresal": "126"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.800",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "237"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.200",
+                    "CON_VALIDOS": null,
+                    "congresal": "13"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.800",
+                    "congresal": "250"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

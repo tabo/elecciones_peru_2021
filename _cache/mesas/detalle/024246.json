@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45049/SEP/ACPREC4504902424696.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113044Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0680efbe12f126e5595f4aa7413869b08466fc676f4db710a1c8aca42b7e5290",
+            "presidencial": {
+                "CCENT_COMPU": "C45049",
+                "CCODI_UBIGEO": "110504",
+                "CCOPIA_ACTA": "96A",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "HUASAHUASI",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TARMA",
+                "TDIRE_LOCAL": "AV PERUANIDAD SN",
+                "TNOMB_LOCAL": "IE SAN MARTIN DE PORRAS",
+                "TOT_CIUDADANOS_VOTARON": 201
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45049",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "024246",
+                    "CNUME_RESOL": "C45049000010",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002181                                  00357-2021-JEE-CHAN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45049/SEP/RESEPC45049000010.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113044Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1c50dc73cfd26569692b1e213482782b24127b88526fabb3b401203d31e65a95"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "36.318",
+                    "CON_VALIDOS": "39.674",
+                    "NLISTA": "1",
+                    "congresal": "73"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "55.224",
+                    "CON_VALIDOS": "60.326",
+                    "NLISTA": "2",
+                    "congresal": "111"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.542",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "184"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.493",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.965",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.542",
+                    "congresal": "201"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

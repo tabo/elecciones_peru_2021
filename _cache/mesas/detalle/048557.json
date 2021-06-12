@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45072/SEP/ACPREC4507204855796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122432Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=54c892fd30f04c210a38693f2de05823b42ba5cd7e7950f848110a95b74b680d",
+            "presidencial": {
+                "CCENT_COMPU": "C45072",
+                "CCODI_UBIGEO": "140132",
+                "CCOPIA_ACTA": "96G",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "VILLA MARIA DEL TRIUNFO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "CALLE 5 MZ COLEGIO AAHH 1RO DE MAYO 7MO SECTOR",
+                "TNOMB_LOCAL": "7217 OLIMPIA GERALDINA MELENDEZ PERALTA",
+                "TOT_CIUDADANOS_VOTARON": 208
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45072",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "048557",
+                    "CNUME_RESOL": "C45072000023",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001478                                  01505-2021-JEE-LIS2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45072/SEP/RESEPC45072000023.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122432Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9fd164e8f1b24c98b5c22cdd9fd5c532e71a6ba38c9731da5a8d70cc4dcfe2a"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "34.615",
+                    "CON_VALIDOS": "36.923",
+                    "NLISTA": "1",
+                    "congresal": "72"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "59.135",
+                    "CON_VALIDOS": "63.077",
+                    "NLISTA": "2",
+                    "congresal": "123"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.750",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "195"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.962",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.288",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.750",
+                    "congresal": "208"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

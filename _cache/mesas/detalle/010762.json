@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45023/SEP/ACPREC4502301076295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111025Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=55745bdaf8ea4da04ee515fcfbc0bf072a9ea175131f63c37c502b7a7e0c118b",
+            "presidencial": {
+                "CCENT_COMPU": "C45023",
+                "CCODI_UBIGEO": "060101",
+                "CCOPIA_ACTA": "95B",
+                "DEPARTAMENTO": "CAJAMARCA",
+                "DISTRITO": "CAJAMARCA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CAJAMARCA",
+                "TDIRE_LOCAL": "JR SAN FERNANDO 475",
+                "TNOMB_LOCAL": "IE 085 MAGNA VALLEJO",
+                "TOT_CIUDADANOS_VOTARON": 257
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45023",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "010762",
+                    "CNUME_RESOL": "C45023000015",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001385                                  01455-2021-JEE-CAJA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45023/SEP/RESEPC45023000015.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111025Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f0c476e31ca48bd9720cfc05fcb4d1efd68d86d4e9c996aebd43fade9b45332c"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "38.911",
+                    "CON_VALIDOS": "42.735",
+                    "NLISTA": "1",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "52.140",
+                    "CON_VALIDOS": "57.265",
+                    "NLISTA": "2",
+                    "congresal": "134"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.051",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "234"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.556",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.393",
+                    "CON_VALIDOS": null,
+                    "congresal": "19"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.051",
+                    "congresal": "257"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

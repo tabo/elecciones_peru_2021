@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45054/SEP/ACPREC4505402903595.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=01dad5a44cd7fb722b31fad1432e3102369ad4b9a6508d13953276ba8e35f7b5",
+            "presidencial": {
+                "CCENT_COMPU": "C45054",
+                "CCODI_UBIGEO": "120701",
+                "CCOPIA_ACTA": "95O",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "SANTIAGO DE CHUCO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "SANTIAGO DE CHUCO",
+                "TDIRE_LOCAL": "CALLE TRILCE 210",
+                "TNOMB_LOCAL": "IE 80521 MANUEL ENCARNACION SAAVEDRA GELDRES",
+                "TOT_CIUDADANOS_VOTARON": 227
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45054",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "029035",
+                    "CNUME_RESOL": "C45054000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002009                                  01218-2021-JEE-SCAR / JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45054/SEP/RESEPC45054000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c4094af2ef6f6178a0b5a1dadf0c176aafc127a1f20a04782c6fce1891857a18"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "1",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "2",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "227"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "227"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

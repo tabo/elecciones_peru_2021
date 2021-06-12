@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45060/SEP/ACPREC4506003401891.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=04af8b90a6be097e8544533d80c1ea63d18e4d9a60295215a5aa67827795e670",
+            "presidencial": {
+                "CCENT_COMPU": "C45060",
+                "CCODI_UBIGEO": "140101",
+                "CCOPIA_ACTA": "91A",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "LIMA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "JR JORGE CHAVEZ 1020",
+                "TNOMB_LOCAL": "ESTADIO LOLO FERNANDEZ",
+                "TOT_CIUDADANOS_VOTARON": 210
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45060",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "034018",
+                    "CNUME_RESOL": "C45060000006",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001611                                  03269-2021-JEE-LIC2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45060/SEP/RESEPC45060000006.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2b033e374b23d67153d1a47c19141244aee916353a01ae3c9361af450c0bd576"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "29.048",
+                    "CON_VALIDOS": "39.610",
+                    "NLISTA": "1",
+                    "congresal": "61"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "44.286",
+                    "CON_VALIDOS": "60.390",
+                    "NLISTA": "2",
+                    "congresal": "93"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "73.333",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "154"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "26.667",
+                    "CON_VALIDOS": null,
+                    "congresal": "56"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "73.333",
+                    "congresal": "210"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

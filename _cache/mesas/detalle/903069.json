@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45101/SEP/ACPREC4510190306997.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113926Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=44c93c0e16228749ccb60c8554bf9cbf7ba494ea24ab3226b0389ba4e0317e02",
+            "presidencial": {
+                "CCENT_COMPU": "C45101",
+                "CCODI_UBIGEO": "220114",
+                "CCOPIA_ACTA": "97K",
+                "DEPARTAMENTO": "TACNA",
+                "DISTRITO": "LA YARADA LOS PALOS",
+                "NNUME_HABILM": 279,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TACNA",
+                "TDIRE_LOCAL": "CARRETERA COSTANERA PUEBLO LIBRE KM 25",
+                "TNOMB_LOCAL": "IE 43506 JUVENAL UBALDO ORDO\u00d1EZ SALAZAR",
+                "TOT_CIUDADANOS_VOTARON": 244
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45101",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "903069",
+                    "CNUME_RESOL": "C45101000010",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001910                                  00948-2021-JEE-TACN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45101/SEP/RESEPC45101000010.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113926Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8c55e4fd521fcc3e2a23ff3508d4c7f28f61940854eb4ab4b966882d2aea0825"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "86.475",
+                    "CON_VALIDOS": "89.787",
+                    "NLISTA": "1",
+                    "congresal": "211"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "9.836",
+                    "CON_VALIDOS": "10.213",
+                    "NLISTA": "2",
+                    "congresal": "24"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.311",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "235"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.820",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.869",
+                    "CON_VALIDOS": null,
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.311",
+                    "congresal": "244"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

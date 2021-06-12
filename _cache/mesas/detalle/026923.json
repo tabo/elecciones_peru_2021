@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45051/SEP/ACPREC4505102692397.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120259Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8e62aef6d720b2245a139a5bbdf82fb833e13625b2dc1ff7b9d8fc56d4a8478c",
+            "presidencial": {
+                "CCENT_COMPU": "C45051",
+                "CCODI_UBIGEO": "120107",
+                "CCOPIA_ACTA": "97S",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "VICTOR LARCO HERRERA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TRUJILLO",
+                "TDIRE_LOCAL": "JR GUZMAN BARRO CDRA 2 CON JR GARCILAZO DE LA VEGA",
+                "TNOMB_LOCAL": "COMPLEJO DEPORTIVO CONSUELO VELAZCO MATUTE",
+                "TOT_CIUDADANOS_VOTARON": 218
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45051",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "026923",
+                    "CNUME_RESOL": "C45051000006",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001940                                  01208-2021-JEE-TRUJ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45051/SEP/RESEPC45051000006.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120259Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2a793b36d5c6643853618de41c41ad94f4a2f51a9b619e927768bef3cf13a8d6"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "13.761",
+                    "CON_VALIDOS": "15.000",
+                    "NLISTA": "1",
+                    "congresal": "30"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "77.982",
+                    "CON_VALIDOS": "85.000",
+                    "NLISTA": "2",
+                    "congresal": "170"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.743",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "200"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.459",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.798",
+                    "CON_VALIDOS": null,
+                    "congresal": "17"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.743",
+                    "congresal": "218"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

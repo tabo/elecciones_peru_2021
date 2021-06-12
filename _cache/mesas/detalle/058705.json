@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45078/SEP/ACPREC4507805870595.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113229Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c1b6cf1d1e0fcb07b6cb8f2418a5cdb9b5e6bfa1c6a0efe5449fd738109c86d8",
+            "presidencial": {
+                "CCENT_COMPU": "C45078",
+                "CCODI_UBIGEO": "140406",
+                "CCOPIA_ACTA": "95S",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "IMPERIAL",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CA\u00d1ETE",
+                "TDIRE_LOCAL": "AV EVITAMIENTO SN",
+                "TNOMB_LOCAL": "IEP IMPERIAL CNI",
+                "TOT_CIUDADANOS_VOTARON": 242
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45078",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "058705",
+                    "CNUME_RESOL": "C45078000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001920                                  00496-2021-JEE-C\u00d1TE/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45078/SEP/RESEPC45078000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113229Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7e48df78a816aec3dd7f6fcd924ff990be345469a441f2f2e20d62382b905884"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "42.562",
+                    "CON_VALIDOS": "45.175",
+                    "NLISTA": "1",
+                    "congresal": "103"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "51.653",
+                    "CON_VALIDOS": "54.825",
+                    "NLISTA": "2",
+                    "congresal": "125"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.215",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "228"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.785",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.215",
+                    "congresal": "242"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

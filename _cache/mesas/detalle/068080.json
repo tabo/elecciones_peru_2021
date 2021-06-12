@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45092/SEP/ACPREC4509206808096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121632Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f3ffdb148c5951dbd77abb3d1ea303c1edbee8d8d7b97b53e32536b5b09afdd2",
+            "presidencial": {
+                "CCENT_COMPU": "C45092",
+                "CCODI_UBIGEO": "190601",
+                "CCOPIA_ACTA": "96G",
+                "DEPARTAMENTO": "PIURA",
+                "DISTRITO": "SULLANA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "SULLANA",
+                "TDIRE_LOCAL": "CALLE SAN MIGUEL SN MZ N LT 1",
+                "TNOMB_LOCAL": "IE 20501 EL NAZARENO",
+                "TOT_CIUDADANOS_VOTARON": 224
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45092",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "068080",
+                    "CNUME_RESOL": "C45092000012",
+                    "CNUME_RESOL_JNE": "EG.2021001203                                     895-2021-JEE-SULLANA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45092/SEP/RESEPC45092000012.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121632Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc4b586f3a7004493e9c6f975033eac690a5b52def6b2bd3bffb6873ec46cd12"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "18.750",
+                    "CON_VALIDOS": "21.538",
+                    "NLISTA": "1",
+                    "congresal": "42"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "68.304",
+                    "CON_VALIDOS": "78.462",
+                    "NLISTA": "2",
+                    "congresal": "153"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "87.054",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "195"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.339",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "11.607",
+                    "CON_VALIDOS": null,
+                    "congresal": "26"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "87.054",
+                    "congresal": "224"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

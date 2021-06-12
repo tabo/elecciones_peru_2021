@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45013/SEP/ACPREC4501300440293.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115057Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f332a9b786c32a02d1b96ae29e134b46660d2d32d87b0e0973685f029f5e02fc",
+            "presidencial": {
+                "CCENT_COMPU": "C45013",
+                "CCODI_UBIGEO": "030313",
+                "CCOPIA_ACTA": "93U",
+                "DEPARTAMENTO": "APURIMAC",
+                "DISTRITO": "PACUCHA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "ANDAHUAYLAS",
+                "TDIRE_LOCAL": "AV PASEO DE LA REPUBLICA SN",
+                "TNOMB_LOCAL": "I.E. N\u00b0 54095 PACUCHA",
+                "TOT_CIUDADANOS_VOTARON": 195
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "82.051",
+                    "CON_VALIDOS": "85.106",
+                    "NLISTA": "1",
+                    "congresal": "160"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.359",
+                    "CON_VALIDOS": "14.894",
+                    "NLISTA": "2",
+                    "congresal": "28"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.410",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "188"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.538",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.051",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.410",
+                    "congresal": "195"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

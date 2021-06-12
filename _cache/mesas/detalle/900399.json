@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45006/SEP/ACPREC4500690039996.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114425Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8da33d9a487cf9093204dbbe9aa3a249997ed46c2bf2678b9f065e3098894469",
+            "presidencial": {
+                "CCENT_COMPU": "C45006",
+                "CCODI_UBIGEO": "021503",
+                "CCOPIA_ACTA": "96P",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "MANCOS",
+                "NNUME_HABILM": 258,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "YUNGAY",
+                "TDIRE_LOCAL": "CARRETERA PRINCIPAL SN",
+                "TNOMB_LOCAL": "IE 86629 JOSE CARLOS MARIATEGUI",
+                "TOT_CIUDADANOS_VOTARON": 258
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45006",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "900399",
+                    "CNUME_RESOL": "C45006000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001537                                  00770-2021-JEE-HRAZ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45006/SEP/RESEPC45006000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114425Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=194955f882710114c443198cc2c6077e0580b542509f3df8cb090079a9ce1ebe"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "1",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "2",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "258"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "258"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

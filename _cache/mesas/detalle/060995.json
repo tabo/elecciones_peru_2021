@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45081/SEP/ACPREC4508106099594.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113400Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9deb3898f072f80e6c6a0ce9d6f7ea1ca463c86ef633c1fe8ba160dd25d75086",
+            "presidencial": {
+                "CCENT_COMPU": "C45081",
+                "CCODI_UBIGEO": "150101",
+                "CCOPIA_ACTA": "94O",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "IQUITOS",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "MAYNAS",
+                "TDIRE_LOCAL": "CALLE MARIA PARADO DE BELLIDO SN",
+                "TNOMB_LOCAL": "I.E.P.M N\u00b0 60020 \"JORGE CHAVEZ\"",
+                "TOT_CIUDADANOS_VOTARON": 231
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45081",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "060995",
+                    "CNUME_RESOL": "C45081000003",
+                    "CNUME_RESOL_JNE": "EG.2021001948                                     01438-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45081/SEP/RESEPC45081000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113400Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=60bbf9d11116f107d3a9ee277f13dfb1e026babdf43f82e3e193bd4e7b16a0db"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "33.766",
+                    "CON_VALIDOS": "36.967",
+                    "NLISTA": "1",
+                    "congresal": "78"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "57.576",
+                    "CON_VALIDOS": "63.033",
+                    "NLISTA": "2",
+                    "congresal": "133"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.342",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "211"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.299",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.359",
+                    "CON_VALIDOS": null,
+                    "congresal": "17"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.342",
+                    "congresal": "231"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

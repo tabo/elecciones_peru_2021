@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45091/SEP/ACPREC4509106584392.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113904Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=81d8549ab7efcce1d922231abdc33446bdf433628fb78aa2e9991c1dd96d2f35",
+            "presidencial": {
+                "CCENT_COMPU": "C45091",
+                "CCODI_UBIGEO": "190106",
+                "CCOPIA_ACTA": "92G",
+                "DEPARTAMENTO": "PIURA",
+                "DISTRITO": "LA UNION",
+                "NNUME_HABILM": 285,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "PIURA",
+                "TDIRE_LOCAL": "CALLE CESAR VALLEJO 109",
+                "TNOMB_LOCAL": "IEP SANTA BERNARDITA",
+                "TOT_CIUDADANOS_VOTARON": 216
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45091",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "065843",
+                    "CNUME_RESOL": "C45091000021",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002220                                  02143-2021-JEE-PIU2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45091/SEP/RESEPC45091000021.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113904Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6a5068307d24859f6def9027e6cc7be6149947b7276d148cc2ca3f5723c258e0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "35.185",
+                    "CON_VALIDOS": "36.715",
+                    "NLISTA": "1",
+                    "congresal": "76"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "60.648",
+                    "CON_VALIDOS": "63.285",
+                    "NLISTA": "2",
+                    "congresal": "131"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.833",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "207"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.167",
+                    "CON_VALIDOS": null,
+                    "congresal": "9"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.833",
+                    "congresal": "216"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

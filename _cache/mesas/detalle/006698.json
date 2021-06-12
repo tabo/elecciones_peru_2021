@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45015/SEP/ACPREC4501500669894.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121539Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ac053b8420286b10fbe23cb1ff66d106611958c8022ed363809a4267c9af2add",
+            "presidencial": {
+                "CCENT_COMPU": "C45015",
+                "CCODI_UBIGEO": "040119",
+                "CCOPIA_ACTA": "94D",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "SOCABAYA",
+                "NNUME_HABILM": 99,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "AREQUIPA",
+                "TDIRE_LOCAL": "HORACIO ZEVALLOS SECTOR F MZ 20 LT 21",
+                "TNOMB_LOCAL": "IEI HORACIO ZEBALLOS GAMEZ",
+                "TOT_CIUDADANOS_VOTARON": 95
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "68.421",
+                    "CON_VALIDOS": "76.471",
+                    "NLISTA": "1",
+                    "congresal": "65"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "21.053",
+                    "CON_VALIDOS": "23.529",
+                    "NLISTA": "2",
+                    "congresal": "20"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "89.474",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "85"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "10.526",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "89.474",
+                    "congresal": "95"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

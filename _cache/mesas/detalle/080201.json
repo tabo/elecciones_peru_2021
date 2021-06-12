@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808020194.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T160718Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f8a1e5c4a9643340e0c748e1eb6694bf427d244c161bd0ba93340aacd7692e02",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "920202",
+                "CCOPIA_ACTA": "94D",
+                "DEPARTAMENTO": "AMERICA",
+                "DISTRITO": "BUENOS AIRES",
+                "NNUME_HABILM": 299,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ARGENTINA",
+                "TDIRE_LOCAL": "PARAGUAY 1950",
+                "TNOMB_LOCAL": "ESCUELA NORMAL SUPERIOR N\u00b0 01",
+                "TOT_CIUDADANOS_VOTARON": 108
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080201",
+                    "CNUME_RESOL": "C45058000170",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002577                                  06623-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "52.778",
+                    "CON_VALIDOS": "57.000",
+                    "NLISTA": "1",
+                    "congresal": "57"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "39.815",
+                    "CON_VALIDOS": "43.000",
+                    "NLISTA": "2",
+                    "congresal": "43"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.593",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.926",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.481",
+                    "CON_VALIDOS": null,
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.593",
+                    "congresal": "108"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

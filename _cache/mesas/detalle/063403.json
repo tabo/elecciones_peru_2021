@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45086/SEP/ACPREC4508606340394.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114101Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0fd42e5cd7e00d867b9220dd573ce3044fc7ee575ba145adb53060e8879e096d",
+            "presidencial": {
+                "CCENT_COMPU": "C45086",
+                "CCODI_UBIGEO": "160103",
+                "CCOPIA_ACTA": "94V",
+                "DEPARTAMENTO": "MADRE DE DIOS",
+                "DISTRITO": "LAS PIEDRAS",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "TAMBOPATA",
+                "TDIRE_LOCAL": "AV MADRE DE DIOS SN",
+                "TNOMB_LOCAL": "IEBR JORGE CHAVEZ RENGIFO",
+                "TOT_CIUDADANOS_VOTARON": 210
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45086",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "063403",
+                    "CNUME_RESOL": "C45086000004",
+                    "CNUME_RESOL_JNE": "SEPEG.202100211                                   00507-2021-JEE-TBPT/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45086/SEP/RESEPC45086000004.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114101Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=68f30514f8fd97a3fb6c923b69b0c8ac7d77f1dc42944a047c17734fbc831414"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "67.143",
+                    "CON_VALIDOS": "71.212",
+                    "NLISTA": "1",
+                    "congresal": "141"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "27.143",
+                    "CON_VALIDOS": "28.788",
+                    "NLISTA": "2",
+                    "congresal": "57"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.286",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "198"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.476",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.238",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.286",
+                    "congresal": "210"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

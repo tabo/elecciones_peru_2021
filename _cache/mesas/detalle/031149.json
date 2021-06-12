@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45056/SEP/ACPREC4505603114994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115032Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=46687edc08cd352346ccd8891175ca5b500ef1569ce915cbc4ee88697e28f3f7",
+            "presidencial": {
+                "CCENT_COMPU": "C45056",
+                "CCODI_UBIGEO": "130108",
+                "CCOPIA_ACTA": "94G",
+                "DEPARTAMENTO": "LAMBAYEQUE",
+                "DISTRITO": "OYOTUN",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHICLAYO",
+                "TDIRE_LOCAL": "CALLE ANTENOR ORREGO 201",
+                "TNOMB_LOCAL": "IE JOSE ABELARDO QUI\u00d1ONES GONZALES",
+                "TOT_CIUDADANOS_VOTARON": 268
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45056",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "031149",
+                    "CNUME_RESOL": "C45056000015",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001673                                  01543-2021-JEE-CHYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45056/SEP/RESEPC45056000015.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8010fe6b6c1f08e403b1acb6c6d65aa15f593aff48a0788ff1888e7443e6159f"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "47.761",
+                    "CON_VALIDOS": "50.593",
+                    "NLISTA": "1",
+                    "congresal": "128"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "46.642",
+                    "CON_VALIDOS": "49.407",
+                    "NLISTA": "2",
+                    "congresal": "125"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.403",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "253"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.746",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.851",
+                    "CON_VALIDOS": null,
+                    "congresal": "13"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.403",
+                    "congresal": "268"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

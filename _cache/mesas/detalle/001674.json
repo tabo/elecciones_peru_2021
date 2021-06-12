@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45008/SEP/ACPREC4500800167493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161934Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dfc66c6914eecbf636b5204053337bc36043f28523e5c9ecf3714f63820949ae",
+            "presidencial": {
+                "CCENT_COMPU": "C45008",
+                "CCODI_UBIGEO": "020505",
+                "CCOPIA_ACTA": "93B",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "YAUTAN",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CASMA",
+                "TDIRE_LOCAL": "AV. SANTIAGO ANTUNEZ DE MAYOLO MZ J LT 1",
+                "TNOMB_LOCAL": "IE 89015",
+                "TOT_CIUDADANOS_VOTARON": 220
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45008",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "001674",
+                    "CNUME_RESOL": "C45008000013",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001346                                  00857-2021-JEE-SNTA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45008/SEP/RESEPC45008000013.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161934Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5b6ec2220f1cb47b2f13c2ccfe2953712dddd930a1b41d74fe138fb15ec507ad"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "46.364",
+                    "CON_VALIDOS": "50.246",
+                    "NLISTA": "1",
+                    "congresal": "102"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "45.909",
+                    "CON_VALIDOS": "49.754",
+                    "NLISTA": "2",
+                    "congresal": "101"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.273",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "203"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.364",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.364",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.273",
+                    "congresal": "220"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

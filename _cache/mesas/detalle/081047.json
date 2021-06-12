@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808104795.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8d3e502fe88a2ea916fb3536a1e492f6b1d18e50f424b76e0ddd560a8b0e8eff",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "921304",
+                "CCOPIA_ACTA": "95K",
+                "DEPARTAMENTO": "AMERICA",
+                "DISTRITO": "CHICAGO",
+                "NNUME_HABILM": 297,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
+                "TDIRE_LOCAL": "520 SOUTH MICHIGAN AVENUE- CHICAGO",
+                "TNOMB_LOCAL": "THE CONGRESS PLAZA HOTEL&CONVENTION CENTER",
+                "TOT_CIUDADANOS_VOTARON": 65
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "081047",
+                    "CNUME_RESOL": "C45058000058",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002338                                  06456-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "30.769",
+                    "CON_VALIDOS": "33.333",
+                    "NLISTA": "1",
+                    "congresal": "20"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "61.538",
+                    "CON_VALIDOS": "66.667",
+                    "NLISTA": "2",
+                    "congresal": "40"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.308",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "60"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "7.692",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.308",
+                    "congresal": "65"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

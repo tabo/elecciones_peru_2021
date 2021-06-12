@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45093/SEP/ACPREC4509307036296.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113619Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5112d51010dc3e25de755b864f4002ffac5a3f96e6e19cbf8c045d7f7fbd0ee7",
+            "presidencial": {
+                "CCENT_COMPU": "C45093",
+                "CCODI_UBIGEO": "200401",
+                "CCOPIA_ACTA": "96L",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "JULI",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHUCUITO",
+                "TDIRE_LOCAL": "JR ASUNCION 521",
+                "TNOMB_LOCAL": "IEP 71003",
+                "TOT_CIUDADANOS_VOTARON": 262
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45093",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "070362",
+                    "CNUME_RESOL": "C45093000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002146                                  00943-2021-JEE-PUNO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45093/SEP/RESEPC45093000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113619Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bb5a8fbe54b4df199c883216e5adc7653d300509b2c294fd428ff8c3725eef7"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "90.076",
+                    "CON_VALIDOS": "90.769",
+                    "NLISTA": "1",
+                    "congresal": "236"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "9.160",
+                    "CON_VALIDOS": "9.231",
+                    "NLISTA": "2",
+                    "congresal": "24"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "99.237",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "260"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.763",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "99.237",
+                    "congresal": "262"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

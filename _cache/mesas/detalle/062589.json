@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45082/SEP/ACPREC4508206258994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T115821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ec556bccd48065a433cd9ad6cc0e386d4907ace515bb9f1c04154b0dac774b77",
+            "presidencial": {
+                "CCENT_COMPU": "C45082",
+                "CCODI_UBIGEO": "150401",
+                "CCOPIA_ACTA": "94A",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "REQUENA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "REQUENA",
+                "TDIRE_LOCAL": "CALLE PUEBLO JOVEN SAN JOSE SN",
+                "TNOMB_LOCAL": "IEPI N\u00b0 300",
+                "TOT_CIUDADANOS_VOTARON": 206
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45082",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "062589",
+                    "CNUME_RESOL": "C45082000001",
+                    "CNUME_RESOL_JNE": "EG.2021002743                                     01470-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45082/SEP/RESEPC45082000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T115821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ca6b8c481395a019b32090a9df9d9cc32db07a9791016e50db7bbd7bdf650971"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "37.379",
+                    "CON_VALIDOS": "39.691",
+                    "NLISTA": "1",
+                    "congresal": "77"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "56.796",
+                    "CON_VALIDOS": "60.309",
+                    "NLISTA": "2",
+                    "congresal": "117"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.175",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "194"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.485",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.340",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.175",
+                    "congresal": "206"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

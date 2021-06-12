@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45081/SEP/ACPREC4508106147295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5c70dd7efdd2d4b5abdab52582d5ef2f407de49fd5aa0591f7e58f75fd26d3e9",
+            "presidencial": {
+                "CCENT_COMPU": "C45081",
+                "CCODI_UBIGEO": "150106",
+                "CCOPIA_ACTA": "95A",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "NAPO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "MAYNAS",
+                "TDIRE_LOCAL": "CALLE RVDO RIO PEL SN",
+                "TNOMB_LOCAL": "IST 60087 LUCILLE GAGNE PELLERIN",
+                "TOT_CIUDADANOS_VOTARON": 169
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45081",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "061472",
+                    "CNUME_RESOL": "C45081000027",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002520                                  01462-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45081/SEP/RESEPC45081000027.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=754de4f7d933122369da2c2d985375d9584ed3ee13993895e9bc826ee67db731"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "43.787",
+                    "CON_VALIDOS": "52.482",
+                    "NLISTA": "1",
+                    "congresal": "74"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "39.645",
+                    "CON_VALIDOS": "47.518",
+                    "NLISTA": "2",
+                    "congresal": "67"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "83.432",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "141"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.959",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "13.609",
+                    "CON_VALIDOS": null,
+                    "congresal": "23"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "83.432",
+                    "congresal": "169"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

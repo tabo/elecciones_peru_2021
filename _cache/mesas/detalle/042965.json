@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45064/SEP/ACPREC4506404296595.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114240Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=67fb314ff3312806c9bcf7a18bcf50c671a0c1f27007d39e47736abe41ef2970",
+            "presidencial": {
+                "CCENT_COMPU": "C45064",
+                "CCODI_UBIGEO": "140119",
+                "CCOPIA_ACTA": "95O",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "PUENTE PIEDRA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "MZ Z1 LOTE 172-173",
+                "TNOMB_LOCAL": "8194 LOS DISCIPULOS DE JESUS",
+                "TOT_CIUDADANOS_VOTARON": 228
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45064",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042965",
+                    "CNUME_RESOL": "C45064000034",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001259                                  01808-2021-JEE-LIN3/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45064/SEP/RESEPC45064000034.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114239Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4b0c3bcdaefc48472d7c9aa0ca81963dba7dfd0ab233d6b2f0b6ed30e5224e14"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "30.702",
+                    "CON_VALIDOS": "33.493",
+                    "NLISTA": "1",
+                    "congresal": "70"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "60.965",
+                    "CON_VALIDOS": "66.507",
+                    "NLISTA": "2",
+                    "congresal": "139"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.667",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "209"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.193",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.140",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.667",
+                    "congresal": "228"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

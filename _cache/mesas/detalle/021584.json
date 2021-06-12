@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45045/SEP/ACPREC4504502158494.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=464881b7bad92e05ee29ec0913851bd35db220cf7220c85ca3d8e4a01638e3c3",
+            "presidencial": {
+                "CCENT_COMPU": "C45045",
+                "CCODI_UBIGEO": "100304",
+                "CCOPIA_ACTA": "94K",
+                "DEPARTAMENTO": "ICA",
+                "DISTRITO": "MARCONA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "NASCA",
+                "TDIRE_LOCAL": "AV LOS NOGALES SN",
+                "TNOMB_LOCAL": "IE ALMIRANTE MIGUEL GRAU",
+                "TOT_CIUDADANOS_VOTARON": 214
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45045",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "021584",
+                    "CNUME_RESOL": "C45045000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002053                                  02566-2021-JEE-ICA0/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45045/SEP/RESEPC45045000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=977535da7813cfb4f04c0bfe841fb8d46332168f34a805d984af4525ddc412fe"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "64.019",
+                    "CON_VALIDOS": "65.238",
+                    "NLISTA": "1",
+                    "congresal": "137"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "34.112",
+                    "CON_VALIDOS": "34.762",
+                    "NLISTA": "2",
+                    "congresal": "73"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "98.131",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "210"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.467",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.402",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "98.131",
+                    "congresal": "214"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

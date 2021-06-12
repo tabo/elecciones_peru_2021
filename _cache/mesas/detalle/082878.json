@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808287892.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c6b7dd6c55ee34e0ba715549bcf3b36f83fd4c686781cee03bd7dc62a01221aa",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "940920",
+                "CCOPIA_ACTA": "92U",
+                "DEPARTAMENTO": "EUROPA",
+                "DISTRITO": "VALENCIA",
+                "NNUME_HABILM": 288,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ESPA\u00d1A",
+                "TDIRE_LOCAL": "AVENIDA CORTES VALENCIANAS N\u00ba 60, 46015, VALENCIA, ESPA\u00d1A",
+                "TNOMB_LOCAL": "PALACIO DE CONGRESOS DE VALENCIA",
+                "TOT_CIUDADANOS_VOTARON": 84
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082878",
+                    "CNUME_RESOL": "C45058000063",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002363                                  06463-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "32.143",
+                    "CON_VALIDOS": "33.750",
+                    "NLISTA": "1",
+                    "congresal": "27"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "63.095",
+                    "CON_VALIDOS": "66.250",
+                    "NLISTA": "2",
+                    "congresal": "53"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.238",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "80"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.762",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.238",
+                    "congresal": "84"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

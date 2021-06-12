@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45025/SEP/ACPREC4502501219695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115407Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f1a0ceecde9086fa3f88bf6f7e08606ad0290a8b9d305e478981d03e787d5215",
+            "presidencial": {
+                "CCENT_COMPU": "C45025",
+                "CCODI_UBIGEO": "060613",
+                "CCOPIA_ACTA": "95A",
+                "DEPARTAMENTO": "CAJAMARCA",
+                "DISTRITO": "PION",
+                "NNUME_HABILM": 295,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHOTA",
+                "TDIRE_LOCAL": "CALLE AMAZONAS SN",
+                "TNOMB_LOCAL": "IE JOSE MANUEL OSORES",
+                "TOT_CIUDADANOS_VOTARON": 174
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45025",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "012196",
+                    "CNUME_RESOL": "C45025000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001128                                  00884-2021-JEE-CHTA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45025/SEP/RESEPC45025000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115407Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9318082ac238924dc6a4fc253f7be34e24185374e0f240219b8c221af9ff01a8"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "91.379",
+                    "CON_VALIDOS": "91.908",
+                    "NLISTA": "1",
+                    "congresal": "159"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "8.046",
+                    "CON_VALIDOS": "8.092",
+                    "NLISTA": "2",
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "99.425",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "173"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.575",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "99.425",
+                    "congresal": "174"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

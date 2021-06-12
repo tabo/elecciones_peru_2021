@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45015/SEP/ACPREC4501500734293.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113434Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=13c737e5c358478f5bbcf740bf08c5f25efdb48f7143751f06c9cb14cd0572a9",
+            "presidencial": {
+                "CCENT_COMPU": "C45015",
+                "CCODI_UBIGEO": "040127",
+                "CCOPIA_ACTA": "93B",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "JACOBO HUNTER",
+                "NNUME_HABILM": 52,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "AREQUIPA",
+                "TDIRE_LOCAL": "CALLE PRINCIPAL 129",
+                "TNOMB_LOCAL": "IE 40089",
+                "TOT_CIUDADANOS_VOTARON": 48
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45015",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "007342",
+                    "CNUME_RESOL": "C45015000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001895                                  00688-2021-JEE-AQP2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45015/SEP/RESEPC45015000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113434Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=46866600e822c93943ce9e5d7a1c9625fc55e80059becaa2007a55d17c00876b"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "39.583",
+                    "CON_VALIDOS": "41.304",
+                    "NLISTA": "1",
+                    "congresal": "19"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "56.250",
+                    "CON_VALIDOS": "58.696",
+                    "NLISTA": "2",
+                    "congresal": "27"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.833",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "46"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.167",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.833",
+                    "congresal": "48"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

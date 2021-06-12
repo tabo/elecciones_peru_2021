@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45031/SEP/ACPREC4503101414991.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120211Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=03ed71b25924e0990c3d9c63b8ea3df05309380368badfbfd347c125c5f5a4f1",
+            "presidencial": {
+                "CCENT_COMPU": "C45031",
+                "CCODI_UBIGEO": "070104",
+                "CCOPIA_ACTA": "91P",
+                "DEPARTAMENTO": "CUSCO",
+                "DISTRITO": "SAN JERONIMO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CUSCO",
+                "TDIRE_LOCAL": "CALLE ARICA 363",
+                "TNOMB_LOCAL": "IE N\u00b0 21 NUESTRA SE\u00d1ORA DEL ROSARIO FE Y ALEGRIA",
+                "TOT_CIUDADANOS_VOTARON": 230
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45031",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "014149",
+                    "CNUME_RESOL": "C45031000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001578                                  01994-2021-JEE-CSCO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45031/SEP/RESEPC45031000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120211Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=779d8fd74e40a77d26d7ff0078b203d946fbe71fe1604df72e228d03d7d3c1ad"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "63.043",
+                    "CON_VALIDOS": "67.130",
+                    "NLISTA": "1",
+                    "congresal": "145"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "30.870",
+                    "CON_VALIDOS": "32.870",
+                    "NLISTA": "2",
+                    "congresal": "71"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.913",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "216"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.087",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.913",
+                    "congresal": "230"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

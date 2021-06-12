@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45038/SEP/ACPREC4503801784493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111039Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=792b3cada87aacf1e494638cc216233bdff51bf583ebc11c107d52747534a2ca",
+            "presidencial": {
+                "CCENT_COMPU": "C45038",
+                "CCODI_UBIGEO": "080602",
+                "CCOPIA_ACTA": "93U",
+                "DEPARTAMENTO": "HUANCAVELICA",
+                "DISTRITO": "CORDOVA",
+                "NNUME_HABILM": 254,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUAYTARA",
+                "TDIRE_LOCAL": "CALLE MUNICIPALIDAD SN",
+                "TNOMB_LOCAL": "IE CESAR VALLEJO",
+                "TOT_CIUDADANOS_VOTARON": 137
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45038",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "017844",
+                    "CNUME_RESOL": "C45038000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002246                                  00915-2021-JEE-HVCA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45038/SEP/RESEPC45038000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111039Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=28854b46e4120a16ad911b082fabce055ff12db7a140411c734a9de605e6e9fc"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "60.584",
+                    "CON_VALIDOS": "61.029",
+                    "NLISTA": "1",
+                    "congresal": "83"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "38.686",
+                    "CON_VALIDOS": "38.971",
+                    "NLISTA": "2",
+                    "congresal": "53"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "99.270",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "136"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.730",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "99.270",
+                    "congresal": "137"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

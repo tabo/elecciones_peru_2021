@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504450093.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120252Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0fbb4c9c59df20b1c497f768fa85d0902f0353fd0527a1f69c791f9bbe51e468",
+            "presidencial": {
+                "CCENT_COMPU": "C45065",
+                "CCODI_UBIGEO": "140124",
+                "CCOPIA_ACTA": "93O",
+                "DEPARTAMENTO": "LIMA",
+                "DISTRITO": "SAN ISIDRO",
+                "NNUME_HABILM": 295,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LIMA",
+                "TDIRE_LOCAL": "CALLE LAS CASTA\u00d1ITAS SN",
+                "TNOMB_LOCAL": "IEP SAN AGUSTIN",
+                "TOT_CIUDADANOS_VOTARON": 198
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "044500",
+                    "CNUME_RESOL": "C45065000019",
+                    "CNUME_RESOL_JNE": "SEPEG 2021001405                                  06461-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000019.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120251Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=16e1ce7145c1867a87deeff4d59d464d00ee1edb3f48abb349b516bf81c03d79"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "13.131",
+                    "CON_VALIDOS": "13.613",
+                    "NLISTA": "1",
+                    "congresal": "26"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "83.333",
+                    "CON_VALIDOS": "86.387",
+                    "NLISTA": "2",
+                    "congresal": "165"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.465",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "191"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.505",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.030",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.465",
+                    "congresal": "198"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

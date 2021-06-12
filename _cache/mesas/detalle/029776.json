@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45053/SEP/ACPREC4505302977693.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111221Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2e59cba558279b5381996da0acdd63808049cb6270d8ee31a9ef9e1689780da2",
+            "presidencial": {
+                "CCENT_COMPU": "C45053",
+                "CCODI_UBIGEO": "121101",
+                "CCOPIA_ACTA": "93A",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "CASCAS",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "GRAN CHIMU",
+                "TDIRE_LOCAL": "JR GRAU 380",
+                "TNOMB_LOCAL": "IE 82538 MANUEL MARIA ALVAREZ",
+                "TOT_CIUDADANOS_VOTARON": 201
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45053",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "029776",
+                    "CNUME_RESOL": "C45053000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001376                                  02033-2021-JEE-PCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45053/SEP/RESEPC45053000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=059cbdf2cbc0118bd6f4d641b4a231117359002d23b6a2e4b523b4bb45c02a56"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "35.323",
+                    "CON_VALIDOS": "37.566",
+                    "NLISTA": "1",
+                    "congresal": "71"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "58.706",
+                    "CON_VALIDOS": "62.434",
+                    "NLISTA": "2",
+                    "congresal": "118"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.030",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "189"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.995",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.975",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.030",
+                    "congresal": "201"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

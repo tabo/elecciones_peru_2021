@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45090/SEP/ACPREC4509006634396.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122424Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ecff9faf1917d1072e5c0442a4082f2d4d4c56eca626a6dff19dafadd092d44e",
+            "presidencial": {
+                "CCENT_COMPU": "C45090",
+                "CCODI_UBIGEO": "190115",
+                "CCOPIA_ACTA": "96U",
+                "DEPARTAMENTO": "PIURA",
+                "DISTRITO": "VEINTISEIS DE OCTUBRE",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "PIURA",
+                "TDIRE_LOCAL": "CALLE GRECIA SN",
+                "TNOMB_LOCAL": "I.E.I. PARROQUIAL ANGEL DE LA GUARDA",
+                "TOT_CIUDADANOS_VOTARON": 251
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45090",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "066343",
+                    "CNUME_RESOL": "C45090000010",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001309                                  02365-2021-JEE-PIU1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45090/SEP/RESEPC45090000010.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122423Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c69c812091fd748971514d12abeb5ede3341c0a63643ec9ca33ebe51829ab679"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "10.359",
+                    "CON_VALIDOS": "28.571",
+                    "NLISTA": "1",
+                    "congresal": "26"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "25.896",
+                    "CON_VALIDOS": "71.429",
+                    "NLISTA": "2",
+                    "congresal": "65"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "36.255",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "91"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.398",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "63.347",
+                    "CON_VALIDOS": null,
+                    "congresal": "159"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "36.255",
+                    "congresal": "251"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

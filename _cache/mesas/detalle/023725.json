@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45047/SEP/ACPREC4504702372597.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d07b0d713f4151cf5489ca9e87289a3e7feb377764c431ccd952f7546d4d5b75",
+            "presidencial": {
+                "CCENT_COMPU": "C45047",
+                "CCODI_UBIGEO": "110215",
+                "CCOPIA_ACTA": "97V",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "SAN JOSE DE QUERO",
+                "NNUME_HABILM": 252,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CONCEPCION",
+                "TDIRE_LOCAL": "PLAZA PRINCIPAL SN",
+                "TNOMB_LOCAL": "IE ESTATAL 30329",
+                "TOT_CIUDADANOS_VOTARON": 202
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45047",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "023725",
+                    "CNUME_RESOL": "C45047000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001890                                  00909-2021-JEE-HCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45047/SEP/RESEPC45047000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c7d886fb288d92577006b01f5089144a8ab05df0fa944349c42b4de66c2e83ce"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "39.109",
+                    "CON_VALIDOS": "41.799",
+                    "NLISTA": "1",
+                    "congresal": "79"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "54.455",
+                    "CON_VALIDOS": "58.201",
+                    "NLISTA": "2",
+                    "congresal": "110"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.564",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "189"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.485",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.950",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.564",
+                    "congresal": "202"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45008/SEP/ACPREC4500800284095.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114750Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8a9e2036b9f16de9d2cede4ed8d72dddefd78f9e8fd0a5c6b6b18417336014c",
+            "presidencial": {
+                "CCENT_COMPU": "C45008",
+                "CCODI_UBIGEO": "021304",
+                "CCOPIA_ACTA": "95D",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "MORO",
+                "NNUME_HABILM": 293,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "SANTA",
+                "TDIRE_LOCAL": "JR ESTUDIANTE 250",
+                "TNOMB_LOCAL": "IE SANTO DOMINGO",
+                "TOT_CIUDADANOS_VOTARON": 228
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45008",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "002840",
+                    "CNUME_RESOL": "C45008000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001354                                  00846-2021-JEE-SNTA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45008/SEP/RESEPC45008000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114750Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=37affa259dcf45812d377ccbb330af972f7abc71e77174f8edb8886e1c609b93"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "29.825",
+                    "CON_VALIDOS": "31.050",
+                    "NLISTA": "1",
+                    "congresal": "68"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "66.228",
+                    "CON_VALIDOS": "68.950",
+                    "NLISTA": "2",
+                    "congresal": "151"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.053",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "219"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.439",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.509",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.053",
+                    "congresal": "228"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

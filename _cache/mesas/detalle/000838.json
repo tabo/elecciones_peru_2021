@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45003/SEP/ACPREC4500300083893.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110917Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f7338762b6675b7a7b23df0b81f4b487c398fd5dbc7b979b40ea938cb8979ade",
+            "presidencial": {
+                "CCENT_COMPU": "C45003",
+                "CCODI_UBIGEO": "010702",
+                "CCOPIA_ACTA": "93B",
+                "DEPARTAMENTO": "AMAZONAS",
+                "DISTRITO": "CAJARURO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "UTCUBAMBA",
+                "TDIRE_LOCAL": "JR EL TRIUNFO 241",
+                "TNOMB_LOCAL": "IE 16229",
+                "TOT_CIUDADANOS_VOTARON": 198
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45003",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "000838",
+                    "CNUME_RESOL": "C45003000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001446                                  00641-2021-JEE-BAGU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45003/SEP/RESEPC45003000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110917Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=89c6b290a1fe9ba448113f15c52dc110534a9b1658b960e4f74ffad673a82dec"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "65.152",
+                    "CON_VALIDOS": "69.355",
+                    "NLISTA": "1",
+                    "congresal": "129"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "28.788",
+                    "CON_VALIDOS": "30.645",
+                    "NLISTA": "2",
+                    "congresal": "57"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.939",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "186"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.020",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.040",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.939",
+                    "congresal": "198"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

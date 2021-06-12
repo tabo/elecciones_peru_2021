@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45018/SEP/ACPREC4501800867796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111405Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cf78f6e7e7c9f810a8a74b54d80560e239e2457b9a7b62bf11c3d87ed4bc7840",
+            "presidencial": {
+                "CCENT_COMPU": "C45018",
+                "CCODI_UBIGEO": "040801",
+                "CCOPIA_ACTA": "96B",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "COTAHUASI",
+                "NNUME_HABILM": 277,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LA UNION",
+                "TDIRE_LOCAL": "CALLE PUENTE GRAU 203",
+                "TNOMB_LOCAL": "40167 MARIA AUXILIADORA",
+                "TOT_CIUDADANOS_VOTARON": 167
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45018",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "008677",
+                    "CNUME_RESOL": "C45018000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002250                                  00132-2021-JEE-CAST/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45018/SEP/RESEPC45018000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111405Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21bb67eaeac0d76600f46d6f38f25a60b175efd4e71181597da0b774d0cc322c"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "77.844",
+                    "CON_VALIDOS": "83.871",
+                    "NLISTA": "1",
+                    "congresal": "130"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.970",
+                    "CON_VALIDOS": "16.129",
+                    "NLISTA": "2",
+                    "congresal": "25"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.814",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "155"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.395",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.790",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.814",
+                    "congresal": "167"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

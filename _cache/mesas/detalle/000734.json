@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45003/SEP/ACPREC4500300073491.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110647Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=90785dd0e3c87b6a8cb1503eb1919606d7fdd1dc77452b01bdc18f34f9625c2c",
+            "presidencial": {
+                "CCENT_COMPU": "C45003",
+                "CCODI_UBIGEO": "010701",
+                "CCOPIA_ACTA": "91O",
+                "DEPARTAMENTO": "AMAZONAS",
+                "DISTRITO": "BAGUA GRANDE",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "UTCUBAMBA",
+                "TDIRE_LOCAL": "JR SAN MIGUEL SN",
+                "TNOMB_LOCAL": "IE N\u00ba 16685",
+                "TOT_CIUDADANOS_VOTARON": 176
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45003",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "000734",
+                    "CNUME_RESOL": "C45003000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001445                                  00640-2021-JEE-BAGU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45003/SEP/RESEPC45003000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110647Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ce2c9634d34f3cf2b7f9f4b7bf5ca8c48198e4a3ab6d648335ef21b49df0be07"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "67.614",
+                    "CON_VALIDOS": "71.687",
+                    "NLISTA": "1",
+                    "congresal": "119"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "26.705",
+                    "CON_VALIDOS": "28.313",
+                    "NLISTA": "2",
+                    "congresal": "47"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.318",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "166"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.682",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.318",
+                    "congresal": "176"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

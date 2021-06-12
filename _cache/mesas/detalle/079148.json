@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45103/SEP/ACPREC4510307914896.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0c1d5cc7e13873920617612e703c603964fefa6f95cf9979a9a58af3d370b313",
+            "presidencial": {
+                "CCENT_COMPU": "C45103",
+                "CCODI_UBIGEO": "250102",
+                "CCOPIA_ACTA": "96L",
+                "DEPARTAMENTO": "UCAYALI",
+                "DISTRITO": "YARINACOCHA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CORONEL PORTILLO",
+                "TDIRE_LOCAL": "AV SAN ALEJANDRO SN",
+                "TNOMB_LOCAL": "UNIVERSIDAD NACIONAL INTERCULTURAL DE LA AMAZONIA",
+                "TOT_CIUDADANOS_VOTARON": 228
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45103",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "079148",
+                    "CNUME_RESOL": "C45103000018",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002165                                  01489-2021-JEE-CPOR/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45103/SEP/RESEPC45103000018.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=06998c070491d81235685b6cd9082d4755f12b2dba8f6da238082ee4ad8b9107"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "44.737",
+                    "CON_VALIDOS": "54.545",
+                    "NLISTA": "1",
+                    "congresal": "102"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "37.281",
+                    "CON_VALIDOS": "45.455",
+                    "NLISTA": "2",
+                    "congresal": "85"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "82.018",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "187"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.316",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "16.667",
+                    "CON_VALIDOS": null,
+                    "congresal": "38"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "82.018",
+                    "congresal": "228"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

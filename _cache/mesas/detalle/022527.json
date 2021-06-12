@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45046/SEP/ACPREC4504602252794.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112217Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3c643b92ec2f143de98aa02aa9fc9658e5922fde98bcfe013d0ffd5c1f9ab166",
+            "presidencial": {
+                "CCENT_COMPU": "C45046",
+                "CCODI_UBIGEO": "110108",
+                "CCOPIA_ACTA": "94A",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "CHILCA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANCAYO",
+                "TDIRE_LOCAL": "JR 28 DE JULIO 999",
+                "TNOMB_LOCAL": "IEP WINNER",
+                "TOT_CIUDADANOS_VOTARON": 235
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45046",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "022527",
+                    "CNUME_RESOL": "C45046000011",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001325                                  00918-2021-JEE-HCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45046/SEP/RESEPC45046000011.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112217Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b2afd73dc9fa84faba4d82a3587af002bba0cb80f4f9354254ea33f5b18e1582"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "62.979",
+                    "CON_VALIDOS": "66.667",
+                    "NLISTA": "1",
+                    "congresal": "148"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "31.489",
+                    "CON_VALIDOS": "33.333",
+                    "NLISTA": "2",
+                    "congresal": "74"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.468",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "222"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.532",
+                    "CON_VALIDOS": null,
+                    "congresal": "13"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.468",
+                    "congresal": "235"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

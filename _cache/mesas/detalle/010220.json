@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45022/SEP/ACPREC4502201022096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115017Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6279df3f00864c7e96f3c615baeb2c6c87e8026a5234d666662e0a5eda2f2410",
+            "presidencial": {
+                "CCENT_COMPU": "C45022",
+                "CCODI_UBIGEO": "051006",
+                "CCOPIA_ACTA": "96U",
+                "DEPARTAMENTO": "AYACUCHO",
+                "DISTRITO": "OYOLO",
+                "NNUME_HABILM": 219,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "PAUCAR DEL SARA SARA",
+                "TDIRE_LOCAL": "AV ANDRES AVELINO CACERES SN",
+                "TNOMB_LOCAL": "IE 24292 MENORES MIXTO",
+                "TOT_CIUDADANOS_VOTARON": 130
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "88.462",
+                    "CON_VALIDOS": "93.496",
+                    "NLISTA": "1",
+                    "congresal": "115"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "6.154",
+                    "CON_VALIDOS": "6.504",
+                    "NLISTA": "2",
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.615",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "123"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.538",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.846",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.615",
+                    "congresal": "130"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45051/SEP/ACPREC4505102970595.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113559Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6d24bea83ceb326997e4b0b988c4db2ef4814f4b5bb05e4182a1c7de201e4fdb",
+            "presidencial": {
+                "CCENT_COMPU": "C45051",
+                "CCODI_UBIGEO": "121001",
+                "CCOPIA_ACTA": "95A",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "JULCAN",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "JULCAN",
+                "TDIRE_LOCAL": "JR CIRO ALEGRIA SN",
+                "TNOMB_LOCAL": "266 NI\u00d1O JESUS",
+                "TOT_CIUDADANOS_VOTARON": 217
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45051",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "029705",
+                    "CNUME_RESOL": "C45051000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001959                                  01210-2021-JEE-TRUJ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45051/SEP/RESEPC45051000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113559Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=25dd1d37649c68181942bfc21852e700c60d635cac7bc6f67bcc22473fc34525"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "48.387",
+                    "CON_VALIDOS": "51.471",
+                    "NLISTA": "1",
+                    "congresal": "105"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "45.622",
+                    "CON_VALIDOS": "48.529",
+                    "NLISTA": "2",
+                    "congresal": "99"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.009",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "204"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.922",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.069",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.009",
+                    "congresal": "217"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

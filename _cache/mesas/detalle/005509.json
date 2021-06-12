@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45014/SEP/ACPREC4501400550995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111729Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=abf0b8406204ef6a77e9243741196b5112cd1b9ab52cb1969cd1384df09d95a5",
+            "presidencial": {
+                "CCENT_COMPU": "C45014",
+                "CCODI_UBIGEO": "040103",
+                "CCOPIA_ACTA": "95A",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "CERRO COLORADO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "AREQUIPA",
+                "TDIRE_LOCAL": "AV AVIACI\u00d3N KM 7 Y MEDIO PUEBLO TRADICIONAL DE ZAMACOLA",
+                "TNOMB_LOCAL": "I.E.P. BRUNING HANS HEIMBRICH",
+                "TOT_CIUDADANOS_VOTARON": 214
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45014",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "005509",
+                    "CNUME_RESOL": "C45014000005",
+                    "CNUME_RESOL_JNE": "2021001139                                        01385-2021-JEE-AQP1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45014/SEP/RESEPC45014000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111729Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ee19f7db8bc61a624099f73f532f315164573fb1699ab0ac41c89fc175374078"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "23.364",
+                    "CON_VALIDOS": "61.728",
+                    "NLISTA": "1",
+                    "congresal": "50"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.486",
+                    "CON_VALIDOS": "38.272",
+                    "NLISTA": "2",
+                    "congresal": "31"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "37.850",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "81"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.935",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "61.215",
+                    "CON_VALIDOS": null,
+                    "congresal": "131"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "37.850",
+                    "congresal": "214"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

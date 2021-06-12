@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45011/SEP/ACPREC4501100396894.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112724Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8f34fb62eb89a3e214ceaad0c208ba8b33bf6e6ea88500aa712e0272409fbedb",
+            "presidencial": {
+                "CCENT_COMPU": "C45011",
+                "CCODI_UBIGEO": "030103",
+                "CCOPIA_ACTA": "94G",
+                "DEPARTAMENTO": "APURIMAC",
+                "DISTRITO": "CURAHUASI",
+                "NNUME_HABILM": 277,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "ABANCAY",
+                "TDIRE_LOCAL": "JR AUGUSTO B LEGUIA SN",
+                "TNOMB_LOCAL": "IE 55004 VIRGEN DE FATIMA",
+                "TOT_CIUDADANOS_VOTARON": 190
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "58.947",
+                    "CON_VALIDOS": "63.636",
+                    "NLISTA": "1",
+                    "congresal": "112"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "33.684",
+                    "CON_VALIDOS": "36.364",
+                    "NLISTA": "2",
+                    "congresal": "64"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.632",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "176"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.053",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.316",
+                    "CON_VALIDOS": null,
+                    "congresal": "12"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.632",
+                    "congresal": "190"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

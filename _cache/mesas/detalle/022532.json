@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45046/SEP/ACPREC4504602253297.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112152Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=303a3e5a1d1ef71506212c6bb4316daf9f24ae1100261a3e72a01fcd9c0283c4",
+            "presidencial": {
+                "CCENT_COMPU": "C45046",
+                "CCODI_UBIGEO": "110108",
+                "CCOPIA_ACTA": "97U",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "CHILCA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANCAYO",
+                "TDIRE_LOCAL": "JR 28 DE JULIO 1232",
+                "TNOMB_LOCAL": "IEP LA CANTUTA",
+                "TOT_CIUDADANOS_VOTARON": 240
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45046",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "022532",
+                    "CNUME_RESOL": "C45046000013",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001323                                  00902-2021-JEE-HCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45046/SEP/RESEPC45046000013.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112152Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=11fb320e723070cfd3e2ab27e9370785de84a7f2ccc3c800438c8b6eb1ccc874"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "56.667",
+                    "CON_VALIDOS": "62.100",
+                    "NLISTA": "1",
+                    "congresal": "136"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "34.583",
+                    "CON_VALIDOS": "37.900",
+                    "NLISTA": "2",
+                    "congresal": "83"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.250",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "219"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.083",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.667",
+                    "CON_VALIDOS": null,
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.250",
+                    "congresal": "240"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

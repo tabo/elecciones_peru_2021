@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45087/SEP/ACPREC4508706388892.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113311Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=414fc839c0281d57e1387e32b31f645ea9f1c375e98a1c1dde00d30a9b013ab6",
+            "presidencial": {
+                "CCENT_COMPU": "C45087",
+                "CCODI_UBIGEO": "170301",
+                "CCOPIA_ACTA": "92V",
+                "DEPARTAMENTO": "MOQUEGUA",
+                "DISTRITO": "ILO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ILO",
+                "TDIRE_LOCAL": "PRL CALLAO 1106",
+                "TNOMB_LOCAL": "IEP RICARDO PALMA",
+                "TOT_CIUDADANOS_VOTARON": 241
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45087",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "063888",
+                    "CNUME_RESOL": "C45087000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002128                                  00513-2021-JEE-MNIE/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45087/SEP/RESEPC45087000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113311Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eb9fa0b5073ab8d61ceb967f80229b2ccc83afef780d5d53287a8b794e11a12d"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "58.506",
+                    "CON_VALIDOS": "60.776",
+                    "NLISTA": "1",
+                    "congresal": "141"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "37.759",
+                    "CON_VALIDOS": "39.224",
+                    "NLISTA": "2",
+                    "congresal": "91"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.266",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "232"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.734",
+                    "CON_VALIDOS": null,
+                    "congresal": "9"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.266",
+                    "congresal": "241"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

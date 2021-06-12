@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45040/SEP/ACPREC4504001837192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120922Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=59c1e134996003dbe7d13b8f412db83e75cc1af223b5a960bff382162187c4f2",
+            "presidencial": {
+                "CCENT_COMPU": "C45040",
+                "CCODI_UBIGEO": "090108",
+                "CCOPIA_ACTA": "92U",
+                "DEPARTAMENTO": "HUANUCO",
+                "DISTRITO": "SANTA MARIA DEL VALLE",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANUCO",
+                "TDIRE_LOCAL": "JR LIBERTAD SN",
+                "TNOMB_LOCAL": "IE JORGE BASADRE PRIMARIA",
+                "TOT_CIUDADANOS_VOTARON": 218
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45040",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "018371",
+                    "CNUME_RESOL": "C45040000006",
+                    "CNUME_RESOL_JNE": "SEPEG. 2021001340                                 00724-2021-JEE-HNCO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45040/SEP/RESEPC45040000006.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120922Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=08febc0b5320e7a4bd0bff26e84d651964e3a0a6580b2c339c0192e295081374"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "51.835",
+                    "CON_VALIDOS": "94.958",
+                    "NLISTA": "1",
+                    "congresal": "113"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "2.752",
+                    "CON_VALIDOS": "5.042",
+                    "NLISTA": "2",
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "54.587",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "119"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.835",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "43.578",
+                    "CON_VALIDOS": null,
+                    "congresal": "95"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "54.587",
+                    "congresal": "218"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

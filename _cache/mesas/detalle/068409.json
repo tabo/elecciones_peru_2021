@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45092/SEP/ACPREC4509206840996.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110806Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3f0540068524572910fa2578b2d362a0b649ca50c8e696ccd830222d5e82083e",
+            "presidencial": {
+                "CCENT_COMPU": "C45092",
+                "CCODI_UBIGEO": "190602",
+                "CCOPIA_ACTA": "96D",
+                "DEPARTAMENTO": "PIURA",
+                "DISTRITO": "BELLAVISTA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "SULLANA",
+                "TDIRE_LOCAL": "CALLE MADRE DE DIOS 600",
+                "TNOMB_LOCAL": "IE 14793 LUCIANO CASTILLO COLONNA",
+                "TOT_CIUDADANOS_VOTARON": 237
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45092",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "068409",
+                    "CNUME_RESOL": "C45092000003",
+                    "CNUME_RESOL_JNE": "EG.2021001202                                     890-2021-JEE-SULLANA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45092/SEP/RESEPC45092000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110806Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e9a366e0c024ab5686d0cdec28628c1e457231428d372a0a4290cabb00d00512"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "17.300",
+                    "CON_VALIDOS": "18.636",
+                    "NLISTA": "1",
+                    "congresal": "41"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "75.527",
+                    "CON_VALIDOS": "81.364",
+                    "NLISTA": "2",
+                    "congresal": "179"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.827",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "220"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.422",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.751",
+                    "CON_VALIDOS": null,
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.827",
+                    "congresal": "237"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

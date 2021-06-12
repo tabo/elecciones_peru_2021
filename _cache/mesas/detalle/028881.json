@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45055/SEP/ACPREC4505502888196.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111945Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd3d9563f172bc200ce0c2658bf9a8ad5949730dae4dcd2ed8e1ffaf75af76ab",
+            "presidencial": {
+                "CCENT_COMPU": "C45055",
+                "CCODI_UBIGEO": "120603",
+                "CCOPIA_ACTA": "96P",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "CHILLIA",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "PATAZ",
+                "TDIRE_LOCAL": "ANEXO CARHUACOCHA",
+                "TNOMB_LOCAL": "IE 80436 VIRGEN DEL ROSARIO",
+                "TOT_CIUDADANOS_VOTARON": 202
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45055",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "028881",
+                    "CNUME_RESOL": "C45055000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002319                                  01233-2021-JEE-SCAR/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45055/SEP/RESEPC45055000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111945Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=64b55c05b444088fca66e3cb1d08e59fcd7f4ce602532d915c2bf90c0e6beb2b"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "58.416",
+                    "CON_VALIDOS": "62.766",
+                    "NLISTA": "1",
+                    "congresal": "118"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "34.653",
+                    "CON_VALIDOS": "37.234",
+                    "NLISTA": "2",
+                    "congresal": "70"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.069",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "188"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.970",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.960",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.069",
+                    "congresal": "202"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45045/SEP/ACPREC4504502118894.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161414Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=92f4d5814a02bdf6a6bf6f164a5adb6fdf0647b3b964a49fd7ee1da71286bd2e",
+            "presidencial": {
+                "CCENT_COMPU": "C45045",
+                "CCODI_UBIGEO": "100205",
+                "CCOPIA_ACTA": "94S",
+                "DEPARTAMENTO": "ICA",
+                "DISTRITO": "GROCIO PRADO",
+                "NNUME_HABILM": 293,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHINCHA",
+                "TDIRE_LOCAL": "CALLE SAN JUAN 245",
+                "TNOMB_LOCAL": "IE 22253 JOSE ANTONIO ENCINAS",
+                "TOT_CIUDADANOS_VOTARON": 248
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45045",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "021188",
+                    "CNUME_RESOL": "C45045000014",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002049                                  02571-2021-JEE-ICA0/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45045/SEP/RESEPC45045000014.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161414Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a52f3dd71a3880f41fbe1142557d3148ade3ba428663c6d5ce6945672a4914c9"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "50.806",
+                    "CON_VALIDOS": "54.545",
+                    "NLISTA": "1",
+                    "congresal": "126"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "42.339",
+                    "CON_VALIDOS": "45.455",
+                    "NLISTA": "2",
+                    "congresal": "105"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "93.145",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "231"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.403",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.452",
+                    "CON_VALIDOS": null,
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "93.145",
+                    "congresal": "248"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

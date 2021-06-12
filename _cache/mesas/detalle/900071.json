@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45002/SEP/ACPREC4500290007195.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a01e9a98d0127f8c77aa3dc776ebb9e886c059bffae9396cfc55007d82ee061e",
+            "presidencial": {
+                "CCENT_COMPU": "C45002",
+                "CCODI_UBIGEO": "010419",
+                "CCOPIA_ACTA": "95B",
+                "DEPARTAMENTO": "AMAZONAS",
+                "DISTRITO": "SANTA CATALINA",
+                "NNUME_HABILM": 250,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "LUYA",
+                "TDIRE_LOCAL": "JR SANTA ROSA SN",
+                "TNOMB_LOCAL": "IE 18266 YURI RANGEL GOMEZ",
+                "TOT_CIUDADANOS_VOTARON": 181
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "44.751",
+                    "CON_VALIDOS": "46.023",
+                    "NLISTA": "1",
+                    "congresal": "81"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "52.486",
+                    "CON_VALIDOS": "53.977",
+                    "NLISTA": "2",
+                    "congresal": "95"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.238",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "176"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.552",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.210",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.238",
+                    "congresal": "181"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

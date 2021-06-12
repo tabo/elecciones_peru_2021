@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45029/SEP/ACPREC4502907666495.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111503Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=85c87d0b3830ce9ab4abfe08b9ca4077c1d14de581d697589d2622eb69535481",
+            "presidencial": {
+                "CCENT_COMPU": "C45029",
+                "CCODI_UBIGEO": "240101",
+                "CCOPIA_ACTA": "95A",
+                "DEPARTAMENTO": "CALLAO",
+                "DISTRITO": "CALLAO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CALLAO",
+                "TDIRE_LOCAL": "CALLE ALAMEDA DE LOS MISIONEROS SN",
+                "TNOMB_LOCAL": "IE 5080 SOR ANA DE LOS ANGELES",
+                "TOT_CIUDADANOS_VOTARON": 271
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45029",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "076664",
+                    "CNUME_RESOL": "C45029000021",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001798                                  02407-2021-JEE-CALL/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45029/SEP/RESEPC45029000021.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111503Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=395dc4426a17fa32a581601a2956fa7dcfff710af34b7b9feba68ffec144af0b"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "27.306",
+                    "CON_VALIDOS": "28.682",
+                    "NLISTA": "1",
+                    "congresal": "74"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "67.897",
+                    "CON_VALIDOS": "71.318",
+                    "NLISTA": "2",
+                    "congresal": "184"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.203",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "258"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.797",
+                    "CON_VALIDOS": null,
+                    "congresal": "13"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.203",
+                    "congresal": "271"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

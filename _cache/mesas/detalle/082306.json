@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808230692.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bf31ea5add9485db31b88c5f45557289fd09d8211bf8a5673f465fda44015927",
+            "presidencial": {
+                "CCENT_COMPU": "C45058",
+                "CCODI_UBIGEO": "930726",
+                "CCOPIA_ACTA": "92B",
+                "DEPARTAMENTO": "ASIA",
+                "DISTRITO": "SHIZUOKA",
+                "NNUME_HABILM": 276,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "JAPON",
+                "TDIRE_LOCAL": "111-1 ITAYAMACHI, NAKA, HAMAMATSU, SHIZUOKA 430-7790",
+                "TNOMB_LOCAL": "ACT CITY HAMAMATSU",
+                "TOT_CIUDADANOS_VOTARON": 106
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082306",
+                    "CNUME_RESOL": "C45058000030",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002394                                  06480-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "6.604",
+                    "CON_VALIDOS": "7.000",
+                    "NLISTA": "1",
+                    "congresal": "7"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "87.736",
+                    "CON_VALIDOS": "93.000",
+                    "NLISTA": "2",
+                    "congresal": "93"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.340",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "5.660",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.340",
+                    "congresal": "106"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

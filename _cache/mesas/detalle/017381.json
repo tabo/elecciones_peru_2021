@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45037/SEP/ACPREC4503701738194.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110406Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e42ce9940def39afb08796469d9a5a12d67d1cbee1e10fb2d7565a2fa22c01e2",
+            "presidencial": {
+                "CCENT_COMPU": "C45037",
+                "CCODI_UBIGEO": "080202",
+                "CCOPIA_ACTA": "94G",
+                "DEPARTAMENTO": "HUANCAVELICA",
+                "DISTRITO": "ANTA",
+                "NNUME_HABILM": 291,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ACOBAMBA",
+                "TDIRE_LOCAL": "AV ELVIRO CALDERON SN",
+                "TNOMB_LOCAL": "IE CIRO ALEGRIA BAZAN",
+                "TOT_CIUDADANOS_VOTARON": 175
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45037",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "017381",
+                    "CNUME_RESOL": "C45037000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001433                                  00911-2021-JEE-HVCA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45037/SEP/RESEPC45037000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110406Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5a2060dbcd0e38e968519a8b3b3bc352050aafaf5a4992d887d7489467061520"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "70.857",
+                    "CON_VALIDOS": "77.500",
+                    "NLISTA": "1",
+                    "congresal": "124"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "20.571",
+                    "CON_VALIDOS": "22.500",
+                    "NLISTA": "2",
+                    "congresal": "36"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.429",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "160"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.571",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "8.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.429",
+                    "congresal": "175"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

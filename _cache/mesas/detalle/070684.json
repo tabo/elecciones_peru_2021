@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45096/SEP/ACPREC4509607068497.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121907Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3c5f83425d1c6926403edb4ac7627c3b1e2a2107a3769bac2221047a3af4b7b7",
+            "presidencial": {
+                "CCENT_COMPU": "C45096",
+                "CCODI_UBIGEO": "200508",
+                "CCOPIA_ACTA": "97V",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "TARACO",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANCANE",
+                "TDIRE_LOCAL": "JR 2 DE MAYO 541",
+                "TNOMB_LOCAL": "IES TARACO",
+                "TOT_CIUDADANOS_VOTARON": 268
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45096",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "070684",
+                    "CNUME_RESOL": "C45096000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001420                                  00959-2021-JEE-SROM/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45096/SEP/RESEPC45096000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121907Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1050f6f4c92f943257175c11a8ea4cde7fd2e6167d3dbac3bb6cb13b2a82ab31"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "85.821",
+                    "CON_VALIDOS": "89.494",
+                    "NLISTA": "1",
+                    "congresal": "230"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "10.075",
+                    "CON_VALIDOS": "10.506",
+                    "NLISTA": "2",
+                    "congresal": "27"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.896",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "257"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.373",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.731",
+                    "CON_VALIDOS": null,
+                    "congresal": "10"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.896",
+                    "congresal": "268"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

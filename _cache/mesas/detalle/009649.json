@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45019/SEP/ACPREC4501900964994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121055Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=45674d33258161f26a084ba1400d1bcc8ac061db40228f9a99c7a66372399d44",
+            "presidencial": {
+                "CCENT_COMPU": "C45019",
+                "CCODI_UBIGEO": "050307",
+                "CCOPIA_ACTA": "94D",
+                "DEPARTAMENTO": "AYACUCHO",
+                "DISTRITO": "SANTILLANA",
+                "NNUME_HABILM": 282,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANTA",
+                "TDIRE_LOCAL": "JR 28 DE JULIO SN",
+                "TNOMB_LOCAL": "IE 38285/MX-P SAGRADO CORAZON DE JESUS",
+                "TOT_CIUDADANOS_VOTARON": 169
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45019",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "009649",
+                    "CNUME_RESOL": "C45019000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002328                                  00722-2021-JEE-HMGA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45019/SEP/RESEPC45019000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121055Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7fa18f368b3071b11ecd867adc6c68bffa8055ec58e04607b2d8d1fd436622e5"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "93.491",
+                    "CON_VALIDOS": "96.933",
+                    "NLISTA": "1",
+                    "congresal": "158"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "2.959",
+                    "CON_VALIDOS": "3.067",
+                    "NLISTA": "2",
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.450",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "163"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.592",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.959",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.450",
+                    "congresal": "169"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

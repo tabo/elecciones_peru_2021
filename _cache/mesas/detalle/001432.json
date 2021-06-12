@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45004/SEP/ACPREC4500400143292.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111120Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0a0eeddcc9c1000d7e82f3a5052ff8c3fc5eb34d1c7b961389791b97a062ec12",
+            "presidencial": {
+                "CCENT_COMPU": "C45004",
+                "CCODI_UBIGEO": "020401",
+                "CCOPIA_ACTA": "92K",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "CARHUAZ",
+                "NNUME_HABILM": 289,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CARHUAZ",
+                "TDIRE_LOCAL": "JR UNION SN",
+                "TNOMB_LOCAL": "IE 86269 MARIA AUXILIADORA",
+                "TOT_CIUDADANOS_VOTARON": 239
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45004",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "001432",
+                    "CNUME_RESOL": "C45004000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001406                                  00772-2021-JEE-HRAZ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45004/SEP/RESEPC45004000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111120Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9c7ddcd34f574508866390eb75b475ed53a20d98739522177715ad0abfe77b41"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "66.109",
+                    "CON_VALIDOS": "71.818",
+                    "NLISTA": "1",
+                    "congresal": "158"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "25.941",
+                    "CON_VALIDOS": "28.182",
+                    "NLISTA": "2",
+                    "congresal": "62"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "92.050",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "220"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.255",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.695",
+                    "CON_VALIDOS": null,
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "92.050",
+                    "congresal": "239"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

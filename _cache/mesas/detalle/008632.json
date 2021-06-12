@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45014/SEP/ACPREC4501400863294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111243Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=62cc0a3a467e2f0e7963b1cd7871b68da709740f1da3fe55aa0996eb4347df0f",
+            "presidencial": {
+                "CCENT_COMPU": "C45014",
+                "CCODI_UBIGEO": "040703",
+                "CCOPIA_ACTA": "94L",
+                "DEPARTAMENTO": "AREQUIPA",
+                "DISTRITO": "DEAN VALDIVIA",
+                "NNUME_HABILM": 287,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "ISLAY",
+                "TDIRE_LOCAL": "AV PROLONGACION GUARDIOLA SN",
+                "TNOMB_LOCAL": "FRANCISCO LOPEZ DE ROMA\u00d1A",
+                "TOT_CIUDADANOS_VOTARON": 244
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45014",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "008632",
+                    "CNUME_RESOL": "C45014000015",
+                    "CNUME_RESOL_JNE": "2021001130                                        01414-2021-JEE-AQP1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45014/SEP/RESEPC45014000015.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111243Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ed6c0ee15a117df9bef9ba4af3be7d68b7624580a7360daed91246f3e659d160"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "84.016",
+                    "CON_VALIDOS": "86.498",
+                    "NLISTA": "1",
+                    "congresal": "205"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "13.115",
+                    "CON_VALIDOS": "13.502",
+                    "NLISTA": "2",
+                    "congresal": "32"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.131",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "237"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.410",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.459",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.131",
+                    "congresal": "244"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

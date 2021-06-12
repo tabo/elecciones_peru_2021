@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45042/SEP/ACPREC4504201891192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T115839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=09374d44a7ad757573acaba0b82234a6b07012d060c206ec538ccb3b320d6d45",
+            "presidencial": {
+                "CCENT_COMPU": "C45042",
+                "CCODI_UBIGEO": "090317",
+                "CCOPIA_ACTA": "92B",
+                "DEPARTAMENTO": "HUANUCO",
+                "DISTRITO": "RIPAN",
+                "NNUME_HABILM": 286,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "DOS DE MAYO",
+                "TDIRE_LOCAL": "JR SAN ANTONIO SN",
+                "TNOMB_LOCAL": "IESPP HERMILIO VALDIZAN",
+                "TOT_CIUDADANOS_VOTARON": 185
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45042",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "018911",
+                    "CNUME_RESOL": "C45042000004",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001272                                  00316-2021-JEE-HMLS/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45042/SEP/RESEPC45042000004.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T115839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8a7ddd423438b00a96f647dccc783f99d1c533486bec70993a48094ed138d9af"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "66.486",
+                    "CON_VALIDOS": "68.333",
+                    "NLISTA": "1",
+                    "congresal": "123"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "30.811",
+                    "CON_VALIDOS": "31.667",
+                    "NLISTA": "2",
+                    "congresal": "57"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.297",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "180"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.703",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.297",
+                    "congresal": "185"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

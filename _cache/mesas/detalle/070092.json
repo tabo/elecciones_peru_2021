@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45095/SEP/ACPREC4509507009294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8d59a86ad813d444494d6cd06e5ade0060bb963e7a30e2f91ac50efdbdfb9b9",
+            "presidencial": {
+                "CCENT_COMPU": "C45095",
+                "CCODI_UBIGEO": "200208",
+                "CCOPIA_ACTA": "94K",
+                "DEPARTAMENTO": "PUNO",
+                "DISTRITO": "MU\u00d1ANI",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "AZANGARO",
+                "TDIRE_LOCAL": "JR SANCHEZ CERRO 212",
+                "TNOMB_LOCAL": "IEP 72131",
+                "TOT_CIUDADANOS_VOTARON": 263
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45095",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "070092",
+                    "CNUME_RESOL": "C45095000005",
+                    "CNUME_RESOL_JNE": "2021001101                                        00961-2021-JEE-SROMIJNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45095/SEP/RESEPC45095000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f5a20b187f9eee5917471c4451f5acc918fb6d9f9033abce8362ff2e09410724"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "88.973",
+                    "CON_VALIDOS": "93.600",
+                    "NLISTA": "1",
+                    "congresal": "234"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "6.084",
+                    "CON_VALIDOS": "6.400",
+                    "NLISTA": "2",
+                    "congresal": "16"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.057",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "250"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.760",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.183",
+                    "CON_VALIDOS": null,
+                    "congresal": "11"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.057",
+                    "congresal": "263"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

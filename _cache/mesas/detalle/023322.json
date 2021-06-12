@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45046/SEP/ACPREC4504602332296.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115343Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=62e6dbeba33894f45bd014bee94f804f810a4603021af805b22090c73f725b18",
+            "presidencial": {
+                "CCENT_COMPU": "C45046",
+                "CCODI_UBIGEO": "110123",
+                "CCOPIA_ACTA": "96V",
+                "DEPARTAMENTO": "JUNIN",
+                "DISTRITO": "PILCOMAYO",
+                "NNUME_HABILM": 294,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUANCAYO",
+                "TDIRE_LOCAL": "AV LAS AMERICAS Y AV MARISCAL CACERES SN",
+                "TNOMB_LOCAL": "ESTADIO PATARCOCHA",
+                "TOT_CIUDADANOS_VOTARON": 233
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45046",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "023322",
+                    "CNUME_RESOL": "C45046000015",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001321                                  00906-2021-JEE-HCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45046/SEP/RESEPC45046000015.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115343Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=65f1517622a5441716bcbf47735522edd8cb83218d63b17b5b3608640f68218e"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "62.232",
+                    "CON_VALIDOS": "64.444",
+                    "NLISTA": "1",
+                    "congresal": "145"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "34.335",
+                    "CON_VALIDOS": "35.556",
+                    "NLISTA": "2",
+                    "congresal": "80"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.567",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "225"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "3.433",
+                    "CON_VALIDOS": null,
+                    "congresal": "8"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.567",
+                    "congresal": "233"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

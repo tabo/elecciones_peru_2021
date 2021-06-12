@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45081/SEP/ACPREC4508190240094.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=db3aef23e151a98a6f3513372ca320eb230aa28d65b5eb310be3b40da129d1d5",
+            "presidencial": {
+                "CCENT_COMPU": "C45081",
+                "CCODI_UBIGEO": "150301",
+                "CCOPIA_ACTA": "94A",
+                "DEPARTAMENTO": "LORETO",
+                "DISTRITO": "NAUTA",
+                "NNUME_HABILM": 266,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LORETO",
+                "TDIRE_LOCAL": "CALLE WOSTER SALINAS SAAVEDRA SN",
+                "TNOMB_LOCAL": "IEPS 60540 WOSTER SALINAS SAAVEDRA",
+                "TOT_CIUDADANOS_VOTARON": 132
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45081",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "902400",
+                    "CNUME_RESOL": "C45081000001",
+                    "CNUME_RESOL_JNE": "EG.2021002192                                     01440-2021-JEE-MAYN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45081/SEP/RESEPC45081000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dd21f446c0a2ba1512c13c7909fe5d18795716baf80b2c313608ef70ae403fd0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "25.000",
+                    "CON_VALIDOS": "25.984",
+                    "NLISTA": "1",
+                    "congresal": "33"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "71.212",
+                    "CON_VALIDOS": "74.016",
+                    "NLISTA": "2",
+                    "congresal": "94"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "96.212",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "127"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.515",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.273",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "96.212",
+                    "congresal": "132"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

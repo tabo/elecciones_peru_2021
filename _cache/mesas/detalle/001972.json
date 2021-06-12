@@ -1,0 +1,97 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45010/SEP/ACPREC4501000197293.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120412Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e1b2a50ae4b240c2777d1a9127c36b45f9605af27ae90e61fde773f2c89554ed",
+            "presidencial": {
+                "CCENT_COMPU": "C45010",
+                "CCODI_UBIGEO": "020813",
+                "CCOPIA_ACTA": "93U",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "SAN MARCOS",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUARI",
+                "TDIRE_LOCAL": "AV ESCOLAR SN",
+                "TNOMB_LOCAL": "86380",
+                "TOT_CIUDADANOS_VOTARON": 300
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45010",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "001972",
+                    "CNUME_RESOL": "C45010000002",
+                    "CNUME_RESOL_JNE": "000026-2021-ODPE-HUARI-SEP2021/ONPE",
+                    "CPROCED_RESOL": "OM",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45010/SEP/RESEPC45010000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120412Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=935b36e292e09a635495d575b2cb2e04eabe77e4a1b99ce1aa1896e119b3c51c"
+                },
+                {
+                    "CCENT_COMPU": "C45010",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "001972",
+                    "CNUME_RESOL": "C45010000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002740                                  00353-2021-JEE-HUARI/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45010/SEP/RESEPC45010000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120412Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4eb9b7d6c477128a30a46e6896da22d93dfb73fc58633fab3987f1d5f59620de"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "1",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "2",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "300"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "300"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

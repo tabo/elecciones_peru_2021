@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45055/SEP/ACPREC4505502895695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113849Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f4eb50a648821bad7dceaf564aa3502dfe42549b26585a4a5a4752e071902cf",
+            "presidencial": {
+                "CCENT_COMPU": "C45055",
+                "CCODI_UBIGEO": "120608",
+                "CCOPIA_ACTA": "95U",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "PARCOY",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "PATAZ",
+                "TDIRE_LOCAL": "JR SAN MARTIN SN",
+                "TNOMB_LOCAL": "IE 80454 ANDRES AVELINO CACERES",
+                "TOT_CIUDADANOS_VOTARON": 300
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45055",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "028956",
+                    "CNUME_RESOL": "C45055000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002318                                  01223-2021-JEE-SCAR/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45055/SEP/RESEPC45055000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113849Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2049681fe9bf66a1215d8317899ca4d9e6229e0c6ef3ae1c09200175c07b8792"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "1",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "NLISTA": "2",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "300"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "300"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

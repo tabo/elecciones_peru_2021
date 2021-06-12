@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45042/SEP/ACPREC4504201970092.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112412Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=186e64973e8fe1923836747c7ac87fd7a4ee845b9af7fb233ab7fd3d46f83f24",
+            "presidencial": {
+                "CCENT_COMPU": "C45042",
+                "CCODI_UBIGEO": "090904",
+                "CCOPIA_ACTA": "92U",
+                "DEPARTAMENTO": "HUANUCO",
+                "DISTRITO": "COCHABAMBA",
+                "NNUME_HABILM": 267,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "HUACAYBAMBA",
+                "TDIRE_LOCAL": "JR HUANUCO SN",
+                "TNOMB_LOCAL": "IE JOSE CARLOS MARIATEGUI",
+                "TOT_CIUDADANOS_VOTARON": 121
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45042",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "019700",
+                    "CNUME_RESOL": "C45042000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001270                                  00313-2021-JEE-HMLS/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45042/SEP/RESEPC45042000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112412Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=01e7eb44ee3afb03e165b0b04f67f36123f1f88801acd4b608382531ab6f7fe5"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "80.165",
+                    "CON_VALIDOS": "80.833",
+                    "NLISTA": "1",
+                    "congresal": "97"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "19.008",
+                    "CON_VALIDOS": "19.167",
+                    "NLISTA": "2",
+                    "congresal": "23"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "99.174",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "120"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.826",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "99.174",
+                    "congresal": "121"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

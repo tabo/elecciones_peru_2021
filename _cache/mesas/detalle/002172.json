@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45005/SEP/ACPREC4500500217294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112647Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a58cfd1c9930e53dc8439eb996c0676309e38ecc95ce9e02587730f6af5a45b1",
+            "presidencial": {
+                "CCENT_COMPU": "C45005",
+                "CCODI_UBIGEO": "021202",
+                "CCOPIA_ACTA": "94L",
+                "DEPARTAMENTO": "ANCASH",
+                "DISTRITO": "COTAPARACO",
+                "NNUME_HABILM": 251,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "RECUAY",
+                "TDIRE_LOCAL": "KM 0 CARRETERA COTAPARACO RECUAY",
+                "TNOMB_LOCAL": "IE 86574 SAN PABLO",
+                "TOT_CIUDADANOS_VOTARON": 166
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45005",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "002172",
+                    "CNUME_RESOL": "C45005000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001216                                  00765-2021-JEE-HRAZ/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45005/SEP/RESEPC45005000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112647Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d32b4e9e7df2dc5953a17431bad5999885e4aef9ce134d1034b979abdebea08"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "57.229",
+                    "CON_VALIDOS": "58.282",
+                    "NLISTA": "1",
+                    "congresal": "95"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "40.964",
+                    "CON_VALIDOS": "41.718",
+                    "NLISTA": "2",
+                    "congresal": "68"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "98.193",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "163"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.602",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.205",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "98.193",
+                    "congresal": "166"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45002/SEP/ACPREC4500290005991.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114956Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6a11a40184171aea5187d9198f00c9ab4a8ce7e215ca5aed30a0d7759488f6ed",
+            "presidencial": {
+                "CCENT_COMPU": "C45002",
+                "CCODI_UBIGEO": "010413",
+                "CCOPIA_ACTA": "91L",
+                "DEPARTAMENTO": "AMAZONAS",
+                "DISTRITO": "OCUMAL",
+                "NNUME_HABILM": 224,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "LUYA",
+                "TDIRE_LOCAL": "AV PRINCIPAL CHUQUIMAL SN",
+                "TNOMB_LOCAL": "IE N\u00ba 18154 AUGUSTO SALAZAR BONDY - PRIMARIO",
+                "TOT_CIUDADANOS_VOTARON": 224
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45002",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "900059",
+                    "CNUME_RESOL": "C45002000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002182                                  00281-2021-JEE-CHAC/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45002/SEP/RESEPC45002000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114956Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2c9d58ffa071c5b6ddc72651c62693036138f4253a6747fd6bae7873f88994f4"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "34.821",
+                    "CON_VALIDOS": "47.561",
+                    "NLISTA": "1",
+                    "congresal": "78"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "38.393",
+                    "CON_VALIDOS": "52.439",
+                    "NLISTA": "2",
+                    "congresal": "86"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "73.214",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "164"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.893",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "25.893",
+                    "CON_VALIDOS": null,
+                    "congresal": "58"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "73.214",
+                    "congresal": "224"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

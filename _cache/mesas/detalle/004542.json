@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45012/SEP/ACPREC4501200454297.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112702Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b2ca2be7503284534c7459a64af6ed43888c447faa4242f9c36d6cec58d8c376",
+            "presidencial": {
+                "CCENT_COMPU": "C45012",
+                "CCODI_UBIGEO": "030502",
+                "CCOPIA_ACTA": "97V",
+                "DEPARTAMENTO": "APURIMAC",
+                "DISTRITO": "COYLLURQUI",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "ACTA SIN FIRMAS",
+                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "PROVINCIA": "COTABAMBAS",
+                "TDIRE_LOCAL": "AV JOSE CARLOS MARIATEGUI SN",
+                "TNOMB_LOCAL": "ISPP COYLLURQUI",
+                "TOT_CIUDADANOS_VOTARON": 173
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45012",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "004542",
+                    "CNUME_RESOL": "C45012000001",
+                    "CNUME_RESOL_JNE": "000007-2021-ODPEGRAU-SEP2021/ONPE",
+                    "CPROCED_RESOL": "OM",
+                    "IMAGEN": "0"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "80.925",
+                    "CON_VALIDOS": "84.848",
+                    "NLISTA": "1",
+                    "congresal": "140"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "14.451",
+                    "CON_VALIDOS": "15.152",
+                    "NLISTA": "2",
+                    "congresal": "25"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "95.376",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "165"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.734",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.890",
+                    "CON_VALIDOS": null,
+                    "congresal": "5"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "95.376",
+                    "congresal": "173"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

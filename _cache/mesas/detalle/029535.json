@@ -1,0 +1,97 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45053/SEP/ACPREC4505302953594.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111937Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c1448d0ae4c1a74717d7d3b70e40882e5699cdf4d28506a1ef5f4ca216c561fe",
+            "presidencial": {
+                "CCENT_COMPU": "C45053",
+                "CCODI_UBIGEO": "120901",
+                "CCOPIA_ACTA": "94K",
+                "DEPARTAMENTO": "LA LIBERTAD",
+                "DISTRITO": "CHEPEN",
+                "NNUME_HABILM": 300,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "CHEPEN",
+                "TDIRE_LOCAL": "CALLE GRAU 101",
+                "TNOMB_LOCAL": "IE 81030 CESAR CARRILLO GIL",
+                "TOT_CIUDADANOS_VOTARON": 191
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45053",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "029535",
+                    "CNUME_RESOL": "C45053000008",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001371                                  02036-2021-JEE-PCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45053/SEP/RESEPC45053000008.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111937Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7442acd82a52df1148a1c152ae6d6c05e2c8ad8e512831dfc73ca15eaef5ee70"
+                },
+                {
+                    "CCENT_COMPU": "C45053",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "029535",
+                    "CNUME_RESOL": "C45053000009",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001371                                  02074-2021-JEE-PCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45053/SEP/RESEPC45053000009.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111937Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=61315461f24b4aab05e9a732b0ce842bdef10e2c36b9be52487adf8d6862e565"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "39.267",
+                    "CON_VALIDOS": "42.857",
+                    "NLISTA": "1",
+                    "congresal": "75"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "52.356",
+                    "CON_VALIDOS": "57.143",
+                    "NLISTA": "2",
+                    "congresal": "100"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "91.623",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "175"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.571",
+                    "CON_VALIDOS": null,
+                    "congresal": "3"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "6.806",
+                    "CON_VALIDOS": null,
+                    "congresal": "13"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "91.623",
+                    "congresal": "191"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

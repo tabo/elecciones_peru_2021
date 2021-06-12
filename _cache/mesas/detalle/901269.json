@@ -1,0 +1,78 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45036/SEP/ACPREC4503690126997.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110223Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=af0c1ea0989e0051a6f33ce613ff501648549ef677bd0a4ca5464f1a28a9e70c",
+            "presidencial": {
+                "CCENT_COMPU": "C45036",
+                "CCODI_UBIGEO": "080102",
+                "CCOPIA_ACTA": "97P",
+                "DEPARTAMENTO": "HUANCAVELICA",
+                "DISTRITO": "ACOBAMBILLA",
+                "NNUME_HABILM": 160,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "PROVINCIA": "HUANCAVELICA",
+                "TDIRE_LOCAL": "CALLE SAENZ PE\u00d1A SN",
+                "TNOMB_LOCAL": "MIGUEL GRAU SEMINARIO",
+                "TOT_CIUDADANOS_VOTARON": 123
+            },
+            "resoluciones": [],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "86.179",
+                    "CON_VALIDOS": "88.333",
+                    "NLISTA": "1",
+                    "congresal": "106"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "11.382",
+                    "CON_VALIDOS": "11.667",
+                    "NLISTA": "2",
+                    "congresal": "14"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.561",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "120"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.813",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "1.626",
+                    "CON_VALIDOS": null,
+                    "congresal": "2"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.561",
+                    "congresal": "123"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45027/SEP/ACPREC4502701287597.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115458Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5adc3f7f1552f9c650524f97f7ac23213e6d38cf1b9ea808dc742195fbabb59f",
+            "presidencial": {
+                "CCENT_COMPU": "C45027",
+                "CCODI_UBIGEO": "060805",
+                "CCOPIA_ACTA": "97O",
+                "DEPARTAMENTO": "CAJAMARCA",
+                "DISTRITO": "POMAHUACA",
+                "NNUME_HABILM": 299,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "JAEN",
+                "TDIRE_LOCAL": "CALLE VIDES 107",
+                "TNOMB_LOCAL": "SAN MARTIN DE TOURS",
+                "TOT_CIUDADANOS_VOTARON": 132
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45027",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "012875",
+                    "CNUME_RESOL": "C45027000005",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001426                                  00529-2021-JEE-JAEN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45027/SEP/RESEPC45027000005.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115457Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0451a5eb7cb5acac6a85bb69bbbad3425930e12e4aaff546289b5fe48d3a9350"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "81.061",
+                    "CON_VALIDOS": "85.600",
+                    "NLISTA": "1",
+                    "congresal": "107"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "13.636",
+                    "CON_VALIDOS": "14.400",
+                    "NLISTA": "2",
+                    "congresal": "18"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "94.697",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "125"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.758",
+                    "CON_VALIDOS": null,
+                    "congresal": "1"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "4.545",
+                    "CON_VALIDOS": null,
+                    "congresal": "6"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "94.697",
+                    "congresal": "132"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}

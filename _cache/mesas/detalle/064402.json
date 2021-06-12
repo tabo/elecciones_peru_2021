@@ -1,0 +1,88 @@
+{
+    "procesos": {
+        "asistioNoVoto": "0",
+        "generalPre": {
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45088/SEP/ACPREC4508806440292.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115242Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f2c718a44238fd71d112f87078d7c2b72a56e7c8d022dcbaf2452ad47bf9b9e0",
+            "presidencial": {
+                "CCENT_COMPU": "C45088",
+                "CCODI_UBIGEO": "180204",
+                "CCOPIA_ACTA": "92P",
+                "DEPARTAMENTO": "PASCO",
+                "DISTRITO": "PAUCAR",
+                "NNUME_HABILM": 291,
+                "N_CANDIDATOS": 0,
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
+                "PROVINCIA": "DANIEL ALCIDES CARRION",
+                "TDIRE_LOCAL": "BARRIO PUEBLO JOVEN SN",
+                "TNOMB_LOCAL": "IE 34135 DOS DE MAYO - PAUCAR",
+                "TOT_CIUDADANOS_VOTARON": 150
+            },
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45088",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "064402",
+                    "CNUME_RESOL": "C45088000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001630                                  00748-2021-JEE-PASC/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45088/SEP/RESEPC45088000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T115242Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2b990e68ae06fa13b98c7fe96cd2ac3c55f03e1faf25dfe60661ee1e6bd719bd"
+                }
+            ],
+            "votos": [
+                {
+                    "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+                    "CCODI_AUTO": "00000014",
+                    "CON_EMITIDOS": "80.667",
+                    "CON_VALIDOS": "82.877",
+                    "NLISTA": "1",
+                    "congresal": "121"
+                },
+                {
+                    "AUTORIDAD": "FUERZA POPULAR",
+                    "CCODI_AUTO": "00000007",
+                    "CON_EMITIDOS": "16.667",
+                    "CON_VALIDOS": "17.123",
+                    "NLISTA": "2",
+                    "congresal": "25"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS VALIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "97.333",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "146"
+                },
+                {
+                    "AUTORIDAD": "VOTOS EN BLANCO",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "VOTOS NULOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "2.667",
+                    "CON_VALIDOS": null,
+                    "congresal": "4"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "0"
+                },
+                {
+                    "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
+                    "CCODI_AUTO": null,
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": "97.333",
+                    "congresal": "150"
+                }
+            ]
+        },
+        "realImages": "1"
+    }
+}
