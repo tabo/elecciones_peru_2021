@@ -13,8 +13,10 @@
 ✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️
 """
 import concurrent.futures
+import datetime
 import json
 import pathlib
+import time
 from collections import defaultdict
 from urllib.parse import urljoin
 import logging
@@ -136,7 +138,7 @@ class Onpe:
             "geo_regions": self.geo_regions,
             "ubigeos": self.ubigeos,
             "locales": self.locales,
-            "mesas": self.mesas
+            "mesas": self.mesas,
         }
         logging.info("guardando evidencia de triunfo lapicito en data.json")
         data_file.write_text(json.dumps(data, sort_keys=True, indent=4))
