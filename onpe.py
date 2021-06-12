@@ -122,8 +122,11 @@ class Onpe:
         self.mesas[mesa] = resp
         return resp
 
-    def lapicitos(self):
+    def lapicitos(self, start):
         """✏️ lapicitos ronderos triunfadores ✊🇵🇪✊🇵🇪✊🇵🇪✊🇵🇪✊🇵🇪✊🇵🇪  """
+        dur = datetime.timedelta(seconds=time.perf_counter() - start)
+        print("✨✏️" * 20)
+        print(f"✨✏️ Ronderos procesaron todo en {dur} 🤠🤠🤠")
         print("✨✏️" * 20)
 
     def save(self):
@@ -140,10 +143,11 @@ class Onpe:
 
     def process(self):
         """✏️ organizamos las llamadas a los thread pools y terminamos con lapicitos"""
+        start = time.perf_counter()
         self.peru()
         self.exterior()
         self.save()
-        self.lapicitos()
+        self.lapicitos(start)
 
 
 def main():
