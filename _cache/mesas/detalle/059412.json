@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45076/SEP/ACPREC4507605941294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T120924Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a78b0339ec2ebd09d59249e5d4f5048f26a33a72e40e458b0556326fe4d56f2b",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45076/SEP/ACPREC4507605941294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T191305Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fc4bff948da27604f216388b8895a7a86a030a9ebf1e6080cc265f7fc0d8861d",
             "presidencial": {
                 "CCENT_COMPU": "C45076",
                 "CCODI_UBIGEO": "140512",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SANTA MARIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "HUAURA",
                 "TDIRE_LOCAL": "AV PARALVILLO 2600",
                 "TNOMB_LOCAL": "IEP AVANTGARD COLLEGE - HUAURA",
                 "TOT_CIUDADANOS_VOTARON": 226
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45076",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "059412",
+                    "CNUME_RESOL": "C45076000015",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001684                                  01122-2021-JEE-HUAU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45076/SEP/RESEPC45076000015.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T191305Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=92e3f9742e7c0b7898ef8cbfb82f5fa1560fbdba78cead14c3977131231ca91f"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.770",
+                    "CON_EMITIDOS": "3.540",
                     "CON_VALIDOS": null,
-                    "congresal": "4"
+                    "congresal": "8"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.770",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "4"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

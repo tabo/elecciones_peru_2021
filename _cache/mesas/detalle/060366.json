@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706036695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111749Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=91d3879af9e06a98a2e29b063d7c352d71b5990b8c9bf287cdac8b69d99d774d",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706036695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181643Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=de20968163fda7d1ea49ff8c4ad4af121acbfd599cc4db3098b1abc6e82b7c61",
             "presidencial": {
                 "CCENT_COMPU": "C45077",
                 "CCODI_UBIGEO": "140805",
@@ -11,64 +11,74 @@
                 "DISTRITO": "CHANCAY",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "HUARAL",
                 "TDIRE_LOCAL": "AUTOPISTA PANAMERICANA NORTE KM. 91.3 - CHANCAYLLO",
                 "TNOMB_LOCAL": "20799 DANIEL ALCIDES CARRION",
-                "TOT_CIUDADANOS_VOTARON": 235
+                "TOT_CIUDADANOS_VOTARON": 300
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45077",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "060366",
+                    "CNUME_RESOL": "C45077000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001983                                  01111-2021-JEE-HUAU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45077/SEP/RESEPC45077000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181643Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4c7e81f524d8d374a5b89b0d408cf1c8893589be4909efce74397891a8b4cb86"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "31.333",
-                    "CON_VALIDOS": "47.959",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "1",
-                    "congresal": "94"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "34.000",
-                    "CON_VALIDOS": "52.041",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "2",
-                    "congresal": "102"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "65.333",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "196"
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.000",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "3"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "12.000",
+                    "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": null,
-                    "congresal": "36"
+                    "congresal": "300"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "21.667",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "65"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "65.333",
+                    "CON_VALIDOS": "0.000",
                     "congresal": "300"
                 }
             ]

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808323794.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123103Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e0ba7912c0b4be53c8fbdeafcb642985e652d3b08e5cdcb405ed71e505d4ce62",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808323794.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cc4c7c4963e42cd8af50b64ed16588bd9d8b197971a42f1b8218402ded2e2cf5",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "941710",
@@ -11,14 +11,24 @@
                 "DISTRITO": "TRIESTE",
                 "NNUME_HABILM": 297,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ITALIA",
                 "TDIRE_LOCAL": "VIA DEL COLLEGIO NRO. 6, 34121 TRIESTE",
                 "TNOMB_LOCAL": "PARROCCHIA DELLA CHIESA DI SANTA MARIA MAGGIORE",
                 "TOT_CIUDADANOS_VOTARON": 41
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "083237",
+                    "CNUME_RESOL": "C45058000250",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002628                                  06751-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000250.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=104b67f93102034d3283a3c5641869208cb6e7abd1d28cf4adce7c8c45924284"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "2.439",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "1"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "2.439",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

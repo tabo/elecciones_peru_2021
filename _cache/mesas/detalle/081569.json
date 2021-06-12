@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808156994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123040Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=013b4d0f9eb93b3c235dbd17013cfc681874013c26341f4c256ddeb54023cae4",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808156994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ed24522670e94b52a296582f23280eacb2d6e379f6264ab3d2a637af1e0defe9",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "921325",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SAN FRANCISCO",
                 "NNUME_HABILM": 298,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
                 "TDIRE_LOCAL": "99 GROVE ST, SAN FRANCISCO, CA 94102",
                 "TNOMB_LOCAL": "BILL GRAHAM CIVIC AUDITORIUM",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 70
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "081569",
+                    "CNUME_RESOL": "C45058000196",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002690                                  06773-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000196.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8e7c2549baea87642b4256c6870bc51e77d159efa7cbafb39659cd90d7abcb66"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505076994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161224Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b0e2088f74453638d190e663d5aac6a1d8b1f3c2bd755c9adc0b419d0ab5c6f4",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505076994.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182922Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d516c148f6dc68f4b76c9be24658bf4e5863d803a4f0e90eb9498007ef99877",
             "presidencial": {
                 "CCENT_COMPU": "C45075",
                 "CCODI_UBIGEO": "140135",
@@ -11,14 +11,24 @@
                 "DISTRITO": "EL AGUSTINO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR CHEPEN CON AV ATARJEA URB VILLA HERMOSA",
                 "TNOMB_LOCAL": "FACULTAD DE CIENCIA NATURALES Y MATEMATICA - UNFV",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 238
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "050769",
+                    "CNUME_RESOL": "C45075000045",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001756                                  01817-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45075/SEP/RESEPC45075000045.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182922Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0d8e7da1c9c6cd9174ab866e5c855bb87dd8e464f4c13145bdb29063357349e5"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

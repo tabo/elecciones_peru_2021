@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603950392.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114248Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aee1027d8e5835dd515b4d66a89f79b87b1dd3176ce90050fa9d04f1cf530c12",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603950392.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184733Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc121c292c6784d4db2a4d9fcf97952c51482126b296904b332ac2f3385431eb",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140109",
@@ -11,14 +11,24 @@
                 "DISTRITO": "LA VICTORIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR ABTAO 1200",
                 "TNOMB_LOCAL": "IEP PARROQUIAL SAN RICARDO",
                 "TOT_CIUDADANOS_VOTARON": 204
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039503",
+                    "CNUME_RESOL": "C45066000042",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001480                                  02040-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000042.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184733Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a3c599883d134bd6e51fa9aad72117ee6fc133e7f1a944c0204e3a5725d099b4"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "6.863",
+                    "CON_EMITIDOS": "7.353",
                     "CON_VALIDOS": null,
-                    "congresal": "14"
+                    "congresal": "15"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.490",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

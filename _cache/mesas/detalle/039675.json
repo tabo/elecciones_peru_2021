@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603967592.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114023Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4022455b0620afaa646dcb34ba5d16162107e587f845945e2325a44927b37caf",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603967592.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8392b24b04e80e25b91f89defec8a882e8976e537dbaeaaae84df5ea8fab100f",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140109",
@@ -11,14 +11,24 @@
                 "DISTRITO": "LA VICTORIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR HIPOLITO UNANUE 990",
                 "TNOMB_LOCAL": "IE 1105 LA SAGRADA FAMILIA",
-                "TOT_CIUDADANOS_VOTARON": 71
+                "TOT_CIUDADANOS_VOTARON": 229
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039675",
+                    "CNUME_RESOL": "C45066000064",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001554                                  02026-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000064.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=94a0f924d92692b41f33df883de5569591b9957604bcfd0e985a5a6a9c0d51ac"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

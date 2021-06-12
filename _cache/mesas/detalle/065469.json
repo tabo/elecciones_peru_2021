@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45091/SEP/ACPREC4509106546995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111528Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f6b5533fe81fe6968f6d49b4ab1057f2f2aa19992e8778494c1a99cbaec11345",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45091/SEP/ACPREC4509106546995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181415Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=00bb470f387aa47a84b99e213d0ef62e2f066bbc6dc8b40fd9588c61c316f90d",
             "presidencial": {
                 "CCENT_COMPU": "C45091",
                 "CCODI_UBIGEO": "190103",
@@ -11,14 +11,24 @@
                 "DISTRITO": "CASTILLA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "PIURA",
                 "TDIRE_LOCAL": "JR LOS INCAS SN",
                 "TNOMB_LOCAL": "IE MANUEL OCTAVIANO HIDALGO CARNERO",
                 "TOT_CIUDADANOS_VOTARON": 217
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45091",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "065469",
+                    "CNUME_RESOL": "C45091000053",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001932                                  02179-2021-JEE-PIU2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45091/SEP/RESEPC45091000053.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181415Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2d94bdd84622b0d008f54645a2ea17db6dd3e2d5eeb15470d0b5b783462a1de6"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.687",
+                    "CON_EMITIDOS": "4.147",
                     "CON_VALIDOS": null,
-                    "congresal": "8"
+                    "congresal": "9"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.461",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

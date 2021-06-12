@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706004895.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113117Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6e82ed0cad5f2841ac20f4b3bd6cf6058d8e9f30f4defb5f461be18f8ac771d4",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706004895.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd0fee31d67861691da446c052939314ccf0fe6d6bebdeefa0b2e4949812a256",
             "presidencial": {
                 "CCENT_COMPU": "C45077",
                 "CCODI_UBIGEO": "140801",
@@ -11,14 +11,24 @@
                 "DISTRITO": "HUARAL",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "HUARAL",
                 "TDIRE_LOCAL": "AV JORGE CHAVEZ 438",
                 "TNOMB_LOCAL": "IEP HOGAR INFANTIL",
                 "TOT_CIUDADANOS_VOTARON": 241
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45077",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "060048",
+                    "CNUME_RESOL": "C45077000004",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001981                                  01125-2021-JEE-HUAU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45077/SEP/RESEPC45077000004.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aa02bac1aa69c8c5c80160cf5b82b1280e2d1b9a87ee32f1d81fb90389723095"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -46,9 +56,9 @@
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.245",
+                    "CON_EMITIDOS": "1.660",
                     "CON_VALIDOS": null,
-                    "congresal": "3"
+                    "congresal": "4"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
@@ -60,9 +70,9 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.415",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

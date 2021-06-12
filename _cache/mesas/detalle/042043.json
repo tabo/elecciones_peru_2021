@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604204395.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f50bea0e1bb4f758fa26a5cf0a16b3cf9f85fe54cd229bd6e882ca4c658eadcf",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604204395.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184541Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5316c4fe1ed310d738d0be55f6b15c2ebdca5a216d47a108611da1e0eaedc1d4",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140115",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MIRAFLORES",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ERROR MATERIAL",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "CALLE ENRIQUE CABALLERO ORREGO 376",
                 "TNOMB_LOCAL": "IE FEDERICO VILLARREAL",
-                "TOT_CIUDADANOS_VOTARON": 209
+                "TOT_CIUDADANOS_VOTARON": 224
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042043",
+                    "CNUME_RESOL": "C45066000060",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001495                                  02018-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000060.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184541Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=78d5ca45ebec197af5807ff6a110f21394631c3eb1b69a1952ac672181c02168"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

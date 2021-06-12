@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808282692.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0730eeb5b5e33b86cfa3009e8c6af72d5fabfa470cab03023ea11928d3fcf458",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808282692.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=05da1dcbd1f33f727ce50c8776fc279ef4b17050ed9dd6fb08372fa0eb8b3101",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "940910",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MADRID",
                 "NNUME_HABILM": 299,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESPA\u00d1A",
                 "TDIRE_LOCAL": "AV. DEL PARTEN\u00d3N N\u00ba 5, 28042 MADRID",
                 "TNOMB_LOCAL": "RECINTO FERIAL IFEMA PABELL\u00d3N N\u00ba 9",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 135
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082826",
+                    "CNUME_RESOL": "C45058000206",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002640                                  06727-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000206.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da7ea86fb629d1ffa1541839a93e77840023eeefb9d485c56bd6079539fd29cf"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

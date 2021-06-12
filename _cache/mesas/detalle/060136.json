@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706013695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113109Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fed690bcb626c7eee0ac84f1c076bd8da47a88fc4461328c2dc91987e9cee2a6",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507706013695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3af95c44e749431da0313534fee7b697149f056768d7c707f4e7c13cf1c13df0",
             "presidencial": {
                 "CCENT_COMPU": "C45077",
                 "CCODI_UBIGEO": "140801",
@@ -11,14 +11,24 @@
                 "DISTRITO": "HUARAL",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA SIN FIRMAS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "HUARAL",
                 "TDIRE_LOCAL": "AV. 2 DE MAYO 101",
                 "TNOMB_LOCAL": "IE NUESTRA SE\u00d1ORA DEL CARMEN",
                 "TOT_CIUDADANOS_VOTARON": 254
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45077",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "060136",
+                    "CNUME_RESOL": "C45077000007",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001986                                  01109-2021-JEE-HUAU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45077/SEP/RESEPC45077000007.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d9cb2c2f14310a9e182d849909363abca567346a9a4babac9ab029fcfe8f30e"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808275096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123006Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=87c1207848dfe4e569ea4f6d07acb9bc4395ef96fc8814eb0a5dde76f68be9e7",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808275096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193740Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e046326f6a7657f789cbace8b33c752c58028a787937aecc95aac45928a374bd",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "940910",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MADRID",
                 "NNUME_HABILM": 299,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESPA\u00d1A",
                 "TDIRE_LOCAL": "AV. DEL PARTEN\u00d3N N\u00ba 5, 28042 MADRID",
                 "TNOMB_LOCAL": "RECINTO FERIAL IFEMA PABELL\u00d3N N\u00ba 9",
                 "TOT_CIUDADANOS_VOTARON": 94
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082750",
+                    "CNUME_RESOL": "C45058000180",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002666                                  06629-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000180.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193740Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=46392c1996a2bf713a0e5884f4bdd62aa6cb6a4fcf60d620a33051b7488644f7"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "8.511",
+                    "CON_EMITIDOS": "10.638",
                     "CON_VALIDOS": null,
-                    "congresal": "8"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "2.128",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "2"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

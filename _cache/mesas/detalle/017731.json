@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45039/SEP/ACPREC4503901773192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161539Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c6b5cc6b6227467cbd6a014f363772bd3543fb2cb491f6f39aa2a1bad7663698",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45039/SEP/ACPREC4503901773192.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T175941Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9ffedc8ce9e678b5623d610158611af5e71a8b1020ee2462a9360d0fcc6ba4a5",
             "presidencial": {
                 "CCENT_COMPU": "C45039",
                 "CCODI_UBIGEO": "080511",
@@ -11,14 +11,24 @@
                 "DISTRITO": "HUACHOCOLPA",
                 "NNUME_HABILM": 275,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "TAYACAJA",
                 "TDIRE_LOCAL": "AV AUGUSTO HINOSTROZA SN",
                 "TNOMB_LOCAL": "IE SANTA ROSA",
                 "TOT_CIUDADANOS_VOTARON": 177
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45039",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "017731",
+                    "CNUME_RESOL": "C45039000002",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002761                                  00916-2021-JEE-HVCA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45039/SEP/RESEPC45039000002.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T175941Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3b09f3ab513b3ef48b884384653ba3face8900bb15887e458659b16bae919f4b"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "5.085",
+                    "CON_EMITIDOS": "5.650",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.565",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45039/SEP/ACPREC4503901799292.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112636Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9a2429b48857f74c13f15b74fc2f868a802c4ddcbd73ce8f83347091d3a22505",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45039/SEP/ACPREC4503901799292.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182603Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ca568ff403c55ca1b993bc27efd6b844ab8d729e231e05d7b07a57274a06dc8a",
             "presidencial": {
                 "CCENT_COMPU": "C45039",
                 "CCODI_UBIGEO": "080711",
@@ -11,51 +11,61 @@
                 "DISTRITO": "COSME",
                 "NNUME_HABILM": 275,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CHURCAMPA",
                 "TDIRE_LOCAL": "PLAZA PRINCIPAL SN",
                 "TNOMB_LOCAL": "IE 30979 THOMAS ALVA EDISON",
                 "TOT_CIUDADANOS_VOTARON": 83
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45039",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "017992",
+                    "CNUME_RESOL": "C45039000001",
+                    "CNUME_RESOL_JNE": "SEGEG.2021002762                                  00917-2021-JEE-HVCA/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45039/SEP/RESEPC45039000001.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182603Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=51587a65564826857aa6abfa877c39c77f2c03618529406396039f47e98e5e20"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "83.854",
-                    "CON_VALIDOS": "88.462",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "1",
-                    "congresal": "161"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "10.938",
-                    "CON_VALIDOS": "11.538",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "2",
-                    "congresal": "21"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "94.792",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "182"
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.521",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.688",
+                    "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "83"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -68,8 +78,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "94.792",
-                    "congresal": "192"
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "83"
                 }
             ]
         },

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808004697.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162216Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=251c0cfe165742e4656f3dcb7c3e42e937d740b29187b10c10a5220acd685740",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808004697.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193638Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0f529673f86f1a36709b0bf243f30c8fc319304c8ef9349ea04913e964f9c98d",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920202",
@@ -11,14 +11,24 @@
                 "DISTRITO": "BUENOS AIRES",
                 "NNUME_HABILM": 299,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ARGENTINA",
                 "TDIRE_LOCAL": "TALCAHUANO 680",
                 "TNOMB_LOCAL": "ESCUELA PRIMARIA N\u00b0 08",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 95
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080046",
+                    "CNUME_RESOL": "C45058000227",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002553                                  06731-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000227.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193638Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f66cb27d3cf5ea4a97fb4ef75b4c93db8933a498b1be31d58120b6177ff382a4"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

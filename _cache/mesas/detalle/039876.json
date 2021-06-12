@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603987697.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114219Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=93d162432e9d29ecfadd7342282910b7b085db61ad6ef7f9a048ad8ea68d0cc9",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603987697.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181012Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=04ca4c071da483890d8cc75d6aa3dbae91613e6ebbe9687beb209479c24f05fb",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140109",
@@ -11,35 +11,45 @@
                 "DISTRITO": "LA VICTORIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
+                "OBSERVACION": "OTRAS OBSERVACIONES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR FRANCISCO ALMENARA 432",
                 "TNOMB_LOCAL": "IE ROSA DOMINGA PEREZ LIENDO",
                 "TOT_CIUDADANOS_VOTARON": 247
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039876",
+                    "CNUME_RESOL": "C45066000049",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001526                                  02042-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "22.672",
-                    "CON_VALIDOS": "24.034",
+                    "CON_EMITIDOS": "23.265",
+                    "CON_VALIDOS": "24.464",
                     "NLISTA": "1",
-                    "congresal": "56"
+                    "congresal": "57"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "71.660",
-                    "CON_VALIDOS": "75.966",
+                    "CON_EMITIDOS": "71.837",
+                    "CON_VALIDOS": "75.536",
                     "NLISTA": "2",
-                    "congresal": "177"
+                    "congresal": "176"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "94.332",
+                    "CON_EMITIDOS": "95.102",
                     "CON_VALIDOS": "100.000",
                     "congresal": "233"
                 },
@@ -53,23 +63,23 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.239",
+                    "CON_EMITIDOS": "3.265",
                     "CON_VALIDOS": null,
                     "congresal": "8"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "2.429",
+                    "CON_EMITIDOS": "1.633",
                     "CON_VALIDOS": null,
-                    "congresal": "6"
+                    "congresal": "4"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "94.332",
-                    "congresal": "247"
+                    "CON_VALIDOS": "95.102",
+                    "congresal": "245"
                 }
             ]
         },

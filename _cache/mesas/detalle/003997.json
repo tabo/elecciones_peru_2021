@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45011/SEP/ACPREC4501100399793.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113953Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bf4e43be01029397e785845679a4847cff331d88fbd3e4ccd330e8d7c1904078",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45011/SEP/ACPREC4501100399793.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184510Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b4dc71d3b8fcdc621b224839b67814b2376b6ba252ac0c80ecd432dad4313dc5",
             "presidencial": {
                 "CCENT_COMPU": "C45011",
                 "CCODI_UBIGEO": "030106",
@@ -11,37 +11,47 @@
                 "DISTRITO": "LAMBRAMA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ABANCAY",
                 "TDIRE_LOCAL": "PSJE DEL ESTUDIANTE SN",
                 "TNOMB_LOCAL": "IE 54028 VIRGEN DE FATIMA",
                 "TOT_CIUDADANOS_VOTARON": 196
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45011",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "003997",
+                    "CNUME_RESOL": "C45011000004",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002240                                  00507-2021-JEE-ABAN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "83.163",
-                    "CON_VALIDOS": "84.896",
+                    "CON_EMITIDOS": "83.673",
+                    "CON_VALIDOS": "84.974",
                     "NLISTA": "1",
-                    "congresal": "163"
+                    "congresal": "164"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "14.796",
-                    "CON_VALIDOS": "15.104",
+                    "CON_VALIDOS": "15.026",
                     "NLISTA": "2",
                     "congresal": "29"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "97.959",
+                    "CON_EMITIDOS": "98.469",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "192"
+                    "congresal": "193"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +70,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.510",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "97.959",
+                    "CON_VALIDOS": "98.469",
                     "congresal": "196"
                 }
             ]

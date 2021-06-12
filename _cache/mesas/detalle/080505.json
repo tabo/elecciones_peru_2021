@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808050596.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=81bb7f230d8e94a071ad07aa079805b85107730962736158787d252fae68f839",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808050596.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193829Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3f8c6f52100d06517c482f9212d163fe2e90f05a51bcac0e18037e43030897dc",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920510",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SAO PAULO",
                 "NNUME_HABILM": 295,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "BRASIL",
                 "TDIRE_LOCAL": "AV. PAULISTA N\u00b0 227 - BELA VISTA",
                 "TNOMB_LOCAL": "ESCUELA ESTADUAL RODRIGUES ALVES",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 97
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080505",
+                    "CNUME_RESOL": "C45058000268",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003559                                  06787-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000268.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193829Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=03eb79b3bb444f42bbca8af1e24e4c35ce5db8b9bc481d08481cafb42d2a7f8b"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

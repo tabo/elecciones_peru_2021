@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604205195.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114738Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=de169a61d82b81d940ae506c29fd28a09d47acdd822d49737b5247b42181cf11",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604205195.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182446Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8a8a90f4954ca0270eb830a4fb1432a289c9b547e14f5893648516a7679f8c5a",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140115",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MIRAFLORES",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV ALFREDO BENAVIDES 2315",
                 "TNOMB_LOCAL": "IE 6050 EMBLEMATICA JUANA ALARCO DE DAMMERT SECUNDARIA",
                 "TOT_CIUDADANOS_VOTARON": 166
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042051",
+                    "CNUME_RESOL": "C45066000051",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001548                                  02041-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000051.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T182446Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6d1e72db22ba19bd2bfc9f46903b927497464fea97c24da3b0655df16ecdb4c3"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.614",
+                    "CON_EMITIDOS": "4.217",
                     "CON_VALIDOS": null,
-                    "congresal": "6"
+                    "congresal": "7"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.602",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

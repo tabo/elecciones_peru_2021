@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45091/SEP/ACPREC4509106575792.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113705Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=05757f50b7fc862dd83caba4b9f25f09338a6c3eaf9a2759e6aa7e8f6346cc29",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45091/SEP/ACPREC4509106575792.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184201Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f23e5dc0fd4de62b9971f2fe7f13f68f2496d7cecd04108285a18cfed7af1ec",
             "presidencial": {
                 "CCENT_COMPU": "C45091",
                 "CCODI_UBIGEO": "190105",
@@ -12,13 +12,32 @@
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
                 "OBSERVACION": "CONTABILIZADAS NORMALES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL NORMAL",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "PIURA",
                 "TDIRE_LOCAL": "JR PIZARRO SN",
                 "TNOMB_LOCAL": "IE 14123",
                 "TOT_CIUDADANOS_VOTARON": 239
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45091",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "065757",
+                    "CNUME_RESOL": "C45091000056",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004206                                  02183-2021-JEE-PIU2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                },
+                {
+                    "CCENT_COMPU": "C45091",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "065757",
+                    "CNUME_RESOL": "C45091000046",
+                    "CNUME_RESOL_JNE": "MEMORANDUM N\u00b00048-2021-ODPE PIURA 2-SEP 2021-GOECOR/ONPE",
+                    "CPROCED_RESOL": "OM",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

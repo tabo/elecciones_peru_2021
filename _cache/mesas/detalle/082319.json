@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808231992.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T122925Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=abf42e1f2e4668b07b735515ce31b0aed3bee9a98a988436a22065357a047ca8",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808231992.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193640Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=81a2df951140bd2f02c53a4d46505e98d49bc21d72e24b4ca1a2b34eefbd3dfe",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "930727",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MIE",
                 "NNUME_HABILM": 289,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "JAPON",
                 "TDIRE_LOCAL": "513-0801 MIE KEN SUZUKA SHI KANBEJISHIMACHI  388   ",
                 "TNOMB_LOCAL": "SUZUKA SHI ROUDOU FUKUSHI KAIKAN",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 126
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082319",
+                    "CNUME_RESOL": "C45058000188",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002647                                  06689-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000188.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193640Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e8071d845a6ab15a64b3e91c63574797d9b198b5e4838425bc14952566ae6dda"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

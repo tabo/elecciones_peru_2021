@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604220995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T113737Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c215caa2530930e38ea2acb56da9679e5a8d7bc13f81f92a93dfc8901d8ea0ec",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506604220995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T185147Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0e0c02dcf976b590222c689352355d145e2f28ffc845e53a17aa6e14cc0da80a",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140115",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MIRAFLORES",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV DEL EJERCITO 1300",
                 "TNOMB_LOCAL": "COMPLEJO DEPORTIVO MUNICIPAL NI\u00d1O HEROE MANUEL BONILLA 2 (GRAS SINTETICO)",
                 "TOT_CIUDADANOS_VOTARON": 219
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042209",
+                    "CNUME_RESOL": "C45066000050",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001547                                  02057-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000050.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T185147Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=edcd03c456fc4aec91c75c761952d7eede41d85d1f6c3193e9025af6bca1d5e2"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.826",
+                    "CON_EMITIDOS": "2.283",
                     "CON_VALIDOS": null,
-                    "congresal": "4"
+                    "congresal": "5"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.457",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

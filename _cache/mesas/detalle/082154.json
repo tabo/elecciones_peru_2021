@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808215493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3e499973698c53b4c4e3e872c34fa834a6dd6777d0c446bcf97a625d6f07eb45",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808215493.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193156Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=13350b52b63ba3545a0737ac7b7f2ad87c6f45879fc3b85ea3bdc9a496a05c5a",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "922802",
@@ -11,37 +11,47 @@
                 "DISTRITO": "CARACAS",
                 "NNUME_HABILM": 297,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ERROR MATERIAL",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "VENEZUELA",
                 "TDIRE_LOCAL": "AVENIDA SAN JUAN BOSCO, ENTRE 7MA Y 8VA TRANSVERSAL. ALTAMIRA, CARACAS \u2013 VENEZUELA ",
                 "TNOMB_LOCAL": "UNIDAD EDUCATIVA PRIVADA COLEGIO DON BOSCO ",
                 "TOT_CIUDADANOS_VOTARON": 86
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082154",
+                    "CNUME_RESOL": "C45058000302",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002653                                  06705-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000302.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193156Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a3aad47f2a2eaf62edd3188fcd28e436351e81ce5638a249fe1234156c50f96e"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "21.839",
-                    "CON_VALIDOS": "24.359",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "1",
-                    "congresal": "19"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "67.816",
-                    "CON_VALIDOS": "75.641",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "2",
-                    "congresal": "59"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "89.655",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "78"
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -53,9 +63,9 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "10.345",
+                    "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "86"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -68,8 +78,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "89.655",
-                    "congresal": "87"
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "86"
                 }
             ]
         },

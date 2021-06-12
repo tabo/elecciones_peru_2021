@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808316097.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123008Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=64d9afeadc7593a823fdef55a395b0b9c5bb4944b580a861e1337afdc33ed36e",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808316097.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193738Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=95782cbea3b5893ec524b8d73a89bbd3750236114f256dd03525b8f0cc1d50bf",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "941706",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MILAN",
                 "NNUME_HABILM": 298,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ITALIA",
                 "TDIRE_LOCAL": "VIA GIUSEPPE DI VITTORIO 6, 20090 ASSAGO MI",
                 "TNOMB_LOCAL": "MEDIOLANUM FORUM - ASSAGO",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 139
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "083160",
+                    "CNUME_RESOL": "C45058000281",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002627                                  06645-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000281.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193738Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b8954c1ee534377c26c1ade0584e6f52381cc319bd0f86b6b6daec6348065691"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

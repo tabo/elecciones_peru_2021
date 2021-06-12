@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505088394.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161337Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c76f7188eb6f8ee77ad8c29e2386df40cbcc130ce53787f3825853a6282d3bac",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505088394.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183027Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cc6e3a6fbacc1256adcef2974ddb0cfdc44c8081cfb0f96d4a6e8c2e8ed8e625",
             "presidencial": {
                 "CCENT_COMPU": "C45075",
                 "CCODI_UBIGEO": "140135",
@@ -11,14 +11,24 @@
                 "DISTRITO": "EL AGUSTINO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "CALLE LOS CARTUCHOS MZ H LT 4 ANCIETA ALTA",
                 "TNOMB_LOCAL": "IE 1044 MARIA REICHE NEWMANN",
                 "TOT_CIUDADANOS_VOTARON": 260
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "050883",
+                    "CNUME_RESOL": "C45075000046",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001759                                  01802-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45075/SEP/RESEPC45075000046.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183027Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a91aa09999ccf0c8faf5b9d936413c0bbf5f90f7e380896fcccdc4cc7ce375cd"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.231",
+                    "CON_EMITIDOS": "5.000",
                     "CON_VALIDOS": null,
-                    "congresal": "11"
+                    "congresal": "13"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.769",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "2"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

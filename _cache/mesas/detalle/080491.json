@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808049195.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123044Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=115653f37a84d84945b7e3ec294d5d35a735119f061c42a54a7ecea546773826",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808049195.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=04f777432a85f7e93aef6994f75abce40d92ced903c44258a7caaf39ea66536b",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920510",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SAO PAULO",
                 "NNUME_HABILM": 296,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "BRASIL",
                 "TDIRE_LOCAL": "AV. PAULISTA N\u00b0 227 - BELA VISTA",
                 "TNOMB_LOCAL": "ESCUELA ESTADUAL RODRIGUES ALVES",
                 "TOT_CIUDADANOS_VOTARON": 116
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080491",
+                    "CNUME_RESOL": "C45058000270",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003560                                  06784-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000270.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=88ff8cbd88d497f392641018e26b52dc3c94d7cf2731009f567ac09bc883e4c2"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.724",
+                    "CON_EMITIDOS": "8.621",
                     "CON_VALIDOS": null,
-                    "congresal": "2"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "6.897",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "8"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

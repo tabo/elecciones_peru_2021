@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808021791.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T160944Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=93b30d85e383f87e2651505a57a86118fb672653fb1e920224b5e8697ddf404a",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808021791.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193534Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f204e377f2dc422577b7d3ab01aba957fedb46c180dedfed01e197175589d93a",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920202",
@@ -11,19 +11,29 @@
                 "DISTRITO": "BUENOS AIRES",
                 "NNUME_HABILM": 299,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ERROR MATERIAL",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ARGENTINA",
                 "TDIRE_LOCAL": "PARAGUAY 1950",
                 "TNOMB_LOCAL": "ESCUELA NORMAL SUPERIOR N\u00b0 01",
                 "TOT_CIUDADANOS_VOTARON": 100
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080217",
+                    "CNUME_RESOL": "C45058000289",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002557                                  06640-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000289.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193534Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=48b3678458a0ad193b324565e983631f5d056d2842f9b988e23eec88f2955d86"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "32.653",
+                    "CON_EMITIDOS": "32.000",
                     "CON_VALIDOS": "36.364",
                     "NLISTA": "1",
                     "congresal": "32"
@@ -31,7 +41,7 @@
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "57.143",
+                    "CON_EMITIDOS": "56.000",
                     "CON_VALIDOS": "63.636",
                     "NLISTA": "2",
                     "congresal": "56"
@@ -39,7 +49,7 @@
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "89.796",
+                    "CON_EMITIDOS": "88.000",
                     "CON_VALIDOS": "100.000",
                     "congresal": "88"
                 },
@@ -53,9 +63,9 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "10.204",
+                    "CON_EMITIDOS": "12.000",
                     "CON_VALIDOS": null,
-                    "congresal": "10"
+                    "congresal": "12"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -68,8 +78,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "89.796",
-                    "congresal": "98"
+                    "CON_VALIDOS": "88.000",
+                    "congresal": "100"
                 }
             ]
         },

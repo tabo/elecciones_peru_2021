@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45029/SEP/ACPREC4502907632295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T112001Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d4bd7a8f14d1917c1646ab77f05e951606fcd44a00ebd38a873553093c4458a7",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45029/SEP/ACPREC4502907632295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181852Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=68156f1c24aa2982a8cfe138ba62c54945f8f264cea123c4c7936e8a9e42c6e1",
             "presidencial": {
                 "CCENT_COMPU": "C45029",
                 "CCODI_UBIGEO": "240101",
@@ -11,51 +11,61 @@
                 "DISTRITO": "CALLAO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ERROR MATERIAL",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CALLAO",
                 "TDIRE_LOCAL": "AV PEREZ SALMON SN URB JUAN PABLO II",
                 "TNOMB_LOCAL": "LOSA DEPORTIVA LOS OLIMPICOS",
                 "TOT_CIUDADANOS_VOTARON": 244
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45029",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "076322",
+                    "CNUME_RESOL": "C45029000024",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001808                                  02408-2021-JEE-CALL/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "27.333",
-                    "CON_VALIDOS": "34.894",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "1",
-                    "congresal": "82"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "51.000",
-                    "CON_VALIDOS": "65.106",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "2",
-                    "congresal": "153"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "78.333",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "235"
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "18.667",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "56"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.000",
+                    "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "244"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -68,8 +78,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "78.333",
-                    "congresal": "300"
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "244"
                 }
             ]
         },

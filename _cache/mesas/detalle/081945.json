@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808194591.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123101Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=496a3891cbcff238f14e0a2a52ab00584643873b67ae45a8a02eed57a882f111",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808194591.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193834Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3562e6a6cd955bb1dd04d0031ff417b6032feffdd9fff5291ca8bc398a3a9b05",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "921364",
@@ -11,28 +11,38 @@
                 "DISTRITO": "TAMPA",
                 "NNUME_HABILM": 298,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
                 "TDIRE_LOCAL": "333 S FRANKLIN ST. TAMPA, FL 33602",
                 "TNOMB_LOCAL": "TAMPA CONVENTION CENTER",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 75
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "081945",
+                    "CNUME_RESOL": "C45058000305",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002648                                  06701-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000305.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193834Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=724ca630df58ae26fde6bc19ef4cc4a32cb89851f0d99eb3d8d0e633035ab6e5"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "#",
-                    "CON_VALIDOS": "#",
+                    "CON_EMITIDOS": "9.333",
+                    "CON_VALIDOS": "9.333",
                     "NLISTA": "1",
-                    "congresal": "#"
+                    "congresal": "7"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "100.000",
+                    "CON_EMITIDOS": "90.667",
+                    "CON_VALIDOS": "90.667",
                     "NLISTA": "2",
                     "congresal": "68"
                 },
@@ -41,7 +51,7 @@
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "68"
+                    "congresal": "75"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -53,9 +63,9 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "#",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "#"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -69,7 +79,7 @@
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "68"
+                    "congresal": "75"
                 }
             ]
         },

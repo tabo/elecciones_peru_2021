@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808032295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6a16a95fcab9c0203b34a020c2ac0c80204af9bcaa965aa73b40692fff1a068d",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808032295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=20fa9d63df035980b206415e4ee36c15730245fc18bee4f4762831cc25e649d1",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920203",
@@ -11,14 +11,24 @@
                 "DISTRITO": "CORDOBA",
                 "NNUME_HABILM": 296,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ARGENTINA",
                 "TDIRE_LOCAL": "AV. GENERAL PAZ N\u00b0 488, BARRIO CENTRO, C\u00d3RDOBA",
                 "TNOMB_LOCAL": "ESCUELA JUAN BAUTISTA ALBERDI",
                 "TOT_CIUDADANOS_VOTARON": 124
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080322",
+                    "CNUME_RESOL": "C45058000234",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002585                                  06722-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000234.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2d615bb8c184abfa1c85eda805100fbfd7fa4afed14d6d72a4c2ebe7d55edaf8"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "5.645",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "7"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "5.645",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "7"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

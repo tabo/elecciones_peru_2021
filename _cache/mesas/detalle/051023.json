@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505102395.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161513Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0bb45bc9b820e2708b7f39ad776188b5a4640808a4e9aacc3f8dc3a92738b1d6",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505102395.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183151Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=54e4e5c75fe3e3add505bd0df8822d1bfb40dfb03db07e5c8489b24391711b55",
             "presidencial": {
                 "CCENT_COMPU": "C45075",
                 "CCODI_UBIGEO": "140135",
@@ -11,14 +11,24 @@
                 "DISTRITO": "EL AGUSTINO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV RIVA AGUERO 176",
                 "TNOMB_LOCAL": "IE GRAN MARISCAL ANDRES AVELINO CACERES DORREGARAY",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 245
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "051023",
+                    "CNUME_RESOL": "C45075000047",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001761                                  01809-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45075/SEP/RESEPC45075000047.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183151Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8ad8d97184101f828cc7addd30efcd9277745c45ac207a2a50b0b55fe129f330"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808159097.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123049Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c85ff68622feb2626106969164c7f48e8479ad5031e5018e86ea5bd48209f8a8",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808159097.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193829Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=48d4bb9a5c184e9cb1c0aefad051166d165a03d8d73e5cfbffb4559cdcf93419",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "921325",
@@ -11,19 +11,29 @@
                 "DISTRITO": "SAN FRANCISCO",
                 "NNUME_HABILM": 298,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
                 "TDIRE_LOCAL": "99 GROVE ST, SAN FRANCISCO, CA 94102",
                 "TNOMB_LOCAL": "BILL GRAHAM CIVIC AUDITORIUM",
                 "TOT_CIUDADANOS_VOTARON": 88
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "081590",
+                    "CNUME_RESOL": "C45058000310",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002683                                  06676-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000310.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193829Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=12884c3e5f4452651c81494bcbc11d8001a39ca88c81fd8a1283e5151cb9dd71"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "24.419",
+                    "CON_EMITIDOS": "23.864",
                     "CON_VALIDOS": "24.419",
                     "NLISTA": "1",
                     "congresal": "21"
@@ -31,7 +41,7 @@
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "75.581",
+                    "CON_EMITIDOS": "73.864",
                     "CON_VALIDOS": "75.581",
                     "NLISTA": "2",
                     "congresal": "65"
@@ -39,7 +49,7 @@
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "97.727",
                     "CON_VALIDOS": "100.000",
                     "congresal": "86"
                 },
@@ -53,23 +63,23 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "#",
+                    "CON_EMITIDOS": "2.273",
                     "CON_VALIDOS": null,
-                    "congresal": "#"
+                    "congresal": "2"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "#",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "#"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "86"
+                    "CON_VALIDOS": "97.727",
+                    "congresal": "88"
                 }
             ]
         },

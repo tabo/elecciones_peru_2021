@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45052/SEP/ACPREC4505202786893.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161334Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=809b8dd3a478546374df682d6d1fb5ff4d46caa03adc07abe9bb9f462ab5fe88",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45052/SEP/ACPREC4505202786893.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183014Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d38fdc7d4bbdb17bd0a937e384979a044898aaaca9b40e9a5b35cc3312a2069f",
             "presidencial": {
                 "CCENT_COMPU": "C45052",
                 "CCODI_UBIGEO": "120112",
@@ -11,30 +11,40 @@
                 "DISTRITO": "FLORENCIA DE MORA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "TRUJILLO",
                 "TDIRE_LOCAL": "CALLE 30 DE MAYO SN",
                 "TNOMB_LOCAL": "80032 GENERALISIMO JOSE DE SAN MARTIN",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 256
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45052",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "027868",
+                    "CNUME_RESOL": "C45052000027",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002014                                  02080-2021-JEE-PCYO/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "52.734",
-                    "CON_VALIDOS": "61.644",
+                    "CON_EMITIDOS": "32.812",
+                    "CON_VALIDOS": "38.356",
                     "NLISTA": "1",
-                    "congresal": "135"
+                    "congresal": "84"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "32.812",
-                    "CON_VALIDOS": "38.356",
+                    "CON_EMITIDOS": "52.734",
+                    "CON_VALIDOS": "61.644",
                     "NLISTA": "2",
-                    "congresal": "84"
+                    "congresal": "135"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",

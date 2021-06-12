@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45011/SEP/ACPREC4501100384294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T102454Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e8e58d01b39c3a4ff98bb2fc411904e94fab3b33854102ed60d3d10aca429397",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45011/SEP/ACPREC4501100384294.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180225Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=53247738d3f0e4b719bfe18be9c615cdaed4e950c8ae3d7869c66f25b45d9b1d",
             "presidencial": {
                 "CCENT_COMPU": "C45011",
                 "CCODI_UBIGEO": "030101",
@@ -11,14 +11,24 @@
                 "DISTRITO": "ABANCAY",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA SIN FIRMAS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ABANCAY",
                 "TDIRE_LOCAL": "AV PERU 700",
                 "TNOMB_LOCAL": "UNIVERSIDAD TECNOLOGICA DE LOS ANDES",
                 "TOT_CIUDADANOS_VOTARON": 232
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45011",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "003842",
+                    "CNUME_RESOL": "C45011000006",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002242                                  00511-2021-JEE-ABAN/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45011/SEP/RESEPC45011000006.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180225Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e41c00b8931bf4db835a32fe4c6430034c8e971a43a0a327a8e14df3c10bf091"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

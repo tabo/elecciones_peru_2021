@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808230791.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T123054Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=75089060872b3f342ec88baa4142615f85552d4e8bfc4a8523d48dd8a634a5b2",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808230791.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193827Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f2836b7febddf8067455b714413a472f868bda2a8ee68a5782ebd571829b2da1",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "930726",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SHIZUOKA",
                 "NNUME_HABILM": 276,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "JAPON",
                 "TDIRE_LOCAL": "111-1 ITAYAMACHI, NAKA, HAMAMATSU, SHIZUOKA 430-7790",
                 "TNOMB_LOCAL": "ACT CITY HAMAMATSU",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 93
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082307",
+                    "CNUME_RESOL": "C45058000203",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002677                                  06746-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000203.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193827Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d05e666633ca3c21ad496f75cffdc9f733e79722bf3dbc331b37665ebd202d6c"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

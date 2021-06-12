@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45091/SEP/ACPREC4509106924391.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T110815Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c85c5b0b06ebf57e2c5e4f6fe1b2602885b5f3eeb02c6b62881a335dd53cb775",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45091/SEP/ACPREC4509106924391.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180658Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=27cb5a81a3cfe597b3178fe8650b352cadfb284abb012ae5ca456f780fc44f12",
             "presidencial": {
                 "CCENT_COMPU": "C45091",
                 "CCODI_UBIGEO": "190803",
@@ -11,14 +11,24 @@
                 "DISTRITO": "BERNAL",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "SECHURA",
                 "TDIRE_LOCAL": "CALLE SAN FRANCISCO DE ASIS",
                 "TNOMB_LOCAL": "IEP SANTISIMA CRUZ DE CHALPON",
                 "TOT_CIUDADANOS_VOTARON": 234
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45091",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "069243",
+                    "CNUME_RESOL": "C45091000055",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001928                                  02174-2021-JEE-PIU2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45091/SEP/RESEPC45091000055.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180658Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc7cf35d9b631bd6c954e160fc5f6cd8395afb251e27f810a72e33f6d78b18cb"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "2.564",
+                    "CON_EMITIDOS": "2.991",
                     "CON_VALIDOS": null,
-                    "congresal": "6"
+                    "congresal": "7"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.427",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

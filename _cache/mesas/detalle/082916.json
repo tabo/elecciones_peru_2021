@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808291694.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T122840Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=22cbed5970c588156b3d17b7847d8b33c920a0cb59f00401dbc5f16f5377f235",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808291694.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193522Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dd95c94cc8f54ed24d5a81a865a0550a470925e1ba57469582d702fb0c1c3bc1",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "941101",
@@ -11,14 +11,24 @@
                 "DISTRITO": "BURDEOS",
                 "NNUME_HABILM": 297,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "FRANCIA",
                 "TDIRE_LOCAL": "20-22 RUE SAINT R\u00c9MI, 33000 BORDEAUX",
                 "TNOMB_LOCAL": "CONSULADO HONORARIO DEL PER\u00da EN BURDEOS",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 67
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082916",
+                    "CNUME_RESOL": "C45058000274",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002633                                  06652-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000274.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193522Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2349f79176051b9b8298bc46cb161bff21569362abbcb578a4d476c506ca6e7f"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505075596.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T161630Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0a4f6d8357476094eb1912b376199259144e0a2cd5331bf5b04badd34df1c957",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505075596.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183249Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=991e2bc321702902e1b21f17bdf68840148825af5c8222d8d043e24cd811fde5",
             "presidencial": {
                 "CCENT_COMPU": "C45075",
                 "CCODI_UBIGEO": "140135",
@@ -11,14 +11,24 @@
                 "DISTRITO": "EL AGUSTINO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "CALLE LOS MIRLOS SN",
                 "TNOMB_LOCAL": "IEP SACO OLIVEROS EL AGUSTINO",
                 "TOT_CIUDADANOS_VOTARON": 241
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "050755",
+                    "CNUME_RESOL": "C45075000050",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001755                                  01799-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45075/SEP/RESEPC45075000050.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T183249Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a79518708e6640729a6678df098753812c066d571c3313682daa86faddca32e6"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.320",
+                    "CON_EMITIDOS": "3.734",
                     "CON_VALIDOS": null,
-                    "congresal": "8"
+                    "congresal": "9"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.415",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

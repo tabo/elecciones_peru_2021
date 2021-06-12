@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808292591.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T122951Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e88384dd0670eb7db28126de6f0e3e0e8244207f0f9491e61fa834822298861b",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808292591.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193726Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7181dc5db37af8618327ffd3dedceaeb579dc3d24970eaadeb10f2926db201ef",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "941108",
@@ -11,14 +11,24 @@
                 "DISTRITO": "PARIS",
                 "NNUME_HABILM": 298,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "FRANCIA",
                 "TDIRE_LOCAL": "38 BOULEVARD VICTOR HUGO, 92200 NEUILLY-SUR-SEINE",
                 "TNOMB_LOCAL": "LYC\u00c9E ESPAGNOL LUIS BU\u00d1UEL",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 129
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082925",
+                    "CNUME_RESOL": "C45058000272",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002630                                  06653-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000272.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193726Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ef02b1d0f5d6e165fcb7f6638d30f51267b00f12fec7e8b22e6f8644df2a19f1"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

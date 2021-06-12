@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507705836695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T111042Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=766013e2de7c2335e111aad54105a874fae13586899375ff846c01c2fcb7987f",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45077/SEP/ACPREC4507705836695.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180934Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1e4631ad2da9064a21bae0d69938825796679559dca272e8f7f9512c41a68a7",
             "presidencial": {
                 "CCENT_COMPU": "C45077",
                 "CCODI_UBIGEO": "140301",
@@ -11,14 +11,24 @@
                 "DISTRITO": "CANTA",
                 "NNUME_HABILM": 290,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANTA",
                 "TDIRE_LOCAL": "CALLE EL EDUCADOR SN",
                 "TNOMB_LOCAL": "IE 21004",
                 "TOT_CIUDADANOS_VOTARON": 220
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45077",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "058366",
+                    "CNUME_RESOL": "C45077000003",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001984                                  01124-2021-JEE-HUAU/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45077/SEP/RESEPC45077000003.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180934Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=22032f31dcd3042a865b6e2e32d00ff778d19b224078e5eef93972d6f0722374"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.091",
+                    "CON_EMITIDOS": "4.545",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.455",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

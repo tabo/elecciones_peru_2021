@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603988094.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9a9049f747412731f3398d9e346b2d54802fb7a9c693a8291662fc4f8c74a54e",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603988094.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184714Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6bd49bb7fafdf9d1a67bd16daa8992dce48064d167d09964eda1a862d972a6d2",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140109",
@@ -18,30 +18,40 @@
                 "TNOMB_LOCAL": "IE ROSA DOMINGA PEREZ LIENDO",
                 "TOT_CIUDADANOS_VOTARON": 249
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039880",
+                    "CNUME_RESOL": "C45066000048",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001524                                  02060-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "16.867",
-                    "CON_VALIDOS": "22.340",
+                    "CON_VALIDOS": "19.266",
                     "NLISTA": "1",
                     "congresal": "42"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "58.635",
-                    "CON_VALIDOS": "77.660",
+                    "CON_EMITIDOS": "70.683",
+                    "CON_VALIDOS": "80.734",
                     "NLISTA": "2",
-                    "congresal": "146"
+                    "congresal": "176"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "75.502",
+                    "CON_EMITIDOS": "87.550",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "188"
+                    "congresal": "218"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -53,22 +63,22 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "7.229",
+                    "CON_EMITIDOS": "7.631",
                     "CON_VALIDOS": null,
-                    "congresal": "18"
+                    "congresal": "19"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "17.269",
+                    "CON_EMITIDOS": "4.819",
                     "CON_VALIDOS": null,
-                    "congresal": "43"
+                    "congresal": "12"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "75.502",
+                    "CON_VALIDOS": "87.550",
                     "congresal": "249"
                 }
             ]

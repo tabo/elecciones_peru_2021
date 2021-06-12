@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808299391.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fbb74c034b839fa45b5d8492dd50c883b8c6afc1e39f4e94e063dd37585d0b61",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808299391.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193549Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26ae3891d9da800cfc8375138a7115030727728c2d85c94578c61bc9d0f52070",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "941703",
@@ -11,14 +11,24 @@
                 "DISTRITO": "FLORENCIA",
                 "NNUME_HABILM": 293,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ITALIA",
                 "TDIRE_LOCAL": "VIA DEL GHIRLANDAIO 40, 50125 FLORENCIA",
                 "TNOMB_LOCAL": "ISTITUTO SALESIANO DELL\u2019IMMACOLATA",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 138
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082993",
+                    "CNUME_RESOL": "C45058000280",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002621                                  06646-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000280.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193549Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a24d1a3360adc1dd92fc0eb07ab0b121cc7e4a0f7ab45066446c84a8f36362ba"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

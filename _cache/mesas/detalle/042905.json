@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45064/SEP/ACPREC4506404290593.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T114049Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=615ee1b4880d91b4a42659414be7d09693209364c05ff58ca14dcb7450552586",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45064/SEP/ACPREC4506404290593.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T190140Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d864a515fbac1d3ed97af5c20999eaa6e8ea631cf7243f0d6b95b58a8d55d983",
             "presidencial": {
                 "CCENT_COMPU": "C45064",
                 "CCODI_UBIGEO": "140119",
@@ -11,14 +11,24 @@
                 "DISTRITO": "PUENTE PIEDRA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AAHH LADERAS DE CHILLON MZ X1 LOTE 49 ETAPA III",
                 "TNOMB_LOCAL": "601 KUMAMOTO III",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 268
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45064",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042905",
+                    "CNUME_RESOL": "C45064000036",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001240                                  01825-2021-JEE-LIN3/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

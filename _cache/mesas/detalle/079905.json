@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45104/SEP/ACPREC4510407990592.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T121619Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f4524cd71a2d1eb5848830a183da0403a5e60fceeff04f6a3f480a5424d45630",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45104/SEP/ACPREC4510407990592.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T191851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d2f01cc33b6f5bb1aeec7da3c069d5aa98764f76f7a0779f1bfb0208d4f39afa",
             "presidencial": {
                 "CCENT_COMPU": "C45104",
                 "CCODI_UBIGEO": "250302",
@@ -11,14 +11,24 @@
                 "DISTRITO": "TAHUANIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA SIN FIRMAS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ATALAYA",
                 "TDIRE_LOCAL": "JR LAS FLORES SN",
                 "TNOMB_LOCAL": "IE PRIMARIO 64169",
                 "TOT_CIUDADANOS_VOTARON": 143
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45104",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "079905",
+                    "CNUME_RESOL": "C45104000001",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002436                                  01500-2021-JEE-CPOR/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "0"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

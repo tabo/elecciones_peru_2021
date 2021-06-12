@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808246092.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T162832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ebb5cdc4010fb6edc26e9293a2531fb9a1ba5e9a18d3e3b7e74386b2631c75b2",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808246092.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193528Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d0f0f4e822cd00e63dba093c8dc9d61723e0ae01d0441461ef60fae441828b80",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "940902",
@@ -11,14 +11,24 @@
                 "DISTRITO": "BARCELONA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESPA\u00d1A",
                 "TDIRE_LOCAL": "PLAZA DEL UNIVERSO, AV. REINA MAR\u00cdA CRISTINA S/N. MONTJU\u00cfC, 08004 BARCELONA",
                 "TNOMB_LOCAL": "PABELL\u00d3N N\u00ba 1 - LA FIRA DE BARCELONA",
                 "TOT_CIUDADANOS_VOTARON": 104
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082460",
+                    "CNUME_RESOL": "C45058000187",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002664                                  06614-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000187.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193528Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7b47fc1a7adda38838e41e125ca3b4a8b9b6b8dc3b8e3e0299ce5897f6d7919f"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "2.885",
+                    "CON_EMITIDOS": "3.846",
                     "CON_VALIDOS": null,
-                    "congresal": "3"
+                    "congresal": "4"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.962",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

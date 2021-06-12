@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808205696.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210611T122900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eb9211c64d95130c2b84a7ebb66c00e4c4bd3dcd39c09fd5b823c38a3c1cd241",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808205696.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193612Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8088f70563091540ed28788c7a3e9f7286b7ef10db4bfe8f9ab353f660ee9296",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "921385",
@@ -11,37 +11,47 @@
                 "DISTRITO": "HARTFORD",
                 "NNUME_HABILM": 293,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ESTADOS UNIDOS DE AMERICA",
                 "TDIRE_LOCAL": "791 MIDDLE TURNPIKE W., MANCHESTER, CT 06040, REFERENCIA SALIDA 60 DE LA HIGHWAY 84 ",
                 "TNOMB_LOCAL": "HOWELL CHENEY TECHNICAL HIGH SCHOOL",
                 "TOT_CIUDADANOS_VOTARON": 93
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082056",
+                    "CNUME_RESOL": "C45058000322",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002711                                  06684-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000322.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193612Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f0239b07b0dc4fc0bd6d537bdb3c22871a956e30122d51ffb7ed302b2e748801"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "19.388",
-                    "CON_VALIDOS": "20.213",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "1",
-                    "congresal": "19"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "76.531",
-                    "CON_VALIDOS": "79.787",
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
                     "NLISTA": "2",
-                    "congresal": "75"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "95.918",
-                    "CON_VALIDOS": "100.000",
-                    "congresal": "94"
+                    "CON_EMITIDOS": "0.000",
+                    "CON_VALIDOS": "0",
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -53,23 +63,23 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
+                    "CON_EMITIDOS": "100.000",
+                    "CON_VALIDOS": null,
+                    "congresal": "93"
+                },
+                {
+                    "AUTORIDAD": "VOTOS IMPUGNADOS",
+                    "CCODI_AUTO": "80",
                     "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
                     "congresal": "0"
                 },
                 {
-                    "AUTORIDAD": "VOTOS IMPUGNADOS",
-                    "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.082",
-                    "CON_VALIDOS": null,
-                    "congresal": "4"
-                },
-                {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "95.918",
-                    "congresal": "98"
+                    "CON_VALIDOS": "0.000",
+                    "congresal": "93"
                 }
             ]
         },

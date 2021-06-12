@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505464394.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210611T122142Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=995c714f8631b801fa2e70d9938fce76e072edd7203228e16885cb421fe66b1c",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45075/SEP/ACPREC4507505464394.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T192220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=75f8e39d6d78aacad8dbd4cb37939f257b1e5bc3ac05d9116a0e36f1d8b2c630",
             "presidencial": {
                 "CCENT_COMPU": "C45075",
                 "CCODI_UBIGEO": "140137",
@@ -11,14 +11,24 @@
                 "DISTRITO": "SAN JUAN DE LURIGANCHO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV LAS LOMAS SN",
                 "TNOMB_LOCAL": "IE PNP MARTIN ESQUICHA BERNEDO",
                 "TOT_CIUDADANOS_VOTARON": 280
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45075",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "054643",
+                    "CNUME_RESOL": "C45075000057",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002300                                  01812-2021-JEE-LIE2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45075/SEP/RESEPC45075000057.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210612T192220Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a851bfddaaa970a1cbcb9473975ec6ef45d4761d5ea98f35847e006f01619ec"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "5.357",
+                    "CON_EMITIDOS": "5.714",
                     "CON_VALIDOS": null,
-                    "congresal": "15"
+                    "congresal": "16"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.357",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
