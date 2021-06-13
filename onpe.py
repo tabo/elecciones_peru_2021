@@ -33,14 +33,12 @@ class Onpe:
     ✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️
     """
 
-    APIBASE = "https://api.resultadossep.eleccionesgenerales2021.pe/"
-
     def __init__(self, base_dir):
         self.session = cloudscraper.create_scraper(
             browser={"browser": "firefox", "platform": "windows", "mobile": "False"}
         )
         self.base_dir = base_dir
-        self.cache_dir = base_dir / "_cache"
+        self.cache_dir = base_dir / "_cache" / self.CACHE_TOKEN
         self.geo_regions = {}
         self.ubigeos = {}
         self.locales = defaultdict(dict)
@@ -152,13 +150,23 @@ class Onpe:
         self.lapicitos(start)
 
 
+class PrimeraVuelta2021(Onpe):
+    CACHE_TOKEN = "20210411"
+
+
+class SegundaVuelta2021(Onpe):
+    APIBASE = "https://api.resultadossep.eleccionesgenerales2021.pe/"
+    CACHE_TOKEN = "20210606"
+
+
+
 def main():
     """✏️ hello lapicitos"""
     logging.basicConfig(
         level=logging.DEBUG,
         format="✏️ %(relativeCreated)6d ✏️ %(threadName)s ✏️ %(message)s",
     )
-    onpe = Onpe(pathlib.Path(__file__).resolve().parent)
+    onpe = SegundaVuelta2021(pathlib.Path(__file__).resolve().parent)
     onpe.process()
     print("yee")
 
