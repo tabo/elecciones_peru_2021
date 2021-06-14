@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808054896.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193721Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=03d42f319929afbd81cf8198a8bcc614638de15bf9e92db8bdbfb54326d0efd0",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808054896.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001508Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3d99f022a9f0dd6ed5d0f15fd40ba55f22e063a880e79a76b07d8c1c9b74810e",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920602",
@@ -11,14 +11,24 @@
                 "DISTRITO": "OTTAWA",
                 "NNUME_HABILM": 265,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA SIN FIRMAS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANADA",
                 "TDIRE_LOCAL": "130 ALBERT ST. OTTAWA, ONTARIO K1P 5G4 (SUITES 202, 908 Y 1901)",
                 "TNOMB_LOCAL": "VARETTE BUILDING",
                 "TOT_CIUDADANOS_VOTARON": 126
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080548",
+                    "CNUME_RESOL": "C45058000343",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004230                                  06826-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000343.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001508Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21c639e0547452ebec17c59bbd6ada1ff50e1005c8a154cda3e862abdda8a0ef"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

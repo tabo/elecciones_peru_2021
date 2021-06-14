@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45074/SEP/ACPREC4507404090992.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T184752Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=20de0f70172bd2cdd107f231343071f2a94259a7f43e99e2d4f770a14329ab8b",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45074/SEP/ACPREC4507404090992.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T235924Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=57cbe685778bc78fdbaa662ab862327fbdc0ae5837554b1e0e4ea48923fbad3e",
             "presidencial": {
                 "CCENT_COMPU": "C45074",
                 "CCODI_UBIGEO": "140112",
@@ -11,37 +11,47 @@
                 "DISTRITO": "LURIGANCHO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV MICAELA BASTIDAS SN MZ 11",
                 "TNOMB_LOCAL": "018 VIRGEN DE FATIMA",
                 "TOT_CIUDADANOS_VOTARON": 248
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45074",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "040909",
+                    "CNUME_RESOL": "C45074000022",
+                    "CNUME_RESOL_JNE": "SEPEG.2021002277                                  03324-2021-JEE-LIE1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45074/SEP/RESEPC45074000022.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T235924Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e26ec19ddc36dfbcccde1bb49b11cdf9d6d174c32a2c7f0aae2df733b7e2d11d"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "46.774",
-                    "CON_VALIDOS": "49.785",
+                    "CON_EMITIDOS": "47.177",
+                    "CON_VALIDOS": "50.000",
                     "NLISTA": "1",
-                    "congresal": "116"
+                    "congresal": "117"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "47.177",
-                    "CON_VALIDOS": "50.215",
+                    "CON_VALIDOS": "50.000",
                     "NLISTA": "2",
                     "congresal": "117"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "93.952",
+                    "CON_EMITIDOS": "94.355",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "233"
+                    "congresal": "234"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +70,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.403",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "93.952",
+                    "CON_VALIDOS": "94.355",
                     "congresal": "248"
                 }
             ]

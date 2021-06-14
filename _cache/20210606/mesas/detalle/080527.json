@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808052796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193652Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5108da29abc2d00330b946bdc66c2230dbe999655f5e30857becab6fdbbe8c26",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808052796.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d1d339eb49b3f370491acfe2dfffe58b8a5309e45075a4998431e7ddbc85602",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920601",
@@ -11,14 +11,24 @@
                 "DISTRITO": "MONTREAL",
                 "NNUME_HABILM": 292,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANADA",
                 "TDIRE_LOCAL": "350 RUE SAINT PAUL EST, MONTR\u00c9AL, QC H2Y 1H2",
                 "TNOMB_LOCAL": "MARCHE BONSECOURS",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 119
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080527",
+                    "CNUME_RESOL": "C45058000353",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003997                                  06823-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000353.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e34e6cc4a3634dbbc69aefc5c9d4d3704f263a9f5e6d8599b312c517c9099b1d"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45073/SEP/ACPREC4507303455096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T180550Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=43298a310f9480f6f18fd3321bce75999720aa8536685e9aceab285a5f8380a9",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45073/SEP/ACPREC4507303455096.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T234458Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0abc61c15a91cdebc248c83ca182ebf33ef07e86704ae7a3d5247807c2f53713",
             "presidencial": {
                 "CCENT_COMPU": "C45073",
                 "CCODI_UBIGEO": "140103",
@@ -11,14 +11,24 @@
                 "DISTRITO": "ATE",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR LOS LINOS SN",
                 "TNOMB_LOCAL": "CEP SAN MARTIN DE PORRES DE SALAMANCA",
                 "TOT_CIUDADANOS_VOTARON": 256
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45073",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "034550",
+                    "CNUME_RESOL": "C45073000024",
+                    "CNUME_RESOL_JNE": "SEPEG. 2021002117                                 03327-2021-JEE-LIE1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45073/SEP/RESEPC45073000024.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T234458Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b5017d19f1aa722f612ff921bba7e1f401bf4cee27baba87db71089bf3254df2"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.516",
+                    "CON_EMITIDOS": "3.906",
                     "CON_VALIDOS": null,
-                    "congresal": "9"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.391",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

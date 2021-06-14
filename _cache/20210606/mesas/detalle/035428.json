@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45073/SEP/ACPREC4507303542893.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T181213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d6b67fb7e5d5fbc41ddac30fdf39a7a9367cf3be2d8195d8627d2cb6ac40ecac",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45073/SEP/ACPREC4507303542893.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T235034Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1e313731a8420b751cf85328ca26fe5dd323ac6cde8985484b7a483401fb0569",
             "presidencial": {
                 "CCENT_COMPU": "C45073",
                 "CCODI_UBIGEO": "140103",
@@ -11,14 +11,24 @@
                 "DISTRITO": "ATE",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "CALLE HUAROCHIRI SN",
                 "TNOMB_LOCAL": "IE JULIO CESAR TELLO",
                 "TOT_CIUDADANOS_VOTARON": 249
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45073",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "035428",
+                    "CNUME_RESOL": "C45073000027",
+                    "CNUME_RESOL_JNE": "SEPEG. 2021002123                                 03330-2021-JEE-LIE1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45073/SEP/RESEPC45073000027.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T235034Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=350fab311cd99c5c986c3434c490d22e95e962c208ca1396ce66c76919f2aa52"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -53,16 +63,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "6.024",
+                    "CON_EMITIDOS": "6.426",
                     "CON_VALIDOS": null,
-                    "congresal": "15"
+                    "congresal": "16"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.402",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

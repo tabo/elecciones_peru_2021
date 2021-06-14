@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808056897.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=73455913ed87c3b5782834e06500ddec69ffd0e514211c08411ac9d102b21a09",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808056897.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=27e226e67e98e4da307bb66951732533bc7d2ab503b257a4a069820122644942",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920603",
@@ -11,19 +11,29 @@
                 "DISTRITO": "TORONTO",
                 "NNUME_HABILM": 286,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ERROR MATERIAL",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANADA",
                 "TDIRE_LOCAL": "1 HARBOUR SQUARE TORONTO, ON, M5J 1A6",
                 "TNOMB_LOCAL": "THE WESTIN HARBOUR CASTLE",
                 "TOT_CIUDADANOS_VOTARON": 135
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080568",
+                    "CNUME_RESOL": "C45058000342",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003999                                  06828-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000342.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ea1d843af25dc56143ed2d7a2141d17619556608c931fcce9abe52f669cc5df9"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "15.672",
+                    "CON_EMITIDOS": "15.556",
                     "CON_VALIDOS": "16.279",
                     "NLISTA": "1",
                     "congresal": "21"
@@ -31,7 +41,7 @@
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "80.597",
+                    "CON_EMITIDOS": "80.000",
                     "CON_VALIDOS": "83.721",
                     "NLISTA": "2",
                     "congresal": "108"
@@ -39,7 +49,7 @@
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "96.269",
+                    "CON_EMITIDOS": "95.556",
                     "CON_VALIDOS": "100.000",
                     "congresal": "129"
                 },
@@ -53,9 +63,9 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "3.731",
+                    "CON_EMITIDOS": "4.444",
                     "CON_VALIDOS": null,
-                    "congresal": "5"
+                    "congresal": "6"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -68,8 +78,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "96.269",
-                    "congresal": "134"
+                    "CON_VALIDOS": "95.556",
+                    "congresal": "135"
                 }
             ]
         },

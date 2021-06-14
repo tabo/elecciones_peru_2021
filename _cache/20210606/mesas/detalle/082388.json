@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808238895.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193518Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f3030249d8be9bfac67e834ac06a6874f1a8801341cf00ccc93adf5be6dbe4df",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808238895.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001449Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c23eeb2014e6e257914bb2cce556f86bcc79fa1b0cb8cd820b216e13e21416df",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "940402",
@@ -11,14 +11,24 @@
                 "DISTRITO": "BRUSELAS",
                 "NNUME_HABILM": 281,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ILEGIBILIDAD",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "BELGICA",
                 "TDIRE_LOCAL": "AVENUE DES ARTS 10, 1210 SAINT-JOSSE-TEN-NOODE (PISO 1 Y 2)",
                 "TNOMB_LOCAL": "CONSULADO GENERAL DEL PER\u00da EN BRUSELAS",
-                "TOT_CIUDADANOS_VOTARON": "#"
+                "TOT_CIUDADANOS_VOTARON": 132
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082388",
+                    "CNUME_RESOL": "C45058000351",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004007                                  06818-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000351.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001449Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=73edd0a63b6de38c153ca92301895bc834893fd52d58b8b5a42aa7c02008c41b"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",

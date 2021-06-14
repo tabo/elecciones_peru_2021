@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808333897.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193558Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6d661e073801c5a20096cbada4ebc3ad6eb75064f5935911d7c31006d591874a",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808333897.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T002404Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=89978c38447f0f8fc3673f4cb7891cd0016b29cf878b34a47abbc4cea1f8be99",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "942803",
@@ -11,14 +11,24 @@
                 "DISTRITO": "GINEBRA",
                 "NNUME_HABILM": 280,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "OTRAS OBSERVACIONES",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "SUIZA",
                 "TDIRE_LOCAL": "RUE DE VAREMBE 9, 1211 GINEBRA",
                 "TNOMB_LOCAL": "CENTRO INTERNACIONAL DE CONFERENCIAS DE GINEBRA (CICG)\u00bf",
                 "TOT_CIUDADANOS_VOTARON": 127
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "083338",
+                    "CNUME_RESOL": "C45058000346",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004005                                  06814-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000346.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T002404Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d5f95ee5bff58a2e5f033379f524a8c186e3609880eb6770107c8a0b2d19f38"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
@@ -60,9 +70,9 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "#",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "#"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

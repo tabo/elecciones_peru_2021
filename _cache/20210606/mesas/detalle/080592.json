@@ -2,7 +2,7 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808059295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T193522Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e9c257c4d15453a2772fee1c7151ad24d99dc10a5b95c82acbd79c16693b562f",
+            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AC/C45058/SEP/ACPREC4505808059295.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003742Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a1ac3dc8673b961da54b5a70e467837c434fa940ee3dc8397e8f09727476bb8f",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920703",
@@ -11,14 +11,24 @@
                 "DISTRITO": "CALI",
                 "NNUME_HABILM": 269,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "INCOMPLETA",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "COLOMBIA",
                 "TDIRE_LOCAL": "CARRERA 100 # 11-60 CENTRO COMERCIAL HOLGUINES TRADE CENTER OFICINA 301 TORRE FARALLONES",
                 "TNOMB_LOCAL": "CONSULADO DEL PER\u00da EN CALI",
-                "TOT_CIUDADANOS_VOTARON": 0
+                "TOT_CIUDADANOS_VOTARON": 100
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080592",
+                    "CNUME_RESOL": "C45058000355",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003995                                  06820-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000355.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003742Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f85ca89d688feedcf82583fc0a88f60523c5b95d72a074883699729fcccd3346"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
