@@ -372,7 +372,7 @@ SELECT v1a.tipo_acta, v1a.mesa,
        v2_validos.congresal AS 'v2_validos',
        v2_blanco.congresal AS 'v2_blanco',
        v2_impugnados.congresal AS 'v2_impugnados',
-       v2_nulos.congresal AS 'v2_nulos',
+       v2_nulos.congresal AS 'v2_nulos'
 FROM actas_20210606 AS v2a
     LEFT JOIN actas_20210411 AS v1a ON v1a.mesa=v2a.mesa AND v1a.tipo_acta=v2a.tipo_acta
     JOIN votos_20210411 AS v1_ap on v1a.mesa = v1_ap.mesa and v1a.tipo_acta = v1_ap.tipo_acta AND v1_ap.AUTORIDAD='ACCION POPULAR'
@@ -404,8 +404,8 @@ FROM actas_20210606 AS v2a
     JOIN votos_20210606 AS v2_validos on v1a.mesa = v2_validos.mesa and v1a.tipo_acta = v2_validos.tipo_acta AND v2_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
     JOIN votos_20210606 AS v2_blanco on v1a.mesa = v2_blanco.mesa and v1a.tipo_acta = v2_blanco.tipo_acta AND v2_blanco.AUTORIDAD='VOTOS EN BLANCO'
     JOIN votos_20210606 AS v2_impugnados on v1a.mesa = v2_impugnados.mesa and v1a.tipo_acta = v2_impugnados.tipo_acta AND v2_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
-    JOIN votos_20210606 AS v2_nulos on v1a.mesa = v2_nulos.mesa and v1a.tipo_acta = v2_nulos.tipo_acta AND v2_nulos.AUTORIDAD='VOTOS NULOS',
-
+    JOIN votos_20210606 AS v2_nulos on v1a.mesa = v2_nulos.mesa and v1a.tipo_acta = v2_nulos.tipo_acta AND v2_nulos.AUTORIDAD='VOTOS NULOS'
+    ;
         ''')
 
 
