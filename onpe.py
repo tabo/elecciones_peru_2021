@@ -17,7 +17,6 @@ import datetime
 import json
 import pathlib
 import time
-from collections import defaultdict
 from urllib.parse import urljoin
 import logging
 
@@ -33,16 +32,15 @@ class Onpe:
     ✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️
     """
 
-    def __init__(self, base_dir):
+    def __init__(self, apibase, cache_token, base_dir, ignore_cache):
         self.session = cloudscraper.create_scraper(
             browser={"browser": "firefox", "platform": "windows", "mobile": "False"}
         )
+        self.apibase = apibase
+        self.cache_token = cache_token
         self.base_dir = base_dir
-        self.cache_dir = base_dir / "_cache" / self.CACHE_TOKEN
-        self.geo_regions = {}
-        self.ubigeos = {}
-        self.locales = defaultdict(dict)
-        self.mesas = {}
+        self.ignore_cache = ignore_cache
+        self.cache_dir = base_dir / "_cache" / self.cache_token
 
     def get_cache_path_for_url(self, url):
         """✏️ este no es el cache que estas buscando"""
@@ -53,17 +51,22 @@ class Onpe:
             res = res[:-11] + ".json"
         return self.cache_dir / res
 
-    def get(self, path):
-        """✏️ jala la data del api de la onpe"""
+    def get(self, path, hook=None):
+        """✏️ jala la data del api de la onpe
+
+        El hook es un rondero digital que va a post-procesar data antes de cachearla"""
         cached_path = self.get_cache_path_for_url(path)
         cached_path.parent.mkdir(parents=True, exist_ok=True)
-        if cached_path.is_file():
+        if not self.ignore_cache and cached_path.is_file():
             logging.info("       Recuperando cache recontrachévere 😏")
             return json.loads(cached_path.read_text())
         logging.info("       Solicitando información a ONPE 🥺")
-        resp = self.session.get(urljoin(self.APIBASE, path))
+        url = urljoin(self.apibase, path.lstrip("/"))
+        resp = self.session.get(url)
         resp.raise_for_status()
         data = resp.json()
+        if hook is not None:
+            hook(data)
         cached_path.write_text(json.dumps(data, sort_keys=True, indent=4))
         return data
 
@@ -82,7 +85,6 @@ class Onpe:
             for future in concurrent.futures.as_completed(tasks):
                 ubig = tasks[future]
                 logging.info(f"Procesado ubigeo {ubig}")
-        self.geo_regions[region_type] = resp
         return resp
 
     def exterior(self):
@@ -99,7 +101,6 @@ class Onpe:
         """✏️ entrada del procesamiento de ubigeos, distribuye a locales"""
         logging.info(f"🏢 Procesando locales de votación en {ubigeo}")
         resp = self.get(f"/mesas/locales/{ubigeo}?name=param")
-        self.ubigeos[ubigeo] = resp
         for local in resp["locales"]:
             self.local(ubigeo, local["CCODI_LOCAL"])
         return resp
@@ -110,7 +111,6 @@ class Onpe:
             f"📕 Procesando mesas de votación en local {local}, ubigeo {ubigeo}"
         )
         resp = self.get(f"/mesas/actas/11/{ubigeo}/{local}?name=param")
-        self.locales[ubigeo][local] = resp
         for mesa in resp["mesasVotacion"]:
             self.mesa(mesa["NUMMESA"])
         return resp
@@ -118,8 +118,14 @@ class Onpe:
     def mesa(self, mesa):
         """✏️ jalamos los detalles de las mesas"""
         logging.info(f"  (╯°□°）╯︵ ┻━┻  Procesando mesa {mesa}")
-        resp = self.get(f"/mesas/detalle/{mesa}?name=param")
-        self.mesas[mesa] = resp
+
+        def hook(data):
+            """nos mochamos links a imagenes de acta que expiran"""
+            for proceso_data in data.get("procesos", {}).values():
+                if isinstance(proceso_data, dict):
+                    proceso_data.pop("imageActa", None)
+
+        resp = self.get(f"/mesas/detalle/{mesa}?name=param", hook)
         return resp
 
     def lapicitos(self, start):
@@ -129,35 +135,12 @@ class Onpe:
         print(f"✨✏️ Ronderos procesaron todo en {dur} 🤠🤠🤠")
         print("✨✏️" * 20)
 
-    def save(self):
-        """✏️ guardamos todo lo que encontramos en un json gigante"""
-        data_file = self.base_dir / "data.json"
-        data = {
-            "geo_regions": self.geo_regions,
-            "ubigeos": self.ubigeos,
-            "locales": self.locales,
-            "mesas": self.mesas,
-        }
-        logging.info("guardando evidencia de triunfo lapicito en data.json")
-        data_file.write_text(json.dumps(data, sort_keys=True, indent=4))
-
     def process(self):
         """✏️ organizamos las llamadas a los thread pools y terminamos con lapicitos"""
         start = time.perf_counter()
         self.peru()
         self.exterior()
-        self.save()
         self.lapicitos(start)
-
-
-class PrimeraVuelta2021(Onpe):
-    CACHE_TOKEN = "20210411"
-
-
-class SegundaVuelta2021(Onpe):
-    APIBASE = "https://api.resultadossep.eleccionesgenerales2021.pe/"
-    CACHE_TOKEN = "20210606"
-
 
 
 def main():
@@ -166,9 +149,21 @@ def main():
         level=logging.DEBUG,
         format="✏️ %(relativeCreated)6d ✏️ %(threadName)s ✏️ %(message)s",
     )
-    onpe = SegundaVuelta2021(pathlib.Path(__file__).resolve().parent)
-    onpe.process()
-    print("yee")
+    base_dir = pathlib.Path(__file__).resolve().parent
+    onpe2021_2 = Onpe(
+        apibase="https://api.resultadossep.eleccionesgenerales2021.pe/",
+        cache_token="20210606",
+        base_dir=base_dir,
+        ignore_cache=True,
+    )
+    onpe2021_2.process()
+    onpe2021_1 = Onpe(
+        apibase="https://resultadoshistorico.onpe.gob.pe/v1/EG2021/",
+        cache_token="20210411",
+        base_dir=base_dir,
+        ignore_cache=False,
+    )
+    onpe2021_1.process()
 
 
 if __name__ == "__main__":
