@@ -285,7 +285,7 @@ class Converter:
                     for voto in acta_data["votos"]:
                         voto.update({"mesa": mesa, "tipo_acta": tipo_acta})
                         if "NLISTA" not in voto:
-                            voto['NLISTA'] = None
+                            voto["NLISTA"] = None
                         votos_res.append(voto)
             cur.executemany(
                 f"""
@@ -313,7 +313,8 @@ class Converter:
     def create_summary(self):
         logging.info("creando resumen")
         cur = self.db.cursor()
-        cur.execute('''
+        cur.execute(
+            """
         CREATE TABLE resumen_actas AS
 SELECT v1a.tipo_acta, v1a.mesa,
        v1a.CCENT_COMPU AS 'v1_CCENT_COMPU',
@@ -375,38 +376,39 @@ SELECT v1a.tipo_acta, v1a.mesa,
        v2_nulos.congresal AS 'v2_nulos'
 FROM actas_20210606 AS v2a
     LEFT JOIN actas_20210411 AS v1a ON v1a.mesa=v2a.mesa AND v1a.tipo_acta=v2a.tipo_acta
-    JOIN votos_20210411 AS v1_ap on v1a.mesa = v1_ap.mesa and v1a.tipo_acta = v1_ap.tipo_acta AND v1_ap.AUTORIDAD='ACCION POPULAR'
-    JOIN votos_20210411 AS v1_app on v1a.mesa = v1_app.mesa and v1a.tipo_acta = v1_app.tipo_acta AND v1_app.AUTORIDAD='ALIANZA PARA EL PROGRESO'
-    JOIN votos_20210411 AS v1_avpais on v1a.mesa = v1_avpais.mesa and v1a.tipo_acta = v1_avpais.tipo_acta AND v1_avpais.AUTORIDAD='AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL'
-    JOIN votos_20210411 AS v1_dd on v1a.mesa = v1_dd.mesa and v1a.tipo_acta = v1_dd.tipo_acta AND v1_dd.AUTORIDAD='DEMOCRACIA DIRECTA'
-    JOIN votos_20210411 AS v1_fa on v1a.mesa = v1_fa.mesa and v1a.tipo_acta = v1_fa.tipo_acta AND v1_fa.AUTORIDAD='EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD'
-    JOIN votos_20210411 AS v1_fp on v1a.mesa = v1_fp.mesa and v1a.tipo_acta = v1_fp.tipo_acta AND v1_fp.AUTORIDAD='FUERZA POPULAR'
-    JOIN votos_20210411 AS v1_jpp on v1a.mesa = v1_jpp.mesa and v1a.tipo_acta = v1_jpp.tipo_acta AND v1_jpp.AUTORIDAD='JUNTOS POR EL PERU'
-    JOIN votos_20210411 AS v1_sp on v1a.mesa = v1_sp.mesa and v1a.tipo_acta = v1_sp.tipo_acta AND v1_sp.AUTORIDAD='PARTIDO DEMOCRATICO SOMOS PERU'
-    JOIN votos_20210411 AS v1_morado on v1a.mesa = v1_morado.mesa and v1a.tipo_acta = v1_morado.tipo_acta AND v1_morado.AUTORIDAD='PARTIDO MORADO'
-    JOIN votos_20210411 AS v1_pnp on v1a.mesa = v1_pnp.mesa and v1a.tipo_acta = v1_pnp.tipo_acta AND v1_pnp.AUTORIDAD='PARTIDO NACIONALISTA PERUANO'
-    JOIN votos_20210411 AS v1_perulibre on v1a.mesa = v1_perulibre.mesa and v1a.tipo_acta = v1_perulibre.tipo_acta AND v1_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
-    JOIN votos_20210411 AS v1_ppc on v1a.mesa = v1_ppc.mesa and v1a.tipo_acta = v1_ppc.tipo_acta AND v1_ppc.AUTORIDAD='PARTIDO POPULAR CRISTIANO - PPC'
-    JOIN votos_20210411 AS v1_pps on v1a.mesa = v1_pps.mesa and v1a.tipo_acta = v1_pps.tipo_acta AND v1_pps.AUTORIDAD='PERU PATRIA SEGURA'
-    JOIN votos_20210411 AS v1_pp on v1a.mesa = v1_pp.mesa and v1a.tipo_acta = v1_pp.tipo_acta AND v1_pp.AUTORIDAD='PODEMOS PERU'
-    JOIN votos_20210411 AS v1_runa on v1a.mesa = v1_runa.mesa and v1a.tipo_acta = v1_runa.tipo_acta AND v1_runa.AUTORIDAD='RENACIMIENTO UNIDO NACIONAL'
-    JOIN votos_20210411 AS v1_rp on v1a.mesa = v1_rp.mesa and v1a.tipo_acta = v1_rp.tipo_acta AND v1_rp.AUTORIDAD='RENOVACION POPULAR'
-    JOIN votos_20210411 AS v1_emitidos on v1a.mesa = v1_emitidos.mesa and v1a.tipo_acta = v1_emitidos.tipo_acta AND v1_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
-    JOIN votos_20210411 AS v1_validos on v1a.mesa = v1_validos.mesa and v1a.tipo_acta = v1_validos.tipo_acta AND v1_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
-    JOIN votos_20210411 AS v1_upp on v1a.mesa = v1_upp.mesa and v1a.tipo_acta = v1_upp.tipo_acta AND v1_upp.AUTORIDAD='UNION POR EL PERU'
-    JOIN votos_20210411 AS v1_vn on v1a.mesa = v1_vn.mesa and v1a.tipo_acta = v1_vn.tipo_acta AND v1_vn.AUTORIDAD='VICTORIA NACIONAL'
-    JOIN votos_20210411 AS v1_blanco on v1a.mesa = v1_blanco.mesa and v1a.tipo_acta = v1_blanco.tipo_acta AND v1_blanco.AUTORIDAD='VOTOS EN BLANCO'
-    JOIN votos_20210411 AS v1_impugnados on v1a.mesa = v1_impugnados.mesa and v1a.tipo_acta = v1_impugnados.tipo_acta AND v1_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
-    JOIN votos_20210411 AS v1_nulos on v1a.mesa = v1_nulos.mesa and v1a.tipo_acta = v1_nulos.tipo_acta AND v1_nulos.AUTORIDAD='VOTOS NULOS'
-    JOIN votos_20210606 AS v2_fp on v1a.mesa = v2_fp.mesa and v1a.tipo_acta = v2_fp.tipo_acta AND v2_fp.AUTORIDAD='FUERZA POPULAR'
-    JOIN votos_20210606 AS v2_perulibre on v1a.mesa = v2_perulibre.mesa and v1a.tipo_acta = v2_perulibre.tipo_acta AND v2_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
-    JOIN votos_20210606 AS v2_emitidos on v1a.mesa = v2_emitidos.mesa and v1a.tipo_acta = v2_emitidos.tipo_acta AND v2_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
-    JOIN votos_20210606 AS v2_validos on v1a.mesa = v2_validos.mesa and v1a.tipo_acta = v2_validos.tipo_acta AND v2_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
-    JOIN votos_20210606 AS v2_blanco on v1a.mesa = v2_blanco.mesa and v1a.tipo_acta = v2_blanco.tipo_acta AND v2_blanco.AUTORIDAD='VOTOS EN BLANCO'
-    JOIN votos_20210606 AS v2_impugnados on v1a.mesa = v2_impugnados.mesa and v1a.tipo_acta = v2_impugnados.tipo_acta AND v2_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
-    JOIN votos_20210606 AS v2_nulos on v1a.mesa = v2_nulos.mesa and v1a.tipo_acta = v2_nulos.tipo_acta AND v2_nulos.AUTORIDAD='VOTOS NULOS'
+    LEFT JOIN votos_20210411 AS v1_ap on v1a.mesa = v1_ap.mesa and v1a.tipo_acta = v1_ap.tipo_acta AND v1_ap.AUTORIDAD='ACCION POPULAR'
+    LEFT JOIN votos_20210411 AS v1_app on v1a.mesa = v1_app.mesa and v1a.tipo_acta = v1_app.tipo_acta AND v1_app.AUTORIDAD='ALIANZA PARA EL PROGRESO'
+    LEFT JOIN votos_20210411 AS v1_avpais on v1a.mesa = v1_avpais.mesa and v1a.tipo_acta = v1_avpais.tipo_acta AND v1_avpais.AUTORIDAD='AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL'
+    LEFT JOIN votos_20210411 AS v1_dd on v1a.mesa = v1_dd.mesa and v1a.tipo_acta = v1_dd.tipo_acta AND v1_dd.AUTORIDAD='DEMOCRACIA DIRECTA'
+    LEFT JOIN votos_20210411 AS v1_fa on v1a.mesa = v1_fa.mesa and v1a.tipo_acta = v1_fa.tipo_acta AND v1_fa.AUTORIDAD='EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD'
+    LEFT JOIN votos_20210411 AS v1_fp on v1a.mesa = v1_fp.mesa and v1a.tipo_acta = v1_fp.tipo_acta AND v1_fp.AUTORIDAD='FUERZA POPULAR'
+    LEFT JOIN votos_20210411 AS v1_jpp on v1a.mesa = v1_jpp.mesa and v1a.tipo_acta = v1_jpp.tipo_acta AND v1_jpp.AUTORIDAD='JUNTOS POR EL PERU'
+    LEFT JOIN votos_20210411 AS v1_sp on v1a.mesa = v1_sp.mesa and v1a.tipo_acta = v1_sp.tipo_acta AND v1_sp.AUTORIDAD='PARTIDO DEMOCRATICO SOMOS PERU'
+    LEFT JOIN votos_20210411 AS v1_morado on v1a.mesa = v1_morado.mesa and v1a.tipo_acta = v1_morado.tipo_acta AND v1_morado.AUTORIDAD='PARTIDO MORADO'
+    LEFT JOIN votos_20210411 AS v1_pnp on v1a.mesa = v1_pnp.mesa and v1a.tipo_acta = v1_pnp.tipo_acta AND v1_pnp.AUTORIDAD='PARTIDO NACIONALISTA PERUANO'
+    LEFT JOIN votos_20210411 AS v1_perulibre on v1a.mesa = v1_perulibre.mesa and v1a.tipo_acta = v1_perulibre.tipo_acta AND v1_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
+    LEFT JOIN votos_20210411 AS v1_ppc on v1a.mesa = v1_ppc.mesa and v1a.tipo_acta = v1_ppc.tipo_acta AND v1_ppc.AUTORIDAD='PARTIDO POPULAR CRISTIANO - PPC'
+    LEFT JOIN votos_20210411 AS v1_pps on v1a.mesa = v1_pps.mesa and v1a.tipo_acta = v1_pps.tipo_acta AND v1_pps.AUTORIDAD='PERU PATRIA SEGURA'
+    LEFT JOIN votos_20210411 AS v1_pp on v1a.mesa = v1_pp.mesa and v1a.tipo_acta = v1_pp.tipo_acta AND v1_pp.AUTORIDAD='PODEMOS PERU'
+    LEFT JOIN votos_20210411 AS v1_runa on v1a.mesa = v1_runa.mesa and v1a.tipo_acta = v1_runa.tipo_acta AND v1_runa.AUTORIDAD='RENACIMIENTO UNIDO NACIONAL'
+    LEFT JOIN votos_20210411 AS v1_rp on v1a.mesa = v1_rp.mesa and v1a.tipo_acta = v1_rp.tipo_acta AND v1_rp.AUTORIDAD='RENOVACION POPULAR'
+    LEFT JOIN votos_20210411 AS v1_emitidos on v1a.mesa = v1_emitidos.mesa and v1a.tipo_acta = v1_emitidos.tipo_acta AND v1_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
+    LEFT JOIN votos_20210411 AS v1_validos on v1a.mesa = v1_validos.mesa and v1a.tipo_acta = v1_validos.tipo_acta AND v1_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
+    LEFT JOIN votos_20210411 AS v1_upp on v1a.mesa = v1_upp.mesa and v1a.tipo_acta = v1_upp.tipo_acta AND v1_upp.AUTORIDAD='UNION POR EL PERU'
+    LEFT JOIN votos_20210411 AS v1_vn on v1a.mesa = v1_vn.mesa and v1a.tipo_acta = v1_vn.tipo_acta AND v1_vn.AUTORIDAD='VICTORIA NACIONAL'
+    LEFT JOIN votos_20210411 AS v1_blanco on v1a.mesa = v1_blanco.mesa and v1a.tipo_acta = v1_blanco.tipo_acta AND v1_blanco.AUTORIDAD='VOTOS EN BLANCO'
+    LEFT JOIN votos_20210411 AS v1_impugnados on v1a.mesa = v1_impugnados.mesa and v1a.tipo_acta = v1_impugnados.tipo_acta AND v1_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
+    LEFT JOIN votos_20210411 AS v1_nulos on v1a.mesa = v1_nulos.mesa and v1a.tipo_acta = v1_nulos.tipo_acta AND v1_nulos.AUTORIDAD='VOTOS NULOS'
+    LEFT JOIN votos_20210606 AS v2_fp on v1a.mesa = v2_fp.mesa and v1a.tipo_acta = v2_fp.tipo_acta AND v2_fp.AUTORIDAD='FUERZA POPULAR'
+    LEFT JOIN votos_20210606 AS v2_perulibre on v1a.mesa = v2_perulibre.mesa and v1a.tipo_acta = v2_perulibre.tipo_acta AND v2_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
+    LEFT JOIN votos_20210606 AS v2_emitidos on v1a.mesa = v2_emitidos.mesa and v1a.tipo_acta = v2_emitidos.tipo_acta AND v2_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
+    LEFT JOIN votos_20210606 AS v2_validos on v1a.mesa = v2_validos.mesa and v1a.tipo_acta = v2_validos.tipo_acta AND v2_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
+    LEFT JOIN votos_20210606 AS v2_blanco on v1a.mesa = v2_blanco.mesa and v1a.tipo_acta = v2_blanco.tipo_acta AND v2_blanco.AUTORIDAD='VOTOS EN BLANCO'
+    LEFT JOIN votos_20210606 AS v2_impugnados on v1a.mesa = v2_impugnados.mesa and v1a.tipo_acta = v2_impugnados.tipo_acta AND v2_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
+    LEFT JOIN votos_20210606 AS v2_nulos on v1a.mesa = v2_nulos.mesa and v1a.tipo_acta = v2_nulos.tipo_acta AND v2_nulos.AUTORIDAD='VOTOS NULOS'
     ;
-        ''')
+        """
+        )
 
 
 def main():
