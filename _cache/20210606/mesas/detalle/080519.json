@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808051996.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003807Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3f196103a6197af3fa9d89580b8b9b58ca003a2c0283adb9363512a98ff74cc1",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920601",
@@ -11,37 +10,47 @@
                 "DISTRITO": "MONTREAL",
                 "NNUME_HABILM": 292,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANADA",
                 "TDIRE_LOCAL": "350 RUE SAINT PAUL EST, MONTR\u00c9AL, QC H2Y 1H2",
                 "TNOMB_LOCAL": "MARCHE BONSECOURS",
                 "TOT_CIUDADANOS_VOTARON": 115
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080519",
+                    "CNUME_RESOL": "C45058000356",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004017                                  06845-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000356.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210615T045300Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ad6cfa1496fe18a56b95d47c2aa6bc82b6dd1661a3377fb1e30b31add2d7f44e"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "26.957",
-                    "CON_VALIDOS": "28.704",
+                    "CON_VALIDOS": "28.182",
                     "NLISTA": "1",
                     "congresal": "31"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "66.957",
-                    "CON_VALIDOS": "71.296",
+                    "CON_EMITIDOS": "68.696",
+                    "CON_VALIDOS": "71.818",
                     "NLISTA": "2",
-                    "congresal": "77"
+                    "congresal": "79"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "93.913",
+                    "CON_EMITIDOS": "95.652",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "108"
+                    "congresal": "110"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "1.739",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "2"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "93.913",
+                    "CON_VALIDOS": "95.652",
                     "congresal": "115"
                 }
             ]

@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45066/SEP/ACPREC4506603988094.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210614T000100Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=08cd84c58f1969e4d8e5f788c926a7a62e6e92d49677b257bba649946f98d0a6",
             "presidencial": {
                 "CCENT_COMPU": "C45066",
                 "CCODI_UBIGEO": "140109",
@@ -11,8 +10,8 @@
                 "DISTRITO": "LA VICTORIA",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR FRANCISCO ALMENARA 432",
                 "TNOMB_LOCAL": "IE ROSA DOMINGA PEREZ LIENDO",
@@ -23,10 +22,19 @@
                     "CCENT_COMPU": "C45066",
                     "CESTADO_RESOL": "P",
                     "CNUME_ACTA": "039880",
+                    "CNUME_RESOL": "C45066000072",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001524                                  02082-2021-JEE-LIO2/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000072.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T040305Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=afff0a72360eb7bbc5864737dfd7c15a5775abb8f3f87c88701fb073bbc29b8c"
+                },
+                {
+                    "CCENT_COMPU": "C45066",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "039880",
                     "CNUME_RESOL": "C45066000048",
                     "CNUME_RESOL_JNE": "SEPEG.2021001524                                  02060-2021-JEE-LIO2/JNE",
                     "CPROCED_RESOL": "JE",
-                    "IMAGEN": "0"
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45066/SEP/RESEPC45066000048.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T040305Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ae7001d359ac147b3500f8a568e6eddfc3e57be394b84425f87c3416b862f26c"
                 }
             ],
             "votos": [
@@ -63,16 +71,16 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "7.631",
+                    "CON_EMITIDOS": "12.450",
                     "CON_VALIDOS": null,
-                    "congresal": "19"
+                    "congresal": "31"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.819",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "12"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",

@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504254691.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001148Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=38168a84854cef501d4e79e2926f05a245615930e3393f1576f1fcd754984490",
             "presidencial": {
                 "CCENT_COMPU": "C45065",
                 "CCODI_UBIGEO": "140117",
@@ -11,37 +10,47 @@
                 "DISTRITO": "PUEBLO LIBRE",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV SAN MARTIN 1377",
                 "TNOMB_LOCAL": "FRANCISCO GARCIA CALDERON",
                 "TOT_CIUDADANOS_VOTARON": 202
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042546",
+                    "CNUME_RESOL": "C45065000040",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001663                                  06566-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000040.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T040321Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c2ed534eca7b5c82abf7944f642f5ba5f8c97a5ade262591a3f6b28d9502d25e"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "13.861",
-                    "CON_VALIDOS": "14.660",
+                    "CON_VALIDOS": "14.583",
                     "NLISTA": "1",
                     "congresal": "28"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "80.693",
-                    "CON_VALIDOS": "85.340",
+                    "CON_EMITIDOS": "81.188",
+                    "CON_VALIDOS": "85.417",
                     "NLISTA": "2",
-                    "congresal": "163"
+                    "congresal": "164"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "94.554",
+                    "CON_EMITIDOS": "95.050",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "191"
+                    "congresal": "192"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.495",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "94.554",
+                    "CON_VALIDOS": "95.050",
                     "congresal": "202"
                 }
             ]

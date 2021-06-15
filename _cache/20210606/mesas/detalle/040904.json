@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504090496.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T232210Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=03aa4c8610963eaa22a90c115377798a3664c737d0e1003d33c82dceb1cf87bd",
             "presidencial": {
                 "CCENT_COMPU": "C45065",
                 "CCODI_UBIGEO": "140111",
@@ -11,37 +10,47 @@
                 "DISTRITO": "LINCE",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV LEONIDAS YEROVI 2120",
                 "TNOMB_LOCAL": "ESTADIO DE LA IE EMBLEMATICA MELIT\u00d3N CARBAJAL",
                 "TOT_CIUDADANOS_VOTARON": 227
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "040904",
+                    "CNUME_RESOL": "C45065000041",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001664                                  06570-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000041.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T040317Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d70c2e9de668c8168a31686b8b6b0537150164fb7670f61e723bd8ffc45a997b"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "23.348",
-                    "CON_VALIDOS": "24.537",
+                    "CON_EMITIDOS": "23.789",
+                    "CON_VALIDOS": "24.771",
                     "NLISTA": "1",
-                    "congresal": "53"
+                    "congresal": "54"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "71.806",
-                    "CON_VALIDOS": "75.463",
+                    "CON_EMITIDOS": "72.247",
+                    "CON_VALIDOS": "75.229",
                     "NLISTA": "2",
-                    "congresal": "163"
+                    "congresal": "164"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "95.154",
+                    "CON_EMITIDOS": "96.035",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "216"
+                    "congresal": "218"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.881",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "2"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "95.154",
+                    "CON_VALIDOS": "96.035",
                     "congresal": "227"
                 }
             ]

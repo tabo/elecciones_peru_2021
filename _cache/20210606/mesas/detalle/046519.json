@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504651995.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001523Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4fb9ead551da483a5c05aee461d65081229c6da3b20f356adceb18665b104c31",
             "presidencial": {
                 "CCENT_COMPU": "C45065",
                 "CCODI_UBIGEO": "140127",
@@ -11,37 +10,47 @@
                 "DISTRITO": "SAN MIGUEL",
                 "NNUME_HABILM": 296,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV UNIVERSITARIA 1921",
                 "TNOMB_LOCAL": "CENTRO DE IDIOMAS - PUCP",
                 "TOT_CIUDADANOS_VOTARON": 218
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "046519",
+                    "CNUME_RESOL": "C45065000042",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001658                                  06573-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000042.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T035523Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3eba3434dd8910c903c94143acfa4f1f084c290a8f4103a8c1835514aa7c5fc5"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "13.303",
-                    "CON_VALIDOS": "14.721",
+                    "CON_VALIDOS": "14.646",
                     "NLISTA": "1",
                     "congresal": "29"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "77.064",
-                    "CON_VALIDOS": "85.279",
+                    "CON_EMITIDOS": "77.523",
+                    "CON_VALIDOS": "85.354",
                     "NLISTA": "2",
-                    "congresal": "168"
+                    "congresal": "169"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "90.367",
+                    "CON_EMITIDOS": "90.826",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "197"
+                    "congresal": "198"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.459",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "90.367",
+                    "CON_VALIDOS": "90.826",
                     "congresal": "218"
                 }
             ]

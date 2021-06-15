@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504165092.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210614T000533Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=069f7254929cd9fe8c21275b53ac8ba02808a7c497da492272db9551d605278f",
             "presidencial": {
                 "CCENT_COMPU": "C45065",
                 "CCODI_UBIGEO": "140114",
@@ -11,37 +10,47 @@
                 "DISTRITO": "MAGDALENA DEL MAR",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "JR LIBERTAD 1025",
                 "TNOMB_LOCAL": "IE EMBLEMATICA MIGUEL GRAU",
                 "TOT_CIUDADANOS_VOTARON": 257
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "041650",
+                    "CNUME_RESOL": "C45065000048",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001704                                  06579-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000048.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T040319Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=af3c9da9365f1312eae2438a405a67d036ababe1b9a49dd847294c536a027b62"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "17.510",
-                    "CON_VALIDOS": "18.987",
+                    "CON_VALIDOS": "18.908",
                     "NLISTA": "1",
                     "congresal": "45"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "74.708",
-                    "CON_VALIDOS": "81.013",
+                    "CON_EMITIDOS": "75.097",
+                    "CON_VALIDOS": "81.092",
                     "NLISTA": "2",
-                    "congresal": "192"
+                    "congresal": "193"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "92.218",
+                    "CON_EMITIDOS": "92.607",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "237"
+                    "congresal": "238"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.389",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "92.218",
+                    "CON_VALIDOS": "92.607",
                     "congresal": "257"
                 }
             ]

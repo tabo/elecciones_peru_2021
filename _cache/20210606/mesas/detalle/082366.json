@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808236693.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001228Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=67bf340852a36b9da9534a6daaed623d6e41ad49d8ed54ec8e08366e3feb7a15",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "940213",
@@ -11,37 +10,47 @@
                 "DISTRITO": "COLONIA",
                 "NNUME_HABILM": 299,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "ALEMANIA",
                 "TDIRE_LOCAL": "SIMARPLATZ 21, 50825 COLONIA",
                 "TNOMB_LOCAL": "KATHOLISCHE KIRCHE ST. PETER",
                 "TOT_CIUDADANOS_VOTARON": 95
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082366",
+                    "CNUME_RESOL": "C45058000359",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004015                                  06846-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000359.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210615T050245Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4478401c4464bbb012cdcc05a6dafe27c0a3a7ad39f8650cee717cc685b3bec1"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "32.632",
-                    "CON_VALIDOS": "35.227",
+                    "CON_EMITIDOS": "36.842",
+                    "CON_VALIDOS": "38.043",
                     "NLISTA": "1",
-                    "congresal": "31"
+                    "congresal": "35"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "60.000",
-                    "CON_VALIDOS": "64.773",
+                    "CON_VALIDOS": "61.957",
                     "NLISTA": "2",
                     "congresal": "57"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "92.632",
+                    "CON_EMITIDOS": "96.842",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "88"
+                    "congresal": "92"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "4.211",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "4"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "92.632",
+                    "CON_VALIDOS": "96.842",
                     "congresal": "95"
                 }
             ]

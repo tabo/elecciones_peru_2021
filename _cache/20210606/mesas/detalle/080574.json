@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45058/SEP/ACPREC4505808057495.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T003837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f0c0867500a8f6371520b2a85068f3050cc69388cc499e0bad63ee3c4fe233c",
             "presidencial": {
                 "CCENT_COMPU": "C45058",
                 "CCODI_UBIGEO": "920604",
@@ -11,37 +10,47 @@
                 "DISTRITO": "VANCOUVER",
                 "NNUME_HABILM": 261,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "CANADA",
                 "TDIRE_LOCAL": "655 BURRARD STREET, VANCOUVER, BC V6C 2R7, CANAD\u00c1",
                 "TNOMB_LOCAL": "HOTEL HYATT REGENCY VANCOUVER",
                 "TOT_CIUDADANOS_VOTARON": 118
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "080574",
+                    "CNUME_RESOL": "C45058000358",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004232                                  06844-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod.s3.amazonaws.com/RE/C45058/SEP/RESEPC45058000358.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210615T045322Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dc833de1cf05126f3a05ba3861e1d6f8eeb87aadf6b9669ab8b2a4309021f4d9"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "17.797",
-                    "CON_VALIDOS": "19.091",
+                    "CON_VALIDOS": "18.919",
                     "NLISTA": "1",
                     "congresal": "21"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "75.424",
-                    "CON_VALIDOS": "80.909",
+                    "CON_EMITIDOS": "76.271",
+                    "CON_VALIDOS": "81.081",
                     "NLISTA": "2",
-                    "congresal": "89"
+                    "congresal": "90"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "93.220",
+                    "CON_EMITIDOS": "94.068",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "110"
+                    "congresal": "111"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.847",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "93.220",
+                    "CON_VALIDOS": "94.068",
                     "congresal": "118"
                 }
             ]

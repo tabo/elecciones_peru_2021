@@ -2,7 +2,6 @@
     "procesos": {
         "asistioNoVoto": "0",
         "generalPre": {
-            "imageActa": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/AO/C45065/SEP/ACPREC4506504661595.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210614%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210614T001610Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e95b2f651b4ebc7dccfccf5ab350aeef8be40264c75d3e9cdee1a069b993de8e",
             "presidencial": {
                 "CCENT_COMPU": "C45065",
                 "CCODI_UBIGEO": "140127",
@@ -11,37 +10,47 @@
                 "DISTRITO": "SAN MIGUEL",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV VENEZUELA SN",
                 "TNOMB_LOCAL": "COMPLEJO DEPORTIVO RIGEL",
                 "TOT_CIUDADANOS_VOTARON": 220
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "046615",
+                    "CNUME_RESOL": "C45065000035",
+                    "CNUME_RESOL_JNE": "SEPEG.2021001656                                  06559-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE",
+                    "IMAGEN": "https://presentacionsep2021-actas-resultados-prod2.s3.amazonaws.com/RE/C45065/SEP/RESEPC45065000035.PDF?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXQU6GNJSVXR2WUHM%2F20210615%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210615T035527Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e01d32f51088ef789f2c459dfd1c0ebaa45452aefe62a26c7ad089d042c4860c"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
                     "CON_EMITIDOS": "23.636",
-                    "CON_VALIDOS": "23.963",
+                    "CON_VALIDOS": "23.853",
                     "NLISTA": "1",
                     "congresal": "52"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "75.000",
-                    "CON_VALIDOS": "76.037",
+                    "CON_EMITIDOS": "75.455",
+                    "CON_VALIDOS": "76.147",
                     "NLISTA": "2",
-                    "congresal": "165"
+                    "congresal": "166"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "98.636",
+                    "CON_EMITIDOS": "99.091",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "217"
+                    "congresal": "218"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -60,15 +69,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.455",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "98.636",
+                    "CON_VALIDOS": "99.091",
                     "congresal": "220"
                 }
             ]
