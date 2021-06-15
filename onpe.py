@@ -120,10 +120,12 @@ class Onpe:
         logging.info(f"  (╯°□°）╯︵ ┻━┻  Procesando mesa {mesa}")
 
         def hook(data):
-            """nos mochamos links a imagenes de acta que expiran"""
+            """nos mochamos links a imagenes que expiran"""
             for proceso_data in data.get("procesos", {}).values():
                 if isinstance(proceso_data, dict):
                     proceso_data.pop("imageActa", None)
+                    for resol in proceso_data.get("resoluciones", []):
+                        resol.pop("IMAGEN", None)
 
         resp = self.get(f"/mesas/detalle/{mesa}?name=param", hook)
         return resp
