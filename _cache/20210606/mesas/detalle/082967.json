@@ -10,37 +10,46 @@
                 "DISTRITO": "LONDRES",
                 "NNUME_HABILM": 284,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "GRAN BRETA\u00d1A",
                 "TDIRE_LOCAL": "ERASMUS STREET LONDON, SW1P 4HR",
                 "TNOMB_LOCAL": "MILLBANK ACADEMY",
                 "TOT_CIUDADANOS_VOTARON": 103
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45058",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "082967",
+                    "CNUME_RESOL": "C45058000367",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004409                                  06868-2021-JEE-LIC1/JNE",
+                    "CPROCED_RESOL": "JE"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "35.922",
-                    "CON_VALIDOS": "37.000",
+                    "CON_EMITIDOS": "36.893",
+                    "CON_VALIDOS": "37.624",
                     "NLISTA": "1",
-                    "congresal": "37"
+                    "congresal": "38"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "61.165",
-                    "CON_VALIDOS": "63.000",
+                    "CON_VALIDOS": "62.376",
                     "NLISTA": "2",
                     "congresal": "63"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "97.087",
+                    "CON_EMITIDOS": "98.058",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "100"
+                    "congresal": "101"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -59,15 +68,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.971",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "97.087",
+                    "CON_VALIDOS": "98.058",
                     "congresal": "103"
                 }
             ]

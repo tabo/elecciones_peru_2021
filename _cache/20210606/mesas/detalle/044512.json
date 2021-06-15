@@ -10,37 +10,46 @@
                 "DISTRITO": "SAN ISIDRO",
                 "NNUME_HABILM": 295,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "VOTOS IMPUGNADOS",
-                "OBSERVACION_TXT": "ACTA ELECTORAL PARA ENV\u00cdO AL JEE",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
+                "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "CALLE LAS CASTA\u00d1ITAS SN",
                 "TNOMB_LOCAL": "IEP SAN AGUSTIN",
                 "TOT_CIUDADANOS_VOTARON": 202
             },
-            "resoluciones": [],
+            "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45065",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "044512",
+                    "CNUME_RESOL": "C45065000054",
+                    "CNUME_RESOL_JNE": "SEPEG 2021001697                                  06580-2021-JEE-LIO1/JNE",
+                    "CPROCED_RESOL": "JE"
+                }
+            ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "17.327",
-                    "CON_VALIDOS": "18.421",
+                    "CON_EMITIDOS": "17.822",
+                    "CON_VALIDOS": "18.848",
                     "NLISTA": "1",
-                    "congresal": "35"
+                    "congresal": "36"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "76.733",
-                    "CON_VALIDOS": "81.579",
+                    "CON_VALIDOS": "81.152",
                     "NLISTA": "2",
                     "congresal": "155"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "94.059",
+                    "CON_EMITIDOS": "94.554",
                     "CON_VALIDOS": "100.000",
-                    "congresal": "190"
+                    "congresal": "191"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -59,15 +68,15 @@
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.495",
+                    "CON_EMITIDOS": "0.000",
                     "CON_VALIDOS": null,
-                    "congresal": "1"
+                    "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "94.059",
+                    "CON_VALIDOS": "94.554",
                     "congresal": "202"
                 }
             ]
