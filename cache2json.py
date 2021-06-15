@@ -22,9 +22,10 @@ class Cache2Json:
                 "mesas": {},
                 "locales": defaultdict(dict)
             }
-            logging.info("Procesando ubigeos")
+            logging.info("Procesando actas")
             for json_file in (election_dir / "mesas/actas/11/").glob("**/*.json"):
                 data["locales"][json_file.parent.stem][json_file.stem] = json.loads(json_file.read_text())
+            logging.info("Procesando ubigeos")
             for json_file in (election_dir / "ecp/ubigeos").glob("*.json"):
                 data["geo_regions"][json_file.stem] = json.loads(json_file.read_text())
             logging.info("Procesando locales")
@@ -33,7 +34,6 @@ class Cache2Json:
             logging.info("Procesando detalles")
             for json_file in (election_dir / "mesas/detalle").glob("*.json"):
                 data["mesas"][json_file.stem] = json.loads(json_file.read_text())
-            logging.info("Procesando actas")
         data_file = self.base_dir / "data.json"
         logging.info(f"Ronderos guardando data en {data_file}")
         data_file.write_text(json.dumps(self.data, sort_keys=True, indent=4))

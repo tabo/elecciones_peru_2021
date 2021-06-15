@@ -9,7 +9,6 @@ class Converter:
         self.base_dir = base_dir
         self.election1_id = election1_id
         self.election2_id = election2_id
-        self.data_file = base_dir / f"data_{self.election1_id}.json"
         self.data = {}
         self.dbfile = self.base_dir / "elecciones_peru_2021.db"
         self.db = sqlite3.connect(":memory:")
@@ -24,17 +23,18 @@ class Converter:
 
     def process(self):
         self.load_data()
+        self.process_mesas_actas()
         self.process_ubigeos()
         self.process_ubigeos_locales()
         self.process_locales_mesas()
+        self.create_summary()
         self.savedb()
         logging.info("procesao!")
 
     def load_data(self):
-        for election_id in (self.election1_id, self.election2_id):
-            self.data[election_id] = json.loads(
-                (self.base_dir / f"data_{election_id}.json").read_text()
-            )
+        fname = self.base_dir / "data.json"
+        logging.info(f"loading {fname}")
+        self.data = json.loads(fname.read_text())
 
     def merged_ubigeos(self):
         res = {"departments": {}, "provinces": {}, "districts": {}}
@@ -97,6 +97,7 @@ class Converter:
         return res
 
     def process_ubigeos(self):
+        logging.info("procesando areas geograficas")
         self.ubigeos = self.merged_ubigeos()
         cur = self.db.cursor()
         cur.execute(
@@ -106,10 +107,10 @@ class Converter:
             pariente text,
             descripcion text,
             extranjero boolean,
+            PRIMARY KEY(codigo),
             FOREIGN KEY(pariente) REFERENCES ubigeos(codigo)
         )"""
         )
-        cur.execute("CREATE UNIQUE INDEX codigo_pk ON ubigeos(codigo)")
 
         for geotype in ["departments", "provinces", "districts"]:
             values = self.ubigeos[geotype].values()
@@ -123,6 +124,7 @@ class Converter:
         self.db.commit()
 
     def process_ubigeos_locales(self):
+        logging.info("procesando locales en ubigeos")
         cur = self.db.cursor()
         for election_id, election_data in self.data.items():
             res = []
@@ -134,11 +136,9 @@ class Converter:
                 local text,
                 direccion text,
                 nombre text,
+                PRIMARY KEY(local),
                 FOREIGN KEY(ubigeo) REFERENCES ubigeos(codigo)
             )"""
-            )
-            cur.execute(
-                f"CREATE UNIQUE INDEX {tablename}_pk ON {tablename}(ubigeo, local)"
             )
             for ubigeo, ubigeo_data in election_data["ubigeos"].items():
                 assert len(ubigeo_data) == 1
@@ -161,24 +161,24 @@ class Converter:
         self.db.commit()
 
     def process_locales_mesas(self):
+        logging.info("procesando mesas en locales")
         cur = self.db.cursor()
         for election_id, election_data in self.data.items():
             res = []
-            tablename = f"mesas_{election_id}"
+            mesas_table = f"mesas_{election_id}"
+            locales_table = f"locales_{election_id}"
             cur.execute(
                 f"""
-            CREATE TABLE {tablename} (
+            CREATE TABLE {mesas_table} (
                 ubigeo text,
                 local text,
                 mesa text,
                 imagen integer,
                 procesado integer,
+                PRIMARY KEY(mesa),
                 FOREIGN KEY(ubigeo) REFERENCES ubigeos(codigo),
-                FOREIGN KEY(ubigeo, local) REFERENCES locales_{election_id}(ubigeo, local)
+                FOREIGN KEY(local) REFERENCES {locales_table}(local)
             )"""
-            )
-            cur.execute(
-                f"CREATE UNIQUE INDEX {tablename}_pk ON {tablename}(ubigeo, local, mesa)"
             )
             for ubigeo, ubigeo_data in election_data["locales"].items():
                 for local_id, local_data in ubigeo_data.items():
@@ -195,12 +195,218 @@ class Converter:
                         )
             cur.executemany(
                 f"""
-            INSERT INTO {tablename}(ubigeo, local, mesa, imagen, procesado)
+            INSERT INTO {mesas_table}(ubigeo, local, mesa, imagen, procesado)
              VALUES(:ubigeo, :local, :mesa, :imagen, :procesado)
              """,
                 res,
             )
         self.db.commit()
+
+    def process_mesas_actas(self):
+        logging.info("procesando actas en mesas")
+        cur = self.db.cursor()
+        for election_id, election_data in self.data.items():
+            actas_res = []
+            resol_res = []
+            votos_res = []
+            actas_table = f"actas_{election_id}"
+            resol_table = f"resoluciones_{election_id}"
+            votos_table = f"votos_{election_id}"
+            mesas_table = f"mesas_{election_id}"
+            cur.execute(
+                f"""
+            CREATE TABLE {actas_table} (
+                tipo_acta text,
+                mesa text,
+                CCENT_COMPU text,
+                CCODI_UBIGEO text,
+                CCOPIA_ACTA text,
+                DEPARTAMENTO text,
+                DISTRITO text,
+                NNUME_HABILM integer,
+                N_CANDIDATOS integer,
+                OBSERVACION text,
+                OBSERVACION_TXT text,
+                PROVINCIA text,
+                TDIRE_LOCAL text,
+                TNOMB_LOCAL text,
+                TOT_CIUDADANOS_VOTARON integer,
+                PRIMARY KEY(mesa, tipo_acta)
+                FOREIGN KEY(CCODI_UBIGEO) REFERENCES ubigeos(codigo),
+                FOREIGN KEY(mesa) REFERENCES {mesas_table}(mesa)
+            )"""
+            )
+            cur.execute(
+                f"""
+            CREATE TABLE {resol_table} (
+                tipo_acta text,
+                CCENT_COMPU text,
+                CNUME_RESOL text,
+                CNUME_ACTA text,  -- mesa
+                CESTADO_RESOL text,
+                CPROCED_RESOL text,
+                CNUME_RESOL_JNE text,
+                PRIMARY KEY(CNUME_ACTA, CNUME_RESOL)
+                FOREIGN KEY(CNUME_ACTA) REFERENCES {mesas_table}(mesa),
+                FOREIGN KEY(CNUME_ACTA, tipo_acta) REFERENCES {actas_table}(mesa, tipo_acta)
+            )"""
+            )
+            cur.execute(
+                f"""
+            CREATE TABLE {votos_table} (
+                tipo_acta text,
+                mesa text,
+                AUTORIDAD text,
+                CCODI_AUTO text,
+                CON_EMITIDOS numeric,
+                CON_VALIDOS numeric,
+                NLISTA numeric,
+                congresal numeric,
+                PRIMARY KEY (mesa, tipo_acta, AUTORIDAD),
+                FOREIGN KEY(mesa) REFERENCES {mesas_table}(mesa),
+                FOREIGN KEY(mesa, tipo_acta) REFERENCES {actas_table}(mesa, tipo_acta)
+            )"""
+            )
+            for mesa, mesa_data in election_data["mesas"].items():
+                proc_data = mesa_data["procesos"]
+                for seccion_en_json, tipo_acta in [
+                    ("generalPre", "presidencial"),
+                    # TODO: ("generalCon", "congresal"),
+                    # TODO: ("generalPar", "parlamento")
+                ]:
+                    acta_data = proc_data[seccion_en_json]
+                    acta_details = acta_data[tipo_acta]
+                    acta_details.update({"mesa": mesa, "tipo_acta": tipo_acta})
+                    actas_res.append(acta_details)
+                    for resolucion in acta_data["resoluciones"]:
+                        resolucion.pop("IMAGEN", None)
+                        resolucion.update({"tipo_acta": tipo_acta})
+                        resol_res.append(resolucion)
+                    for voto in acta_data["votos"]:
+                        voto.update({"mesa": mesa, "tipo_acta": tipo_acta})
+                        if "NLISTA" not in voto:
+                            voto['NLISTA'] = None
+                        votos_res.append(voto)
+            cur.executemany(
+                f"""
+            INSERT INTO {actas_table}(tipo_acta, mesa, CCENT_COMPU, CCODI_UBIGEO, CCOPIA_ACTA, DEPARTAMENTO, DISTRITO, NNUME_HABILM, N_CANDIDATOS, OBSERVACION, OBSERVACION_TXT, PROVINCIA, TDIRE_LOCAL, TNOMB_LOCAL, TOT_CIUDADANOS_VOTARON)
+             VALUES(:tipo_acta, :mesa, :CCENT_COMPU, :CCODI_UBIGEO, :CCOPIA_ACTA, :DEPARTAMENTO, :DISTRITO, :NNUME_HABILM, :N_CANDIDATOS, :OBSERVACION, :OBSERVACION_TXT, :PROVINCIA, :TDIRE_LOCAL, :TNOMB_LOCAL, :TOT_CIUDADANOS_VOTARON)
+             """,
+                actas_res,
+            )
+            cur.executemany(
+                f"""
+            INSERT INTO {resol_table}(CCENT_COMPU, CNUME_RESOL, CNUME_ACTA, CESTADO_RESOL, CPROCED_RESOL, CNUME_RESOL_JNE, tipo_acta)
+             VALUES(:CCENT_COMPU, :CNUME_RESOL, :CNUME_ACTA, :CESTADO_RESOL, :CPROCED_RESOL, :CNUME_RESOL_JNE, :tipo_acta)
+             """,
+                resol_res,
+            )
+            cur.executemany(
+                f"""
+            INSERT INTO {votos_table}(tipo_acta, mesa, AUTORIDAD, CCODI_AUTO, CON_EMITIDOS, CON_VALIDOS, NLISTA, congresal)
+             VALUES(:tipo_acta, :mesa, :AUTORIDAD, :CCODI_AUTO, :CON_EMITIDOS, :CON_VALIDOS, :NLISTA, :congresal)
+             """,
+                votos_res,
+            )
+        self.db.commit()
+
+    def create_summary(self):
+        logging.info("creando resumen")
+        cur = self.db.cursor()
+        cur.execute('''
+        CREATE TABLE resumen_actas AS
+SELECT v1a.tipo_acta, v1a.mesa,
+       v1a.CCENT_COMPU AS 'v1_CCENT_COMPU',
+       v1a.CCODI_UBIGEO AS 'v1_CCODI_UBIGEO',
+       v1a.CCOPIA_ACTA AS 'v1_CCOPIA_ACTA',
+       v1a.DEPARTAMENTO AS 'v1_DEPARTAMENTO',
+       v1a.PROVINCIA AS 'v1_PROVINCIA',
+       v1a.DISTRITO AS 'v1_DISTRITO',
+       v1a.NNUME_HABILM AS 'v1_NNUME_HABILM',
+       v1a.N_CANDIDATOS AS 'v1_N_CANDIDATOS',
+       v1a.OBSERVACION AS 'v1_OBSERVACION',
+       v1a.OBSERVACION_TXT AS 'v1_OBSERVACION_TXT',
+       v1a.TDIRE_LOCAL AS 'v1_TDIRE_LOCAL',
+       v1a.TNOMB_LOCAL AS 'v1_TNOMB_LOCAL',
+       v1a.TOT_CIUDADANOS_VOTARON AS 'v1_TOT_CIUDADANOS_VOTARON',
+       v1_ap.congresal AS 'v1_ap',
+       v1_app.congresal AS 'v1_app',
+       v1_avpais.congresal AS 'v1_avpais',
+       v1_dd.congresal AS 'v1_dd',
+       v1_fa.congresal AS 'v1_fa',
+       v1_fp.congresal AS 'v1_fp',
+       v1_jpp.congresal AS 'v1_jpp',
+       v1_sp.congresal AS 'v1_sp',
+       v1_morado.congresal AS 'v1_morado',
+       v1_pnp.congresal AS 'v1_pnp',
+       v1_perulibre.congresal AS 'v1_perulibre',
+       v1_ppc.congresal AS 'v1_ppc',
+       v1_pps.congresal AS 'v1_pps',
+       v1_pp.congresal AS 'v1_pp',
+       v1_runa.congresal AS 'v1_runa',
+       v1_rp.congresal AS 'v1_rp',
+       v1_emitidos.congresal AS 'v1_emitidos',
+       v1_validos.congresal AS 'v1_validos',
+       v1_upp.congresal AS 'v1_upp',
+       v1_vn.congresal AS 'v1_vn',
+       v1_blanco.congresal AS 'v1_blanco',
+       v1_impugnados.congresal AS 'v1_impugnados',
+       v1_nulos.congresal AS 'v1_nulos',
+
+       v2a.CCENT_COMPU AS 'v2_CCENT_COMPU',
+       v2a.CCODI_UBIGEO AS 'v2_CCODI_UBIGEO',
+       v2a.CCOPIA_ACTA AS 'v2_CCOPIA_ACTA',
+       v2a.DEPARTAMENTO AS 'v2_DEPARTAMENTO',
+       v2a.PROVINCIA AS 'v2_PROVINCIA',
+       v2a.DISTRITO AS 'v2_DISTRITO',
+       v2a.NNUME_HABILM AS 'v2_NNUME_HABILM',
+       v2a.N_CANDIDATOS AS 'v2_N_CANDIDATOS',
+       v2a.OBSERVACION AS 'v2_OBSERVACION',
+       v2a.OBSERVACION_TXT AS 'v2_OBSERVACION_TXT',
+       v2a.TDIRE_LOCAL AS 'v2_TDIRE_LOCAL',
+       v2a.TNOMB_LOCAL AS 'v2_TNOMB_LOCAL',
+       v2a.TOT_CIUDADANOS_VOTARON AS 'v2_TOT_CIUDADANOS_VOTARON',
+       v2_fp.congresal AS 'v2_fp',
+       v2_perulibre.congresal AS 'v2_perulibre',
+       v2_emitidos.congresal AS 'v2_emitidos',
+       v2_validos.congresal AS 'v2_validos',
+       v2_blanco.congresal AS 'v2_blanco',
+       v2_impugnados.congresal AS 'v2_impugnados',
+       v2_nulos.congresal AS 'v2_nulos',
+FROM actas_20210606 AS v2a
+    LEFT JOIN actas_20210411 AS v1a ON v1a.mesa=v2a.mesa AND v1a.tipo_acta=v2a.tipo_acta
+    JOIN votos_20210411 AS v1_ap on v1a.mesa = v1_ap.mesa and v1a.tipo_acta = v1_ap.tipo_acta AND v1_ap.AUTORIDAD='ACCION POPULAR'
+    JOIN votos_20210411 AS v1_app on v1a.mesa = v1_app.mesa and v1a.tipo_acta = v1_app.tipo_acta AND v1_app.AUTORIDAD='ALIANZA PARA EL PROGRESO'
+    JOIN votos_20210411 AS v1_avpais on v1a.mesa = v1_avpais.mesa and v1a.tipo_acta = v1_avpais.tipo_acta AND v1_avpais.AUTORIDAD='AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL'
+    JOIN votos_20210411 AS v1_dd on v1a.mesa = v1_dd.mesa and v1a.tipo_acta = v1_dd.tipo_acta AND v1_dd.AUTORIDAD='DEMOCRACIA DIRECTA'
+    JOIN votos_20210411 AS v1_fa on v1a.mesa = v1_fa.mesa and v1a.tipo_acta = v1_fa.tipo_acta AND v1_fa.AUTORIDAD='EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD'
+    JOIN votos_20210411 AS v1_fp on v1a.mesa = v1_fp.mesa and v1a.tipo_acta = v1_fp.tipo_acta AND v1_fp.AUTORIDAD='FUERZA POPULAR'
+    JOIN votos_20210411 AS v1_jpp on v1a.mesa = v1_jpp.mesa and v1a.tipo_acta = v1_jpp.tipo_acta AND v1_jpp.AUTORIDAD='JUNTOS POR EL PERU'
+    JOIN votos_20210411 AS v1_sp on v1a.mesa = v1_sp.mesa and v1a.tipo_acta = v1_sp.tipo_acta AND v1_sp.AUTORIDAD='PARTIDO DEMOCRATICO SOMOS PERU'
+    JOIN votos_20210411 AS v1_morado on v1a.mesa = v1_morado.mesa and v1a.tipo_acta = v1_morado.tipo_acta AND v1_morado.AUTORIDAD='PARTIDO MORADO'
+    JOIN votos_20210411 AS v1_pnp on v1a.mesa = v1_pnp.mesa and v1a.tipo_acta = v1_pnp.tipo_acta AND v1_pnp.AUTORIDAD='PARTIDO NACIONALISTA PERUANO'
+    JOIN votos_20210411 AS v1_perulibre on v1a.mesa = v1_perulibre.mesa and v1a.tipo_acta = v1_perulibre.tipo_acta AND v1_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
+    JOIN votos_20210411 AS v1_ppc on v1a.mesa = v1_ppc.mesa and v1a.tipo_acta = v1_ppc.tipo_acta AND v1_ppc.AUTORIDAD='PARTIDO POPULAR CRISTIANO - PPC'
+    JOIN votos_20210411 AS v1_pps on v1a.mesa = v1_pps.mesa and v1a.tipo_acta = v1_pps.tipo_acta AND v1_pps.AUTORIDAD='PERU PATRIA SEGURA'
+    JOIN votos_20210411 AS v1_pp on v1a.mesa = v1_pp.mesa and v1a.tipo_acta = v1_pp.tipo_acta AND v1_pp.AUTORIDAD='PODEMOS PERU'
+    JOIN votos_20210411 AS v1_runa on v1a.mesa = v1_runa.mesa and v1a.tipo_acta = v1_runa.tipo_acta AND v1_runa.AUTORIDAD='RENACIMIENTO UNIDO NACIONAL'
+    JOIN votos_20210411 AS v1_rp on v1a.mesa = v1_rp.mesa and v1a.tipo_acta = v1_rp.tipo_acta AND v1_rp.AUTORIDAD='RENOVACION POPULAR'
+    JOIN votos_20210411 AS v1_emitidos on v1a.mesa = v1_emitidos.mesa and v1a.tipo_acta = v1_emitidos.tipo_acta AND v1_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
+    JOIN votos_20210411 AS v1_validos on v1a.mesa = v1_validos.mesa and v1a.tipo_acta = v1_validos.tipo_acta AND v1_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
+    JOIN votos_20210411 AS v1_upp on v1a.mesa = v1_upp.mesa and v1a.tipo_acta = v1_upp.tipo_acta AND v1_upp.AUTORIDAD='UNION POR EL PERU'
+    JOIN votos_20210411 AS v1_vn on v1a.mesa = v1_vn.mesa and v1a.tipo_acta = v1_vn.tipo_acta AND v1_vn.AUTORIDAD='VICTORIA NACIONAL'
+    JOIN votos_20210411 AS v1_blanco on v1a.mesa = v1_blanco.mesa and v1a.tipo_acta = v1_blanco.tipo_acta AND v1_blanco.AUTORIDAD='VOTOS EN BLANCO'
+    JOIN votos_20210411 AS v1_impugnados on v1a.mesa = v1_impugnados.mesa and v1a.tipo_acta = v1_impugnados.tipo_acta AND v1_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
+    JOIN votos_20210411 AS v1_nulos on v1a.mesa = v1_nulos.mesa and v1a.tipo_acta = v1_nulos.tipo_acta AND v1_nulos.AUTORIDAD='VOTOS NULOS'
+    JOIN votos_20210606 AS v2_fp on v1a.mesa = v2_fp.mesa and v1a.tipo_acta = v2_fp.tipo_acta AND v2_fp.AUTORIDAD='FUERZA POPULAR'
+    JOIN votos_20210606 AS v2_perulibre on v1a.mesa = v2_perulibre.mesa and v1a.tipo_acta = v2_perulibre.tipo_acta AND v2_perulibre.AUTORIDAD='PARTIDO POLITICO NACIONAL PERU LIBRE'
+    JOIN votos_20210606 AS v2_emitidos on v1a.mesa = v2_emitidos.mesa and v1a.tipo_acta = v2_emitidos.tipo_acta AND v2_emitidos.AUTORIDAD='TOTAL VOTOS EMITIDOS'
+    JOIN votos_20210606 AS v2_validos on v1a.mesa = v2_validos.mesa and v1a.tipo_acta = v2_validos.tipo_acta AND v2_validos.AUTORIDAD='TOTAL VOTOS VALIDOS'
+    JOIN votos_20210606 AS v2_blanco on v1a.mesa = v2_blanco.mesa and v1a.tipo_acta = v2_blanco.tipo_acta AND v2_blanco.AUTORIDAD='VOTOS EN BLANCO'
+    JOIN votos_20210606 AS v2_impugnados on v1a.mesa = v2_impugnados.mesa and v1a.tipo_acta = v2_impugnados.tipo_acta AND v2_impugnados.AUTORIDAD='VOTOS IMPUGNADOS'
+    JOIN votos_20210606 AS v2_nulos on v1a.mesa = v2_nulos.mesa and v1a.tipo_acta = v2_nulos.tipo_acta AND v2_nulos.AUTORIDAD='VOTOS NULOS',
+
+        ''')
 
 
 def main():
