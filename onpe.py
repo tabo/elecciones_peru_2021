@@ -84,6 +84,10 @@ class Onpe:
             }
             for future in concurrent.futures.as_completed(tasks):
                 ubig = tasks[future]
+                try:
+                    future.result()
+                except Exception as exc:
+                    logging.error(f"🧨🧨🧨🧨🧨🧨🧨🧨🧨 laca causa, pero nada detiene al lapiz, sin miedo!: {ubig} - {exc}")
                 logging.info(f"Procesado ubigeo {ubig}")
         return resp
 
