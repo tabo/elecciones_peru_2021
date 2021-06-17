@@ -10,12 +10,12 @@
                 "DISTRITO": "TRUJILLO",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "TRUJILLO",
                 "TDIRE_LOCAL": "AV AMERICA OESTE 13011",
                 "TNOMB_LOCAL": "IE RAFAEL NARVAEZ CADENILLAS",
-                "TOT_CIUDADANOS_VOTARON": 240
+                "TOT_CIUDADANOS_VOTARON": 260
             },
             "resoluciones": [
                 {
@@ -25,45 +25,53 @@
                     "CNUME_RESOL": "C45050000003",
                     "CNUME_RESOL_JNE": "SEPEG.2021001295                                  01207-2021-JEE-TRUJ/JNE",
                     "CPROCED_RESOL": "JE"
+                },
+                {
+                    "CCENT_COMPU": "C45050",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "026140",
+                    "CNUME_RESOL": "C45050000013",
+                    "CNUME_RESOL_JNE": "SEPEG.20210003603                                 0609-2021-JNE",
+                    "CPROCED_RESOL": "JN"
                 }
             ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "28.462",
+                    "CON_VALIDOS": "29.719",
                     "NLISTA": "1",
-                    "congresal": "0"
+                    "congresal": "74"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "67.308",
+                    "CON_VALIDOS": "70.281",
                     "NLISTA": "2",
-                    "congresal": "0"
+                    "congresal": "175"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
-                    "congresal": "0"
+                    "CON_EMITIDOS": "95.769",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "249"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "0.385",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "1"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "3.846",
                     "CON_VALIDOS": null,
-                    "congresal": "240"
+                    "congresal": "10"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -76,8 +84,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "0.000",
-                    "congresal": "240"
+                    "CON_VALIDOS": "95.769",
+                    "congresal": "260"
                 }
             ]
         },
