@@ -162,7 +162,7 @@ def main():
         base_dir=base_dir,
         ignore_cache=True,
     )
-    # onpe2021_2.process()
+    onpe2021_2.process()
     onpe2021_1 = Onpe(
         apibase="https://resultadoshistorico.onpe.gob.pe/v1/EG2021/",
         cache_token="20210411",
