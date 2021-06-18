@@ -2,6 +2,7 @@ import json
 import logging
 import pathlib
 import sqlite3
+from sqlite_utils.cli import insert_upsert_implementation
 
 
 class Converter:
@@ -29,7 +30,8 @@ class Converter:
         self.process_locales_mesas()
         self.create_summary()
         self.savedb()
-        logging.info("procesao!")
+        self.onpe_pcm()
+        logging.info("Ronderos triunfan otra vez!")
 
     def load_data(self):
         fname = self.base_dir / "data.json"
@@ -417,6 +419,37 @@ FROM actas_20210606 AS v2a
     ;
         """
         )
+
+    def onpe_pcm(self):
+        """✏️ Subimos a la base de datos rondera los datos abiertos publicados por ONPE
+
+        Muy paja esto! Bien jugado ONPE! Veritas Liberabit Vos!
+
+        Anuncio en: https://twitter.com/ONPE_oficial/status/1405924353615749128
+        """
+        buena_onpe = {
+            "onpe_pcm_v1": "Resultados_1ra_vuelta_Version_PCM.csv",
+            "onpe_pcm_v2": "Resultados_2da_vuelta_Version_PCM .csv",
+        }
+        for table, fname in buena_onpe.items():
+            logging.info(f"Cargando datos abiertos de ONPE: {fname}")
+            insert_upsert_implementation(
+                path=self.dbfile,
+                json_file=(self.base_dir / "_cache/onpe_pcm/" / fname).open("rb"),
+                pk=None,
+                nl=False,
+                table=table,
+                csv=True,
+                tsv=False,
+                delimiter=";",
+                quotechar='"',
+                sniff=False,
+                no_headers=False,
+                batch_size=4096,
+                alter=False,
+                upsert=False,
+                encoding="latin-1",
+            )
 
 
 def main():
