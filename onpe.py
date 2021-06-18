@@ -67,7 +67,8 @@ class Onpe:
         data = resp.json()
         if hook is not None:
             hook(data)
-        cached_path.write_text(json.dumps(data, sort_keys=True, indent=4))
+        with open(cached_path, "w", newline="\n") as f:
+            json.dump(data, f, sort_keys=True, indent=4)
         return data
 
     def process_geo_region(self, region_type, ubigeo_descriptor):
@@ -87,7 +88,9 @@ class Onpe:
                 try:
                     future.result()
                 except Exception as exc:
-                    logging.error(f"🧨🧨🧨🧨🧨🧨🧨🧨🧨 laca causa, pero nada detiene al lapiz, sin miedo!: {ubig} - {exc}")
+                    logging.error(
+                        f"🧨🧨🧨🧨🧨🧨🧨🧨🧨 laca causa, pero nada detiene al lapiz, sin miedo!: {ubig} - {exc}"
+                    )
                 logging.info(f"Procesado ubigeo {ubig}")
         return resp
 
