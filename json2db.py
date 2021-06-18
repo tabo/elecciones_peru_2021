@@ -29,6 +29,7 @@ class Converter:
         self.process_ubigeos_locales()
         self.process_locales_mesas()
         self.create_summary()
+        self.create_keikino59()
         self.savedb()
         self.onpe_pcm()
         logging.info("Ronderos triunfan otra vez!")
@@ -450,6 +451,32 @@ FROM actas_20210606 AS v2a
                 upsert=False,
                 encoding="latin-1",
             )
+
+    def create_keikino59(self):
+        """✏️ Lista de 59 mesas en el berrinche de Fuerza Popular
+
+        Fuente: https://twitter.com/epatriau/status/1405721214123921409
+        """
+        logging.info("creando view con 59 mesas del berrinche de keiko")
+        cur = self.db.cursor()
+        cur.execute(
+            """
+        CREATE VIEW keikino59
+        AS
+        SELECT * from presidencial
+        WHERE mesa IN (
+            '010398', '054249', '049453', '043286', '033496', '021341',
+            '075915', '055886', '049991', '043463', '033545', '027768',
+            '076322', '057242', '051795', '044382', '033587', '028059',
+            '076449', '057281', '052223', '045179', '033779', '029035',
+            '076468', '059243', '052377', '045656', '036428', '030678',
+            '076630', '060366', '053084', '045807', '038125', '033289',
+            '076758', '062456', '053542', '047114', '039521', '033469',
+            '077246', '064956', '053543', '047246', '039746', '011619',
+            '020948', '065423', '053967', '049047', '039841', '011683',
+            '021242', '075865', '054237', '049428', '032207'
+        )
+        """)
 
 
 def main():
