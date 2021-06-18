@@ -36,7 +36,8 @@ class Cache2Json:
                 data["mesas"][json_file.stem] = json.loads(json_file.read_text())
         data_file = self.base_dir / "data.json"
         logging.info(f"Ronderos guardando data en {data_file}")
-        data_file.write_text(json.dumps(self.data, sort_keys=True, indent=4))
+        with open(data_file, 'w') as f:
+          json.dump(self.data, f, sort_keys=True, indent=4)
 
 
 def main():
