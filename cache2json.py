@@ -15,6 +15,9 @@ class Cache2Json:
 
         for election_dir in election_dirs:
             election_name = election_dir.name
+            if election_name == "onpe_pcm":
+                logging.info("Caso especial de open data de ONPE. Skip.")
+                continue
             logging.info(f"Procesando elección {election_name}")
             self.data[election_name] = data = {
                 "geo_regions": {},
