@@ -58,9 +58,9 @@ class Onpe:
         cached_path = self.get_cache_path_for_url(path)
         cached_path.parent.mkdir(parents=True, exist_ok=True)
         if not self.ignore_cache and cached_path.is_file():
-            logging.info("       Recuperando cache recontrachévere 😏")
+            # logging.info("       Recuperando cache recontrachévere 😏")
             return json.loads(cached_path.read_text())
-        logging.info("       Solicitando información a ONPE 🥺")
+        # logging.info("       Solicitando información a ONPE 🥺")
         url = urljoin(self.apibase, path.lstrip("/"))
         resp = self.session.get(url)
         resp.raise_for_status()
@@ -88,22 +88,22 @@ class Onpe:
                     future.result()
                 except Exception as exc:
                     logging.error(f"🧨🧨🧨🧨🧨🧨🧨🧨🧨 laca causa, pero nada detiene al lapiz, sin miedo!: {ubig} - {exc}")
-                logging.info(f"Procesado ubigeo {ubig}")
+                # logging.info(f"Procesado ubigeo {ubig}")
         return resp
 
     def exterior(self):
         """✏️ aca vivo yo, yeee"""
-        logging.info("🌎 Procesando ubigeos del exterior 🌎")
+        # logging.info("🌎 Procesando ubigeos del exterior 🌎")
         return self.process_geo_region("E", "states")
 
     def peru(self):
         """✏️ la tierra de los ronderos, lo justo al fin!"""
-        logging.info("🇵🇪 Procesando ubigeos peruanos 🇵🇪")
+        # logging.info("🇵🇪 Procesando ubigeos peruanos 🇵🇪")
         return self.process_geo_region("P", "districts")
 
     def ubigeo(self, ubigeo):
         """✏️ entrada del procesamiento de ubigeos, distribuye a locales"""
-        logging.info(f"🏢 Procesando locales de votación en {ubigeo}")
+        # logging.info(f"🏢 Procesando locales de votación en {ubigeo}")
         resp = self.get(f"/mesas/locales/{ubigeo}?name=param")
         for local in resp["locales"]:
             self.local(ubigeo, local["CCODI_LOCAL"])
@@ -111,9 +111,9 @@ class Onpe:
 
     def local(self, ubigeo, local):
         """✏️ procesa locales de votación y distribuye a las mesas"""
-        logging.info(
-            f"📕 Procesando mesas de votación en local {local}, ubigeo {ubigeo}"
-        )
+        # logging.info(
+        #     f"📕 Procesando mesas de votación en local {local}, ubigeo {ubigeo}"
+        # )
         resp = self.get(f"/mesas/actas/11/{ubigeo}/{local}?name=param")
         for mesa in resp["mesasVotacion"]:
             self.mesa(mesa["NUMMESA"])
@@ -121,7 +121,7 @@ class Onpe:
 
     def mesa(self, mesa):
         """✏️ jalamos los detalles de las mesas"""
-        logging.info(f"  (╯°□°）╯︵ ┻━┻  Procesando mesa {mesa}")
+        # logging.info(f"  (╯°□°）╯︵ ┻━┻  Procesando mesa {mesa}")
 
         def hook(data):
             """nos mochamos links a imagenes que expiran"""
@@ -162,7 +162,7 @@ def main():
         base_dir=base_dir,
         ignore_cache=True,
     )
-    onpe2021_2.process()
+    # onpe2021_2.process()
     onpe2021_1 = Onpe(
         apibase="https://resultadoshistorico.onpe.gob.pe/v1/EG2021/",
         cache_token="20210411",
