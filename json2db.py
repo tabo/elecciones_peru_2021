@@ -502,7 +502,8 @@ FROM actas_20210606 AS v2a
             """
         CREATE VIEW v1_diferencias_open_data
         AS
-        SELECT o.UBIGEO,
+        SELECT o.MESA_DE_VOTACION,
+               o.UBIGEO,
                r.v1_CCODI_UBIGEO,
                o.DEPARTAMENTO,
                r.v1_DEPARTAMENTO,
@@ -649,7 +650,8 @@ FROM actas_20210606 AS v2a
             """
         CREATE VIEW v2_diferencias_open_data
         AS
-        SELECT o.UBIGEO,
+        SELECT o.MESA_DE_VOTACION,
+               o.UBIGEO,
                r.v2_CCODI_UBIGEO,
                o.DEPARTAMENTO,
                r.v2_DEPARTAMENTO,
