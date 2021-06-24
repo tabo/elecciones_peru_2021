@@ -10,12 +10,12 @@
                 "DISTRITO": "BRE\u00d1A",
                 "NNUME_HABILM": 300,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV BRASIL 210",
                 "TNOMB_LOCAL": "POLITECNICO SALESIANO - SALESTEC",
-                "TOT_CIUDADANOS_VOTARON": 300
+                "TOT_CIUDADANOS_VOTARON": 234
             },
             "resoluciones": [
                 {
@@ -25,45 +25,53 @@
                     "CNUME_RESOL": "C45059000010",
                     "CNUME_RESOL_JNE": "SEPEG.2021001634                                  03319-2021-JEE-LIC2/JNE",
                     "CPROCED_RESOL": "JE"
+                },
+                {
+                    "CCENT_COMPU": "C45059",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "036224",
+                    "CNUME_RESOL": "C45059000034",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004139                                  0662-2021-JNE",
+                    "CPROCED_RESOL": "JN"
                 }
             ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "22.650",
+                    "CON_VALIDOS": "24.201",
                     "NLISTA": "1",
-                    "congresal": "0"
+                    "congresal": "53"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "70.940",
+                    "CON_VALIDOS": "75.799",
                     "NLISTA": "2",
-                    "congresal": "0"
+                    "congresal": "166"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
-                    "congresal": "0"
+                    "CON_EMITIDOS": "93.590",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "219"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "0.427",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "1"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "5.983",
                     "CON_VALIDOS": null,
-                    "congresal": "300"
+                    "congresal": "14"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -76,8 +84,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "0.000",
-                    "congresal": "300"
+                    "CON_VALIDOS": "93.590",
+                    "congresal": "234"
                 }
             ]
         },

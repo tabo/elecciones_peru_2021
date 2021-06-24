@@ -10,7 +10,7 @@
                 "DISTRITO": "PACHIZA",
                 "NNUME_HABILM": 230,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "MARISCAL CACERES",
                 "TDIRE_LOCAL": "JR JERUSALEN SN",
@@ -25,45 +25,53 @@
                     "CNUME_RESOL": "C45100000001",
                     "CNUME_RESOL_JNE": "SEPEG.2021002138                                  01297-2021-JEE-MOYO/JNE",
                     "CPROCED_RESOL": "JE"
+                },
+                {
+                    "CCENT_COMPU": "C45100",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "073014",
+                    "CNUME_RESOL": "C45100000013",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003617                                  0641-2021-JNE",
+                    "CPROCED_RESOL": "JN"
                 }
             ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "54.545",
+                    "CON_VALIDOS": "60.674",
                     "NLISTA": "1",
-                    "congresal": "0"
+                    "congresal": "54"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "35.354",
+                    "CON_VALIDOS": "39.326",
                     "NLISTA": "2",
-                    "congresal": "0"
+                    "congresal": "35"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
-                    "congresal": "0"
+                    "CON_EMITIDOS": "89.899",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "89"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "2.020",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "2"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "8.081",
                     "CON_VALIDOS": null,
-                    "congresal": "99"
+                    "congresal": "8"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -76,7 +84,7 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "0.000",
+                    "CON_VALIDOS": "89.899",
                     "congresal": "99"
                 }
             ]

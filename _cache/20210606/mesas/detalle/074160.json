@@ -10,12 +10,12 @@
                 "DISTRITO": "UCHIZA",
                 "NNUME_HABILM": 280,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "TOCACHE",
                 "TDIRE_LOCAL": "JR JUNIN CUADRA 4",
                 "TNOMB_LOCAL": "IE 0426 INMACULADA CONCEPCION",
-                "TOT_CIUDADANOS_VOTARON": 88
+                "TOT_CIUDADANOS_VOTARON": 192
             },
             "resoluciones": [
                 {
@@ -25,45 +25,53 @@
                     "CNUME_RESOL": "C45100000011",
                     "CNUME_RESOL_JNE": "SEPEG.2021002131                                  01300-2021-JEE-MOYO/JNE",
                     "CPROCED_RESOL": "JE"
+                },
+                {
+                    "CCENT_COMPU": "C45100",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "074160",
+                    "CNUME_RESOL": "C45100000014",
+                    "CNUME_RESOL_JNE": "SEPEG.2021003618                                  0642-2021-JNE",
+                    "CPROCED_RESOL": "JN"
                 }
             ],
             "votos": [
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "62.500",
+                    "CON_VALIDOS": "69.767",
                     "NLISTA": "1",
-                    "congresal": "0"
+                    "congresal": "120"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "27.083",
+                    "CON_VALIDOS": "30.233",
                     "NLISTA": "2",
-                    "congresal": "0"
+                    "congresal": "52"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
-                    "congresal": "0"
+                    "CON_EMITIDOS": "89.583",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "172"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "0.000",
+                    "CON_EMITIDOS": "4.167",
                     "CON_VALIDOS": null,
-                    "congresal": "0"
+                    "congresal": "8"
                 },
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "6.250",
                     "CON_VALIDOS": null,
-                    "congresal": "88"
+                    "congresal": "12"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -76,8 +84,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "0.000",
-                    "congresal": "88"
+                    "CON_VALIDOS": "89.583",
+                    "congresal": "192"
                 }
             ]
         },
