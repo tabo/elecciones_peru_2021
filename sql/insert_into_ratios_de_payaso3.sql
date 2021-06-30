@@ -1,4 +1,4 @@
-INSERT INTO ratios_de_payaso2 (departamento,
+INSERT INTO ratios_de_payaso3 (departamento,
                               r_pnp_perulibre,
                               r_pnp_fp,
                               r_fa_perulibre,

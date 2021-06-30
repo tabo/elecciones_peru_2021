@@ -1,4 +1,4 @@
-INSERT INTO payasada_reloaded
+INSERT INTO payasada_csm
 SELECT *,
        (NOT anulada AND acta_falsa_perulibre = 'Hallazgo')   AS hallazgo_perulibre,
        (NOT anulada AND acta_falsa_perulibre = 'Sospechoso') AS sospechoso_perulibre,
@@ -65,24 +65,24 @@ FROM (
                            SELECT *,
                                   v2_perulibre * 1.1 > mm_perulibre * 0.9                AS cumplimiento_mm_perulibre,
                                   v2_fp * 1.1 > mm_fp * 0.9                              AS cumplimiento_mm_fp,
-                                  FLOOR(mm_perulibre * 0.5)                              AS esc1_perulibre,
-                                  FLOOR(mm_fp * 0.5)                                     AS esc1_fp,
-                                  v2_perulibre > FLOOR(mm_perulibre * 0.5)               AS cumplimiento_esc1_perulibre,
-                                  v2_fp > FLOOR(mm_fp * 0.5)                             AS cumplimiento_esc1_fp,
-                                  FLOOR(mm_perulibre * 0.2)                              AS esc2_perulibre,
-                                  FLOOR(mm_fp * 0.2)                                     AS esc2_fp,
-                                  v2_perulibre > FLOOR(mm_perulibre * 0.2)               AS cumplimiento_esc2_perulibre,
-                                  v2_fp > FLOOR(mm_fp * 0.2)                             AS cumplimiento_esc2_fp,
+                                  FLOOR(mm_perulibre * 0.6)                              AS esc1_perulibre,
+                                  FLOOR(mm_fp * 0.6)                                     AS esc1_fp,
+                                  v2_perulibre > FLOOR(mm_perulibre * 0.6)               AS cumplimiento_esc1_perulibre,
+                                  v2_fp > FLOOR(mm_fp * 0.6)                             AS cumplimiento_esc1_fp,
+                                  FLOOR(mm_perulibre * 0.4)                              AS esc2_perulibre,
+                                  FLOOR(mm_fp * 0.4)                                     AS esc2_fp,
+                                  v2_perulibre > FLOOR(mm_perulibre * 0.4)               AS cumplimiento_esc2_perulibre,
+                                  v2_fp > FLOOR(mm_fp * 0.4)                             AS cumplimiento_esc2_fp,
                                   CASE
                                       WHEN v2_perulibre >= mm_perulibre THEN 0
                                       ELSE mm_perulibre - v2_perulibre END               AS delta_perulibre,
                                   CASE WHEN v2_fp >= mm_fp THEN 0 ELSE mm_fp - v2_fp END AS delta_fp,
                                   CASE
                                       WHEN v2_perulibre >= mm_perulibre THEN 1
-                                      ELSE POWER(0.8, mm_perulibre - v2_perulibre) END   AS esc3_prob_perulibre,
+                                      ELSE POWER(0.5, mm_perulibre - v2_perulibre) END   AS esc3_prob_perulibre,
                                   CASE
                                       WHEN v2_fp >= mm_fp THEN 1
-                                      ELSE POWER(0.8, mm_fp - v2_fp) END                 AS esc3_prob_fp
+                                      ELSE POWER(0.5, mm_fp - v2_fp) END                 AS esc3_prob_fp
                            FROM (
                                     SELECT p.mesa,
                                            p.v2_CCODI_UBIGEO,
