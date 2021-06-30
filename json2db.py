@@ -315,6 +315,8 @@ class Converter:
         cur = self.db.cursor()
         with (self.base_dir / "sql/create_table_presidencial.sql").open("r") as fh:
             cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_presidencial.sql").open("r") as fh:
+            cur.execute(fh.read())
 
     def onpe_pcm(self):
         """✏️ Subimos a la base de datos rondera los datos abiertos publicados por ONPE
@@ -381,14 +383,44 @@ class Converter:
         with (self.base_dir / "sql/create_table_ratios_de_payaso.sql").open("r") as fh:
             logging.info("Creando tabla de ratios de payaso 🤡")
             cur.execute(fh.read())
+        with (self.base_dir / "sql/create_table_ratios_de_payaso2.sql").open("r") as fh:
+            logging.info("Creando tabla de ratios de payaso 2 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/create_table_ratios_de_payaso3.sql").open("r") as fh:
+            logging.info("Creando tabla de ratios de payaso 3 🤡")
+            cur.execute(fh.read())
         with (self.base_dir / "sql/insert_into_ratios_de_payaso.sql").open("r") as fh:
             logging.info("Cargando data de ratios de payaso 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_ratios_de_payaso2.sql").open("r") as fh:
+            logging.info("Cargando data de ratios de payaso 2 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_ratios_de_payaso3.sql").open("r") as fh:
+            logging.info("Cargando data de ratios de payaso 3 🤡")
             cur.execute(fh.read())
         with (self.base_dir / "sql/create_table_payasadas.sql").open("r") as fh:
             logging.info("Creando tabla de payasadas 🤡")
             cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_payasadas.sql").open("r") as fh:
+            logging.info("Cargando data en payasadas 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/create_table_payasada_reloaded.sql").open("r") as fh:
+            logging.info("Creando tabla de payasadas reloaded 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_payasada_reloaded.sql").open("r") as fh:
+            logging.info("Cargando data en payasada_reloaded 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/create_table_payasada_csm.sql").open("r") as fh:
+            logging.info("Creando tabla de payasada_csm 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/insert_into_payasada_csm.sql").open("r") as fh:
+            logging.info("Cargando data en payasada_csm 🤡")
+            cur.execute(fh.read())
         with (self.base_dir / "sql/create_view_payasada_summary.sql").open("r") as fh:
             logging.info("Creando view de resumen de payasadas 🤡")
+            cur.execute(fh.read())
+        with (self.base_dir / "sql/create_table_ciencia_fujimorista.sql").open("r") as fh:
+            logging.info("Creando tabla de ciencia_fujimorista 🤡")
             cur.execute(fh.read())
         self.db.commit()
 
