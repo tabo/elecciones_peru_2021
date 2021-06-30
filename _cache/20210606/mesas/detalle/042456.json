@@ -10,14 +10,22 @@
                 "DISTRITO": "PACHACAMAC",
                 "NNUME_HABILM": 270,
                 "N_CANDIDATOS": 0,
-                "OBSERVACION": "ACTA ELECTORAL ANULADA",
+                "OBSERVACION": "CONTABILIZADAS NORMALES",
                 "OBSERVACION_TXT": "ACTA ELECTORAL RESUELTA",
                 "PROVINCIA": "LIMA",
                 "TDIRE_LOCAL": "AV REUCHE MZ D1 LT 2 3 4",
                 "TNOMB_LOCAL": "IEP SAN PEDRO",
-                "TOT_CIUDADANOS_VOTARON": 270
+                "TOT_CIUDADANOS_VOTARON": 215
             },
             "resoluciones": [
+                {
+                    "CCENT_COMPU": "C45069",
+                    "CESTADO_RESOL": "P",
+                    "CNUME_ACTA": "042456",
+                    "CNUME_RESOL": "C45069000015",
+                    "CNUME_RESOL_JNE": "SEPEG.2021004332                                  0689-2021-JNE",
+                    "CPROCED_RESOL": "JN"
+                },
                 {
                     "CCENT_COMPU": "C45069",
                     "CESTADO_RESOL": "P",
@@ -31,25 +39,25 @@
                 {
                     "AUTORIDAD": "PARTIDO POLITICO NACIONAL PERU LIBRE",
                     "CCODI_AUTO": "00000014",
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_EMITIDOS": "40.465",
+                    "CON_VALIDOS": "100.000",
                     "NLISTA": "1",
-                    "congresal": "0"
+                    "congresal": "87"
                 },
                 {
                     "AUTORIDAD": "FUERZA POPULAR",
                     "CCODI_AUTO": "00000007",
                     "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
+                    "CON_VALIDOS": "0.000",
                     "NLISTA": "2",
                     "congresal": "0"
                 },
                 {
                     "AUTORIDAD": "TOTAL VOTOS VALIDOS",
                     "CCODI_AUTO": null,
-                    "CON_EMITIDOS": "0.000",
-                    "CON_VALIDOS": "0",
-                    "congresal": "0"
+                    "CON_EMITIDOS": "40.465",
+                    "CON_VALIDOS": "100.000",
+                    "congresal": "87"
                 },
                 {
                     "AUTORIDAD": "VOTOS EN BLANCO",
@@ -61,9 +69,9 @@
                 {
                     "AUTORIDAD": "VOTOS NULOS",
                     "CCODI_AUTO": "80",
-                    "CON_EMITIDOS": "100.000",
+                    "CON_EMITIDOS": "59.535",
                     "CON_VALIDOS": null,
-                    "congresal": "270"
+                    "congresal": "128"
                 },
                 {
                     "AUTORIDAD": "VOTOS IMPUGNADOS",
@@ -76,8 +84,8 @@
                     "AUTORIDAD": "TOTAL VOTOS EMITIDOS",
                     "CCODI_AUTO": null,
                     "CON_EMITIDOS": "100.000",
-                    "CON_VALIDOS": "0.000",
-                    "congresal": "270"
+                    "CON_VALIDOS": "40.465",
+                    "congresal": "215"
                 }
             ]
         },
